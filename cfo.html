@@ -5,24 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="C.H.I.E.F.">
-<meta name="theme-color" content="#0a0a0f">
-<link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/icon.png">
-<title>C.H.I.E.F. — Personal Command System</title>
+<meta name="apple-mobile-web-app-title" content="C.F.O.">
+<meta name="theme-color" content="#0a0c0a">
+<title>C.F.O. — Yonkers Brewing Co Financial Command</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
   :root {
-    --gold: #f0b429;
-    --gold-dim: #a07010;
-    --gold-dark: #2a1f00;
-    --blue: #00d4ff;
+    --copper: #e8833a;
+    --copper-dim: #9a5518;
+    --copper-dark: #2a1400;
+    --green: #3ddc84;
     --red: #ff3b3b;
-    --bg: #0a0a08;
-    --panel: rgba(240,180,41,0.03);
-    --border: rgba(240,180,41,0.2);
-    --text: #f0e6c8;
+    --bg: #0a0c0a;
+    --panel: rgba(232,131,58,0.03);
+    --border: rgba(232,131,58,0.2);
+    --text: #f0e2d0;
     --mono: 'Share Tech Mono', monospace;
     --display: 'Orbitron', sans-serif;
   }
@@ -47,8 +45,8 @@
     position: fixed;
     inset: 0;
     background-image:
-      linear-gradient(rgba(240,180,41,0.025) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(240,180,41,0.025) 1px, transparent 1px);
+      linear-gradient(rgba(232,131,58,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(232,131,58,0.025) 1px, transparent 1px);
     background-size: 44px 44px;
     pointer-events: none;
     z-index: 0;
@@ -62,7 +60,7 @@
     transform: translate(-50%, -50%);
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(240,180,41,0.04) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(232,131,58,0.04) 0%, transparent 70%);
     pointer-events: none;
     z-index: 0;
   }
@@ -93,7 +91,7 @@
   .header-label {
     font-size: 9px;
     letter-spacing: 5px;
-    color: var(--gold-dim);
+    color: var(--copper-dim);
     text-transform: uppercase;
   }
 
@@ -102,20 +100,20 @@
     font-size: 36px;
     font-weight: 900;
     letter-spacing: 8px;
-    color: var(--gold);
-    text-shadow: 0 0 30px rgba(240,180,41,0.6), 0 0 80px rgba(240,180,41,0.2);
+    color: var(--copper);
+    text-shadow: 0 0 30px rgba(232,131,58,0.6), 0 0 80px rgba(232,131,58,0.2);
   }
 
   .header-acronym {
     font-size: 9px;
     letter-spacing: 2px;
-    color: rgba(240,180,41,0.4);
+    color: rgba(232,131,58,0.4);
     text-align: center;
     line-height: 1.8;
   }
 
   .header-acronym span {
-    color: var(--gold);
+    color: var(--copper);
     font-weight: bold;
   }
 
@@ -126,14 +124,14 @@
   }
 
   .switcher a {
-    color: rgba(240,180,41,0.5);
+    color: rgba(232,131,58,0.5);
     text-decoration: none;
-    border: 1px solid rgba(240,180,41,0.2);
+    border: 1px solid rgba(232,131,58,0.2);
     padding: 3px 10px;
     border-radius: 3px;
   }
 
-  .switcher a:hover { color: var(--gold); border-color: var(--gold); }
+  .switcher a:hover { color: var(--copper); border-color: var(--copper); }
 
   /* Status bar */
   .status-bar {
@@ -154,23 +152,23 @@
   .status-dot {
     width: 6px; height: 6px;
     border-radius: 50%;
-    background: var(--gold-dim);
+    background: var(--copper-dim);
     transition: all 0.3s;
   }
 
-  .status-dot.listening { background: var(--gold); box-shadow: 0 0 10px var(--gold); animation: pulse-dot 1.5s infinite; }
+  .status-dot.listening { background: var(--copper); box-shadow: 0 0 10px var(--copper); animation: pulse-dot 1.5s infinite; }
   .status-dot.active { background: #fff; box-shadow: 0 0 10px #fff; }
-  .status-dot.speaking { background: #00ff88; box-shadow: 0 0 10px #00ff88; animation: pulse-dot 0.8s infinite; }
+  .status-dot.speaking { background: var(--green); box-shadow: 0 0 10px var(--green); animation: pulse-dot 0.8s infinite; }
   .status-dot.error { background: var(--red); box-shadow: 0 0 10px var(--red); }
-  .status-dot.standby { background: var(--gold-dim); }
+  .status-dot.standby { background: var(--copper-dim); }
 
   @keyframes pulse-dot {
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: 0.4; transform: scale(0.6); }
   }
 
-  #status-text { color: var(--gold); font-size: 10px; letter-spacing: 2px; }
-  #clock { font-size: 10px; letter-spacing: 2px; color: rgba(240,180,41,0.4); }
+  #status-text { color: var(--copper); font-size: 10px; letter-spacing: 2px; }
+  #clock { font-size: 10px; letter-spacing: 2px; color: rgba(232,131,58,0.4); }
 
   /* Orb */
   .orb-container {
@@ -188,22 +186,22 @@
   .orb-ring {
     position: absolute;
     border-radius: 50%;
-    border: 1px solid rgba(240,180,41,0.12);
+    border: 1px solid rgba(232,131,58,0.12);
     animation: rotate-ring 20s linear infinite;
   }
 
   .orb-ring:nth-child(1) { width: 210px; height: 210px; animation-duration: 30s; }
-  .orb-ring:nth-child(2) { width: 178px; height: 178px; border-color: rgba(240,180,41,0.18); animation-direction: reverse; animation-duration: 20s; }
-  .orb-ring:nth-child(3) { width: 148px; height: 148px; border-color: rgba(240,180,41,0.24); animation-duration: 14s; }
+  .orb-ring:nth-child(2) { width: 178px; height: 178px; border-color: rgba(232,131,58,0.18); animation-direction: reverse; animation-duration: 20s; }
+  .orb-ring:nth-child(3) { width: 148px; height: 148px; border-color: rgba(232,131,58,0.24); animation-duration: 14s; }
 
   .orb-ring::after {
     content: '';
     position: absolute;
     top: -3px; left: 50%;
     width: 5px; height: 5px;
-    background: var(--gold);
+    background: var(--copper);
     border-radius: 50%;
-    box-shadow: 0 0 8px var(--gold), 0 0 16px rgba(240,180,41,0.4);
+    box-shadow: 0 0 8px var(--copper), 0 0 16px rgba(232,131,58,0.4);
     transform: translateX(-50%);
   }
 
@@ -216,12 +214,12 @@
     position: absolute;
     width: 116px; height: 116px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 35%, rgba(240,180,41,0.25), rgba(120,80,0,0.08) 60%, transparent);
-    border: 1px solid rgba(240,180,41,0.5);
+    background: radial-gradient(circle at 35% 35%, rgba(232,131,58,0.25), rgba(120,60,0,0.08) 60%, transparent);
+    border: 1px solid rgba(232,131,58,0.5);
     box-shadow:
-      0 0 24px rgba(240,180,41,0.2),
-      0 0 48px rgba(240,180,41,0.08),
-      inset 0 0 24px rgba(240,180,41,0.08);
+      0 0 24px rgba(232,131,58,0.2),
+      0 0 48px rgba(232,131,58,0.08),
+      inset 0 0 24px rgba(232,131,58,0.08);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,8 +229,8 @@
   }
 
   .orb-core.listening {
-    border-color: rgba(240,180,41,0.9);
-    box-shadow: 0 0 40px rgba(240,180,41,0.5), 0 0 80px rgba(240,180,41,0.2), inset 0 0 30px rgba(240,180,41,0.15);
+    border-color: rgba(232,131,58,0.9);
+    box-shadow: 0 0 40px rgba(232,131,58,0.5), 0 0 80px rgba(232,131,58,0.2), inset 0 0 30px rgba(232,131,58,0.15);
     animation: orb-breathe 2s ease-in-out infinite;
   }
 
@@ -251,8 +249,8 @@
   }
 
   @keyframes orb-speak {
-    from { transform: scale(1); box-shadow: 0 0 20px rgba(0,255,136,0.3); border-color: rgba(0,255,136,0.5); }
-    to { transform: scale(1.08); box-shadow: 0 0 50px rgba(0,255,136,0.6); border-color: rgba(0,255,136,0.8); }
+    from { transform: scale(1); box-shadow: 0 0 20px rgba(61,220,132,0.3); border-color: rgba(61,220,132,0.5); }
+    to { transform: scale(1.08); box-shadow: 0 0 50px rgba(61,220,132,0.6); border-color: rgba(61,220,132,0.8); }
   }
 
   .orb-label {
@@ -260,14 +258,14 @@
     font-size: 11px;
     font-weight: 900;
     letter-spacing: 3px;
-    color: var(--gold);
-    text-shadow: 0 0 10px rgba(240,180,41,0.6);
+    color: var(--copper);
+    text-shadow: 0 0 10px rgba(232,131,58,0.6);
   }
 
   .orb-tap-hint {
     font-size: 8px;
     letter-spacing: 2px;
-    color: rgba(240,180,41,0.4);
+    color: rgba(232,131,58,0.4);
     text-transform: uppercase;
   }
 
@@ -284,13 +282,13 @@
   .wave-bar {
     width: 3px;
     border-radius: 2px;
-    background: var(--gold);
+    background: var(--copper);
     opacity: 0.2;
     transition: height 0.1s, opacity 0.1s;
     min-height: 3px;
   }
 
-  .wave-bar.active { opacity: 0.7; box-shadow: 0 0 4px rgba(240,180,41,0.4); }
+  .wave-bar.active { opacity: 0.7; box-shadow: 0 0 4px rgba(232,131,58,0.4); }
 
   /* Thinking */
   .thinking {
@@ -298,7 +296,7 @@
     align-items: center;
     gap: 6px;
     font-size: 10px;
-    color: var(--gold-dim);
+    color: var(--copper-dim);
     letter-spacing: 3px;
   }
   .thinking.visible { display: flex; }
@@ -306,7 +304,7 @@
   .think-dot {
     width: 4px; height: 4px;
     border-radius: 50%;
-    background: var(--gold);
+    background: var(--copper);
     animation: think 1.2s ease-in-out infinite;
   }
   .think-dot:nth-child(2) { animation-delay: 0.2s; }
@@ -333,15 +331,15 @@
     font-family: var(--display);
     font-size: 8px;
     letter-spacing: 3px;
-    color: var(--gold-dim);
+    color: var(--copper-dim);
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(240,180,41,0.1);
+    border-bottom: 1px solid rgba(232,131,58,0.1);
     padding-bottom: 8px;
   }
 
   /* Inputs */
   .field {
-    background: rgba(240,180,41,0.04);
+    background: rgba(232,131,58,0.04);
     border: 1px solid var(--border);
     color: var(--text);
     font-family: var(--mono);
@@ -353,10 +351,10 @@
     letter-spacing: 1px;
   }
 
-  .field:focus { border-color: var(--gold); box-shadow: 0 0 10px rgba(240,180,41,0.15); }
+  .field:focus { border-color: var(--copper); box-shadow: 0 0 10px rgba(232,131,58,0.15); }
 
-  .field-gold {
-    color: var(--gold);
+  .field-copper {
+    color: var(--copper);
     font-family: var(--display);
     font-size: 13px;
     letter-spacing: 3px;
@@ -364,6 +362,61 @@
   }
 
   .row { display: flex; gap: 8px; align-items: center; }
+
+  /* Snapshot grid */
+  .snap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .snap-item { display: flex; flex-direction: column; gap: 4px; }
+
+  .snap-item label {
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgba(232,131,58,0.5);
+    text-transform: uppercase;
+  }
+
+  .snap-item .field { font-size: 13px; padding: 8px 10px; }
+
+  .snap-saved {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: var(--green);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .snap-saved.visible { opacity: 1; }
+
+  /* Quick commands */
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .chip {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(232,131,58,0.7);
+    background: rgba(232,131,58,0.05);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .chip:hover, .chip:active {
+    color: var(--copper);
+    border-color: var(--copper);
+    box-shadow: 0 0 10px rgba(232,131,58,0.2);
+  }
 
   /* Buttons */
   .btn {
@@ -379,15 +432,15 @@
     white-space: nowrap;
   }
 
-  .btn-gold {
-    background: rgba(240,180,41,0.08);
-    border-color: var(--gold);
-    color: var(--gold);
+  .btn-copper {
+    background: rgba(232,131,58,0.08);
+    border-color: var(--copper);
+    color: var(--copper);
   }
 
-  .btn-gold:hover, .btn-gold:active {
-    background: rgba(240,180,41,0.18);
-    box-shadow: 0 0 16px rgba(240,180,41,0.3);
+  .btn-copper:hover, .btn-copper:active {
+    background: rgba(232,131,58,0.18);
+    box-shadow: 0 0 16px rgba(232,131,58,0.3);
   }
 
   .btn-danger {
@@ -404,7 +457,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 11px;
-    color: rgba(240,180,41,0.6);
+    color: rgba(232,131,58,0.6);
     letter-spacing: 1px;
   }
 
@@ -414,7 +467,7 @@
   .toggle-slider {
     position: absolute;
     inset: 0;
-    background: rgba(240,180,41,0.05);
+    background: rgba(232,131,58,0.05);
     border: 1px solid var(--border);
     border-radius: 22px;
     transition: 0.3s;
@@ -425,13 +478,13 @@
     position: absolute;
     width: 16px; height: 16px;
     left: 2px; top: 2px;
-    background: var(--gold-dim);
+    background: var(--copper-dim);
     border-radius: 50%;
     transition: 0.3s;
   }
 
-  .toggle input:checked + .toggle-slider { background: rgba(240,180,41,0.12); border-color: var(--gold); }
-  .toggle input:checked + .toggle-slider::before { transform: translateX(18px); background: var(--gold); box-shadow: 0 0 8px var(--gold); }
+  .toggle input:checked + .toggle-slider { background: rgba(232,131,58,0.12); border-color: var(--copper); }
+  .toggle input:checked + .toggle-slider::before { transform: translateX(18px); background: var(--copper); box-shadow: 0 0 8px var(--copper); }
 
   /* Conversation */
   .conversation {
@@ -459,8 +512,8 @@
   }
 
   .message-label { font-size: 9px; letter-spacing: 3px; text-transform: uppercase; }
-  .message-label.user { color: var(--gold); }
-  .message-label.assistant { color: rgba(240,180,41,0.5); }
+  .message-label.user { color: var(--copper); }
+  .message-label.assistant { color: rgba(232,131,58,0.5); }
 
   .message-text {
     font-size: 13px;
@@ -471,20 +524,20 @@
   }
 
   .message-text.user {
-    background: rgba(240,180,41,0.06);
-    border-color: var(--gold);
-    color: #f0e6c8;
+    background: rgba(232,131,58,0.06);
+    border-color: var(--copper);
+    color: #f0e2d0;
   }
 
   .message-text.assistant {
-    background: rgba(240,180,41,0.02);
-    border-color: rgba(240,180,41,0.2);
-    color: rgba(240,230,200,0.8);
+    background: rgba(232,131,58,0.02);
+    border-color: rgba(232,131,58,0.2);
+    color: rgba(240,226,208,0.8);
   }
 
   .info-text {
     font-size: 10px;
-    color: rgba(240,180,41,0.25);
+    color: rgba(232,131,58,0.25);
     letter-spacing: 1px;
     line-height: 1.7;
     text-align: center;
@@ -497,16 +550,16 @@
     opacity: 0.3; z-index: 1;
   }
 
-  .corner-tl { top: 10px; left: 10px; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
-  .corner-tr { top: 10px; right: 10px; border-top: 1px solid var(--gold); border-right: 1px solid var(--gold); }
-  .corner-bl { bottom: 10px; left: 10px; border-bottom: 1px solid var(--gold); border-left: 1px solid var(--gold); }
-  .corner-br { bottom: 10px; right: 10px; border-bottom: 1px solid var(--gold); border-right: 1px solid var(--gold); }
+  .corner-tl { top: 10px; left: 10px; border-top: 1px solid var(--copper); border-left: 1px solid var(--copper); }
+  .corner-tr { top: 10px; right: 10px; border-top: 1px solid var(--copper); border-right: 1px solid var(--copper); }
+  .corner-bl { bottom: 10px; left: 10px; border-bottom: 1px solid var(--copper); border-left: 1px solid var(--copper); }
+  .corner-br { bottom: 10px; right: 10px; border-bottom: 1px solid var(--copper); border-right: 1px solid var(--copper); }
 
   .scan-line {
     position: fixed;
     top: 0; left: 0; right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(240,180,41,0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(232,131,58,0.4), transparent);
     opacity: 0;
     animation: scan 5s ease-in-out infinite;
     pointer-events: none;
@@ -532,12 +585,12 @@
 <div class="container">
 
   <div class="header">
-    <div class="header-label">Personal Command System</div>
-    <div class="header-title">C.H.I.E.F.</div>
+    <div class="header-label">Yonkers Brewing Co</div>
+    <div class="header-title">C.F.O.</div>
     <div class="header-acronym">
-      <span>C</span>ommand <span>H</span>ub for <span>I</span>ntelligence, <span>E</span>xecution and <span>F</span>orward-planning
+      <span>C</span>ashflow · <span>F</span>orecasting · <span>O</span>perations
     </div>
-    <div class="switcher"><a href="cfo.html">SWITCH TO C.F.O. — YONKERS BREWING ▶</a></div>
+    <div class="switcher"><a href="index.html">◀ SWITCH TO C.H.I.E.F.</a></div>
   </div>
 
   <div class="status-bar">
@@ -552,16 +605,54 @@
   <div class="panel">
     <div class="panel-label">⚡ Anthropic API Key</div>
     <input type="password" class="field" id="api-key" placeholder="sk-ant-..." />
-    <button class="btn btn-gold btn-full" onclick="saveKey()">SAVE KEY TO DEVICE</button>
-    <p class="info-text">Stored only on this device. Never transmitted anywhere except Anthropic's API directly.</p>
+    <button class="btn btn-copper btn-full" onclick="saveKey()">SAVE KEY TO DEVICE</button>
+    <p class="info-text">Stored only on this device. Never transmitted anywhere except Anthropic's API directly. Shared with C.H.I.E.F. if already saved there.</p>
+  </div>
+
+  <!-- Business Snapshot -->
+  <div class="panel">
+    <div class="panel-label">📊 Business Snapshot</div>
+    <div class="snap-grid">
+      <div class="snap-item">
+        <label>Cash on Hand ($)</label>
+        <input type="text" class="field" id="snap-cash" inputmode="decimal" placeholder="0" />
+      </div>
+      <div class="snap-item">
+        <label>Monthly Revenue ($)</label>
+        <input type="text" class="field" id="snap-revenue" inputmode="decimal" placeholder="0" />
+      </div>
+      <div class="snap-item">
+        <label>Monthly Expenses ($)</label>
+        <input type="text" class="field" id="snap-expenses" inputmode="decimal" placeholder="0" />
+      </div>
+      <div class="snap-item">
+        <label>A/R Outstanding ($)</label>
+        <input type="text" class="field" id="snap-ar" inputmode="decimal" placeholder="0" />
+      </div>
+      <div class="snap-item">
+        <label>A/P Due ($)</label>
+        <input type="text" class="field" id="snap-ap" inputmode="decimal" placeholder="0" />
+      </div>
+      <div class="snap-item">
+        <label>Headcount</label>
+        <input type="text" class="field" id="snap-headcount" inputmode="numeric" placeholder="0" />
+      </div>
+    </div>
+    <div class="snap-item">
+      <label>Notes (bills due, deals in flight, anything the CFO should know)</label>
+      <input type="text" class="field" id="snap-notes" placeholder="e.g. TTB excise filing due 8/14, new canning line quote $42k" />
+    </div>
+    <button class="btn btn-copper btn-full" onclick="saveSnapshot()">SAVE SNAPSHOT</button>
+    <div class="snap-saved" id="snap-saved">✓ SNAPSHOT SAVED — CFO WILL USE THESE NUMBERS</div>
+    <p class="info-text">These figures are sent with every command so the CFO answers with your real numbers. Update anytime.</p>
   </div>
 
   <!-- Wake Word -->
   <div class="panel">
     <div class="panel-label">🎙 Wake Word</div>
     <div class="row">
-      <input type="text" class="field field-gold" id="wake-word" value="HEY CHIEF" maxlength="20" />
-      <button class="btn btn-gold" onclick="saveWakeWord()">SET</button>
+      <input type="text" class="field field-copper" id="wake-word" value="HEY CFO" maxlength="20" />
+      <button class="btn btn-copper" onclick="saveWakeWord()">SET</button>
     </div>
     <div class="toggle-row">
       <span>Always-On Listening</span>
@@ -579,7 +670,7 @@
     <div class="orb-ring"></div>
     <div class="orb-ring"></div>
     <div class="orb-core" id="orb-core">
-      <div class="orb-label">CHIEF</div>
+      <div class="orb-label">CFO</div>
       <div class="orb-tap-hint" id="orb-hint">TAP TO SPEAK</div>
     </div>
   </div>
@@ -590,32 +681,43 @@
     <div class="think-dot"></div>
     <div class="think-dot"></div>
     <div class="think-dot"></div>
-    <span>CHIEF IS THINKING</span>
+    <span>CFO IS RUNNING THE NUMBERS</span>
+  </div>
+
+  <!-- Quick Commands -->
+  <div class="panel-label" style="width:100%; padding: 0 2px;">◆ QUICK COMMANDS</div>
+  <div class="chips">
+    <div class="chip" onclick="quickCommand('What is our current cash position and runway?')">💵 Cash &amp; Runway</div>
+    <div class="chip" onclick="quickCommand('Give me a quick P&L read based on the snapshot. Are we profitable this month?')">📈 P&amp;L Read</div>
+    <div class="chip" onclick="quickCommand('What should I be collecting on? Walk me through the A/R situation.')">🧾 Collections</div>
+    <div class="chip" onclick="quickCommand('What bills and filings are coming due? What should I pay first?')">📅 What's Due</div>
+    <div class="chip" onclick="quickCommand('Give me the top 3 financial moves I should make this week.')">🎯 This Week's Moves</div>
   </div>
 
   <!-- Conversation -->
-  <div class="panel-label" style="width:100%; padding: 0 2px;">◆ COMMAND LOG</div>
+  <div class="panel-label" style="width:100%; padding: 0 2px;">◆ LEDGER LOG</div>
   <div class="conversation" id="conversation">
-    <div class="info-text" id="empty-msg">Save your API key and tap the orb to begin. Say "Hey Chief" to activate hands-free.</div>
+    <div class="info-text" id="empty-msg">Save your API key, fill in the snapshot, and tap the orb. Say "Hey CFO" to activate hands-free.</div>
   </div>
 
   <!-- Text Input -->
   <div class="panel">
-    <div class="panel-label">⌨ Type a Command</div>
+    <div class="panel-label">⌨ Ask the CFO</div>
     <div class="row">
-      <input type="text" class="field" id="text-input" placeholder="Ask anything..." onkeydown="if(event.key==='Enter')sendText()" />
-      <button class="btn btn-gold" onclick="sendText()">SEND</button>
+      <input type="text" class="field" id="text-input" placeholder="Margins, pricing, cash flow, taxes..." onkeydown="if(event.key==='Enter')sendText()" />
+      <button class="btn btn-copper" onclick="sendText()">SEND</button>
     </div>
   </div>
 
-  <button class="btn btn-danger btn-full" onclick="clearConversation()">CLEAR COMMAND LOG</button>
+  <button class="btn btn-danger btn-full" onclick="clearConversation()">CLEAR LEDGER LOG</button>
 
 </div>
 
 <script>
 // ── State ──────────────────────────────────────────────────────────
-let apiKey = localStorage.getItem('chief_api_key') || '';
-let wakeWord = localStorage.getItem('chief_wake_word') || 'HEY CHIEF';
+// API key is shared with C.H.I.E.F. (chief_api_key) so it only needs saving once.
+let apiKey = localStorage.getItem('cfo_api_key') || localStorage.getItem('chief_api_key') || '';
+let wakeWord = localStorage.getItem('cfo_wake_word') || 'HEY CFO';
 let isListening = false;
 let isProcessing = false;
 let alwaysOnActive = false;
@@ -624,18 +726,66 @@ let alwaysOnRecognition = null;
 let conversationHistory = [];
 let waveInterval = null;
 
-const SYSTEM_PROMPT = `You are C.H.I.E.F., the personal AI Command Hub for John Rubbo. John is the City Council Member and Majority Leader for District 4 in Yonkers, New York, and a candidate for Mayor of Yonkers. You handle his personal life only, not his brewing business or council work.
+const SNAPSHOT_FIELDS = ['cash', 'revenue', 'expenses', 'ar', 'ap', 'headcount', 'notes'];
 
-Your responsibilities: personal finances, bill tracking, daily schedule, family matters (partner Dawn Rubbo, who is a Speech-Language Pathologist, and their children), personal task management, morning routine, health and fitness goals, and general life operations.
+const BASE_SYSTEM_PROMPT = `You are C.F.O., the AI Chief Financial Officer for Yonkers Brewing Co, a craft brewery in Yonkers, New York, owned by John Rubbo. You handle the brewery's finances only — John has a separate system (C.H.I.E.F.) for his personal life and civic work.
 
-Your personality: direct, sharp, loyal, and efficient. You are a trusted personal chief of staff. You speak in clear, actionable sentences. No fluff. When John asks you to remember something, confirm it and act on it. Address him as "John" or "sir" depending on context. You represent the standard of excellence a future Mayor of Yonkers should expect from his personal systems.
+Your domain: cash flow and runway, P&L, taproom and distribution revenue, cost of goods sold per barrel, ingredient and packaging costs, keg deposits, accounts receivable from distributors and accounts, accounts payable, payroll, TTB federal excise tax obligations, New York State beer excise and sales tax, licensing costs, equipment financing, pricing and margin strategy per SKU, and seasonal demand planning.
 
-Keep responses concise. Lead with the answer. If action is needed, state it clearly.`;
+Your personality: sharp, numbers-first, and candid. You are the trusted financial right hand who protects the brewery's cash. You give straight answers with real math shown briefly. You flag risks early — thin margins, late receivables, upcoming filings — without being asked twice. Address him as "John". No fluff, no hedging.
+
+Rules:
+- When a Business Snapshot is provided, use those figures as the source of truth and do the math from them. Show your arithmetic in one short line when relevant.
+- If a question needs a number you don't have, say exactly which number you need — don't guess figures.
+- You are a planning and analysis aid, not a licensed accountant. For tax filings and legal matters, give your best read, then recommend confirming with the brewery's accountant.
+- Keep responses concise and speakable — they are read aloud. Lead with the answer.`;
+
+function buildSystemPrompt() {
+  const snap = loadSnapshot();
+  const hasData = SNAPSHOT_FIELDS.some(f => snap[f] && snap[f].trim() !== '');
+  if (!hasData) return BASE_SYSTEM_PROMPT + '\n\nNo Business Snapshot has been entered yet. If John asks a question that needs his numbers, ask him to fill in the snapshot panel.';
+
+  const lines = [];
+  if (snap.cash) lines.push(`Cash on hand: $${snap.cash}`);
+  if (snap.revenue) lines.push(`Monthly revenue: $${snap.revenue}`);
+  if (snap.expenses) lines.push(`Monthly expenses: $${snap.expenses}`);
+  if (snap.ar) lines.push(`Accounts receivable outstanding: $${snap.ar}`);
+  if (snap.ap) lines.push(`Accounts payable due: $${snap.ap}`);
+  if (snap.headcount) lines.push(`Headcount: ${snap.headcount}`);
+  if (snap.notes) lines.push(`Notes from John: ${snap.notes}`);
+
+  return BASE_SYSTEM_PROMPT + '\n\nCurrent Business Snapshot (entered by John, treat as source of truth):\n' + lines.join('\n') + `\n\nToday's date: ${new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+}
+
+// ── Snapshot ───────────────────────────────────────────────────────
+function loadSnapshot() {
+  try { return JSON.parse(localStorage.getItem('cfo_snapshot') || '{}'); }
+  catch (e) { return {}; }
+}
+
+function saveSnapshot() {
+  const snap = {};
+  SNAPSHOT_FIELDS.forEach(f => {
+    snap[f] = document.getElementById('snap-' + f).value.trim();
+  });
+  localStorage.setItem('cfo_snapshot', JSON.stringify(snap));
+  const saved = document.getElementById('snap-saved');
+  saved.classList.add('visible');
+  setTimeout(() => saved.classList.remove('visible'), 2500);
+}
+
+function fillSnapshotForm() {
+  const snap = loadSnapshot();
+  SNAPSHOT_FIELDS.forEach(f => {
+    if (snap[f]) document.getElementById('snap-' + f).value = snap[f];
+  });
+}
 
 // ── Init ───────────────────────────────────────────────────────────
 window.onload = () => {
   if (apiKey) document.getElementById('api-key').value = apiKey;
   document.getElementById('wake-word').value = wakeWord;
+  fillSnapshotForm();
   buildWaveform();
   startClock();
   setStatus('standby', 'STANDBY');
@@ -706,8 +856,8 @@ function saveKey() {
     return;
   }
   apiKey = val;
-  localStorage.setItem('chief_api_key', apiKey);
-  addSystemMessage('API key secured. C.H.I.E.F. is online and ready.');
+  localStorage.setItem('cfo_api_key', apiKey);
+  addSystemMessage('API key secured. C.F.O. is online and ready.');
   setStatus('standby', 'READY');
 }
 
@@ -716,7 +866,7 @@ function saveWakeWord() {
   const val = document.getElementById('wake-word').value.trim().toUpperCase();
   if (!val) return;
   wakeWord = val;
-  localStorage.setItem('chief_wake_word', wakeWord);
+  localStorage.setItem('cfo_wake_word', wakeWord);
   document.getElementById('wake-word').value = wakeWord;
   addSystemMessage(`Wake word set to: "${wakeWord}"`);
 }
@@ -755,7 +905,7 @@ function startAlwaysOn() {
   alwaysOnActive = true;
   alwaysOnRecognition.start();
   setStatus('standby', `WAITING FOR "${wakeWord}"`);
-  addSystemMessage(`Always-on active. Say "${wakeWord}" to activate C.H.I.E.F.`);
+  addSystemMessage(`Always-on active. Say "${wakeWord}" to activate C.F.O.`);
 }
 
 function stopAlwaysOn() {
@@ -867,7 +1017,7 @@ async function processCommand(transcript) {
       body: JSON.stringify({
         model: 'claude-sonnet-4-5',
         max_tokens: 1000,
-        system: SYSTEM_PROMPT,
+        system: buildSystemPrompt(),
         messages: conversationHistory
       })
     });
@@ -907,7 +1057,6 @@ function speakResponse(text) {
   utterance.rate = 1.0;
   utterance.pitch = 1.0;
   utterance.volume = 1;
-  // Uses system default voice (respects Accessibility settings)
 
   utterance.onstart = () => { setStatus('speaking', 'RESPONDING...'); animateWave(true); };
   utterance.onend = () => {
@@ -939,7 +1088,7 @@ function addMessage(role, text) {
     ? `<span onclick="window._lastReply=this.closest('.message').querySelector('.message-text').textContent;speakNow();" style="cursor:pointer;float:right;font-size:16px;opacity:0.5;padding:0 4px" title="Tap to hear">🔊</span>`
     : '';
   msg.innerHTML = `
-    <div class="message-label ${role}">${role === 'user' ? '▶ JOHN' : '◆ C.H.I.E.F.'}${speakBtnHtml}</div>
+    <div class="message-label ${role}">${role === 'user' ? '▶ JOHN' : '◆ C.F.O.'}${speakBtnHtml}</div>
     <div class="message-text ${role}">${text}</div>
   `;
   conv.appendChild(msg);
@@ -959,7 +1108,7 @@ function addSystemMessage(text) {
 
   const msg = document.createElement('div');
   msg.className = 'message';
-  msg.innerHTML = `<div class="message-text" style="border-color:rgba(240,180,41,0.15);color:rgba(240,180,41,0.35);font-size:10px;letter-spacing:1px;">${text}</div>`;
+  msg.innerHTML = `<div class="message-text" style="border-color:rgba(232,131,58,0.15);color:rgba(232,131,58,0.35);font-size:10px;letter-spacing:1px;">${text}</div>`;
   conv.appendChild(msg);
   conv.scrollTop = conv.scrollHeight;
 }
@@ -972,6 +1121,12 @@ function _unlockSpeech() {
   u.onend = () => { _speechUnlocked = true; };
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(u);
+}
+
+function quickCommand(text) {
+  if (!apiKey) { addSystemMessage('API key required. Save your Anthropic key above.'); return; }
+  _unlockSpeech();
+  processCommand(text);
 }
 
 function sendText() {
@@ -987,7 +1142,7 @@ function sendText() {
 function clearConversation() {
   conversationHistory = [];
   document.getElementById('conversation').innerHTML =
-    '<div class="info-text" id="empty-msg">Command log cleared. C.H.I.E.F. standing by.</div>';
+    '<div class="info-text" id="empty-msg">Ledger log cleared. C.F.O. standing by.</div>';
 }
 </script>
 </body>
