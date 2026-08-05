@@ -1,0 +1,14 @@
+# Never commit real credentials. Toast treats a secret committed to any
+# repository as compromised and will deactivate it.
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Report output
+*.csv
+!tests/**/*.csv
