@@ -254,7 +254,9 @@ def make_page_decorator(title):
 # --------------------------------------------------------------------------
 # Report body
 # --------------------------------------------------------------------------
-def build(stats, meta):
+def build(stats, meta, include_cover=True):
+    """Story for one period. With include_cover=False the cover page is
+    omitted, so the section can be embedded in the combined report."""
     s = build_styles()
     os.makedirs(CHART_DIR, exist_ok=True)
     story = []
@@ -274,6 +276,9 @@ def build(stats, meta):
     span = stats.get("period_label") or data_span
 
     # ---------------- Cover ----------------
+    if not include_cover:
+        return story + _body(stats, meta, s, span, data_span, months)
+
     story.append(Spacer(1, 1.5 * inch))
     story.append(Paragraph("What Yonkers Residents<br/>Complain About", s["title"]))
     story.append(Spacer(1, 0.16 * inch))
@@ -310,6 +315,13 @@ def build(stats, meta):
     ]))
     story.append(t)
     story.append(PageBreak())
+    return story + _body(stats, meta, s, span, data_span, months)
+
+
+def _body(stats, meta, s, span, data_span, months):
+    """Everything after the cover: methodology, ranking, trend, quotes."""
+    story = []
+    sub = stats.get("substantive_comments", stats["total_comments_scraped"])
 
     # ---------------- Methodology ----------------
     story.append(Paragraph("How this was built", s["h1"]))
