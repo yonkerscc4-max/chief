@@ -132,7 +132,11 @@ def analyze(period=None, out_name="stats.json"):
     records = [r for r in records if not is_official(r)]
 
     if period:
-        records = [r for r in records if in_period(date_of(r), period)]
+        # A "period" may be a single window or a list of windows pooled
+        # together (the six reporting windows analysed as one dataset).
+        windows = period.get("windows") or [period]
+        records = [r for r in records
+                   if any(in_period(date_of(r), w) for w in windows)]
         print(f"[{period['label']}] {len(records)} comments in window")
     print(f"Loaded {len(records)} unique comments "
           f"({len(official)} official-account posts dropped)")
@@ -278,9 +282,18 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--all-periods", action="store_true",
                     help="run every configured reporting period in turn")
+    ap.add_argument("--pooled-windows", action="store_true",
+                    help="pool the six reporting windows into one dataset, "
+                         "excluding the months that fall between them")
     args = ap.parse_args()
 
-    if args.all_periods:
+    if args.pooled_windows:
+        analyze(period={
+            "key": "windows",
+            "label": "March – November 2021-2025 and March – July 2026",
+            "windows": PERIODS,
+        }, out_name="stats_windows.json")
+    elif args.all_periods:
         for p in PERIODS:
             print(f"\n=== {p['label']} ===")
             analyze(period=p, out_name=f"stats_{p['key']}.json")

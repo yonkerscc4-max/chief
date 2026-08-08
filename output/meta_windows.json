@@ -1,0 +1,14 @@
+{
+ "limitations": [
+  "This document pools the six reporting windows into a single analysis: March-November 2021, 2022, 2023, 2024 and 2025, plus March-July 2026. Months outside those windows - December, January and February, and August 2026 - are excluded, so this is the six periods analysed together rather than everything ever collected.",
+  "Complaints by period: 2021 28, 2022 66, 2023 56, 2024 70, 2025 92, 2026 191. Volume rises steeply toward the present, so recent years carry this pooled ranking. For a like-for-like comparison across years, use the six period reports, where each period is normalised to its own share.",
+  "Because every window runs March to November, winter is absent by construction. Snow, flooding and storm response therefore sits near the bottom here; in a pool that included December through February it ranks first. Neither figure is wrong - they answer different questions.",
+  "Coverage is uneven across the span. Instagram's public feed could not be paged back past March 2023, so the 2021 and 2022 windows are Facebook-only, while later windows draw on both platforms.",
+  "Facebook history was gathered as date-bounded slices rather than an exhaustive crawl, so each window is a sample of that period rather than every post the city published in it.",
+  "Facebook comments were pulled from the most-commented posts in each window. Heavily discussed posts are over-represented on purpose - that is where grievances collect - so these shares describe the complaint conversation, not the average post.",
+  "Instagram contributes the comments returned alongside each post, a broader but shallower slice than Facebook.",
+  "Emoji-only, tag-only and one-word reactions are counted in the total collected but excluded from the base used for the complaint rate, since they express no grievance either way.",
+  "Comments posted by official city accounts are excluded, as the scrapers surface them alongside residents' replies.",
+  "A category can rank low simply because the city rarely posted about it. Treat the ranking as a measure of the conversation the city's own posts invited, not a census of civic opinion."
+ ]
+}
