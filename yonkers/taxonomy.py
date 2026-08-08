@@ -49,7 +49,32 @@ COMPLAINT_MARKERS = [
     r"\bcomplain(?:ed|ing|t|ts)\b", r"\bcalled\b.{0,40}\b(?:no|never|nothing)\b",
     r"\bsick (?:and tired )?of\b", r"\btired of\b", r"\bfed up\b",
     r"\benough\b", r"\bunsafe\b", r"\bdangerous\b", r"\bhazard(?:ous)?\b",
+    # decline / comparison to a better past
+    r"\bused to be\b", r"\bwhat happened to\b", r"\bgot(?:ten)? worse\b",
+    r"\bworse\b", r"\bdown ?hill\b", r"\bno common sense\b", r"\bmakes no sense\b",
+    r"\bghetto\b", r"\bslum\b", r"\bdump\b", r"\brun ?down\b",
+    # unmet need / scarcity
+    r"\bwhere (?:are|is) (?:the|our|my|all)\b", r"\bwe need\b", r"\bneeds? more\b",
+    r"\bcan'?t (?:find|get|afford|even)\b", r"\bnot enough\b", r"\btoo (?:many|much|high|expensive|long)\b",
+    r"\bhow (?:can|could|is)\b", r"\bnothing for\b", r"\bwhat about\b",
+    r"\bdo(?:n'?t| not) (?:do|fix|care|bother)\b", r"\bnever (?:fixed|done|happens)\b",
+    r"\bfail(?:ed|ing|ure)\b", r"\bbroken\b", r"\bfalse\b", r"\blie(?:s|d)?\b",
+    r"\bmeanwhile\b", r"\bmaybe (?:fix|try|start)\b", r"\bhow about\b",
+    r"\binstead of\b", r"\bstop wasting\b", r"\bpriorit(?:y|ies|ize)\b",
+    # exasperation shorthand
+    r"\bsmh\b", r"\bwtf\b", r"\bffs\b", r"\byeah right\b", r"\bsure thing\b",
+    r"\?\?", r"!\?", r"\bnot a single\b", r"\bzero\b",
+    # "X was announced but nothing happened"
+    r"\b(?:no|not)\s+\w+\s+(?:was|were|is|are|has|have)\s+"
+    r"(?:removed|done|fixed|cleaned|plowed|repaired|picked|addressed)\b",
 ]
+
+# Acronyms that are legitimately upper-case and should not read as shouting.
+CAPS_ALLOW = {
+    "YPD", "YFD", "NYC", "USA", "ALS", "LOL", "OMG", "YO", "NY", "PD", "FD",
+    "BID", "DPW", "MTA", "EMS", "BOE", "YPS", "RIP", "PSA", "ADA", "LGBTQ",
+}
+CAPS_RE = re.compile(r"\b[A-Z]{4,}\b")
 
 COMPLAINT_RE = [re.compile(p, re.I) for p in COMPLAINT_MARKERS]
 
@@ -301,6 +326,25 @@ CATEGORIES = {
         (r"\butilit(?:y|ies)\b", 2),
         (r"\bwires?\b", 2),
     ],
+    "Jobs, Hiring & Local Economy": [
+        (r"\bjobs?\b", 3),
+        (r"\bhir(?:e|ed|ing)\b", 3),
+        (r"\bemploy(?:ed|ment|ers?)\b", 3),
+        (r"\bunion card\b", 3),
+        (r"\bno work\b", 3),
+        (r"\bwork(?:ers?)? (?:for|in) (?:the )?city\b", 2),
+        (r"\bfamily and friends\b", 3),
+        (r"\bwho you know\b", 3),
+        (r"\bresidents? first\b", 3),
+        (r"\bout ?of ?town(?:ers)?\b", 2),
+        (r"\bapplication(?:s)?\b", 2),
+        (r"\bcivil service\b", 3),
+        (r"\bminorit(?:y|ies) (?:hire|contract)", 3),
+        (r"\bsmall business(?:es)?\b", 3),
+        (r"\bstore(?:s)? (?:clos|left|leaving)", 3),
+        (r"\bempty storefront", 3),
+        (r"\bliving wage\b", 3),
+    ],
     "Homelessness & Quality of Life": [
         (r"\bhomeless(?:ness)?\b", 3),
         (r"\bpanhandl(?:e|ing|ers?)\b", 3),
@@ -332,6 +376,11 @@ def is_complaint(text: str) -> bool:
     if not text:
         return False
     hits = sum(1 for r in COMPLAINT_RE if r.search(text))
+    # Sustained upper case is how commenters shout; two or more shouted words
+    # (excluding ordinary acronyms) counts as one grievance marker.
+    shouted = [w for w in CAPS_RE.findall(text) if w not in CAPS_ALLOW]
+    if len(shouted) >= 2:
+        hits += 1
     if hits == 0:
         return False
     praise = sum(1 for r in PRAISE_RE if r.search(text))

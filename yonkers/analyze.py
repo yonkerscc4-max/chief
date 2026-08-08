@@ -26,6 +26,34 @@ from datetime import datetime
 
 from taxonomy import classify, is_complaint
 
+# Emoji, @mentions and one-word reactions dominate a city page's comment feed.
+# They carry no complaint signal either way, so they are reported separately
+# and excluded from the base used to compute the complaint rate.
+MENTION_RE = re.compile(r"@[\w.]+")
+WORD_RE = re.compile(r"[A-Za-z]{2,}")
+
+# The city's own accounts reply in their own comment threads, and the scrapers
+# sometimes surface the post body itself as a comment. Neither is a resident
+# grievance, so both are dropped before anything is counted.
+OFFICIAL_AUTHORS = {
+    "cityofyonkers", "city of yonkers", "the city of yonkers",
+    "mayormikespano", "mayor mike spano", "mike spano",
+    "yonkerspd", "yonkers police department", "yonkersfd",
+    "yonkersparks", "yonkerspublicschools",
+}
+
+
+def is_official(record):
+    author = (record.get("author") or "").strip().lower()
+    return author in OFFICIAL_AUTHORS
+
+
+def is_substantive(text):
+    """True when a comment contains enough prose to express a grievance."""
+    stripped = MENTION_RE.sub(" ", text or "")
+    words = WORD_RE.findall(stripped)
+    return len(words) >= 4 and sum(len(w) for w in words) >= 15
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA_DIR = os.path.join(ROOT, "data")
@@ -79,10 +107,16 @@ def year_of(record):
 
 def analyze():
     records = load_records()
-    print(f"Loaded {len(records)} unique comments")
+    official = [r for r in records if is_official(r)]
+    records = [r for r in records if not is_official(r)]
+    print(f"Loaded {len(records)} unique comments "
+          f"({len(official)} official-account posts dropped)")
+
+    substantive = [r for r in records if is_substantive(r.get("comment_text", ""))]
+    print(f"Substantive (non-emoji, non-tag) comments: {len(substantive)}")
 
     complaints = []
-    for r in records:
+    for r in substantive:
         text = r.get("comment_text", "")
         if not is_complaint(text):
             continue
@@ -135,8 +169,9 @@ def analyze():
     stats = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_comments_scraped": len(records),
+        "substantive_comments": len(substantive),
         "total_complaints": total,
-        "complaint_rate": round(100.0 * total / len(records), 1) if records else 0.0,
+        "complaint_rate": round(100.0 * total / len(substantive), 1) if substantive else 0.0,
         "years_covered": years_present,
         "platforms": dict(Counter(r.get("platform", "unknown") for r in records)),
         "comments_by_year": dict(sorted(Counter(

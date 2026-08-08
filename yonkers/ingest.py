@@ -56,6 +56,10 @@ def main():
     for path in sorted(glob.glob(os.path.join(RAW_DIR, "*.json"))):
         with open(path, encoding="utf-8") as fh:
             bundle = json.load(fh)
+        # raw/ also holds bookkeeping files (e.g. posts.json, a plain list of
+        # scrape targets). Only comment bundles are expanded.
+        if not isinstance(bundle, dict) or "comments" not in bundle:
+            continue
         records = expand(bundle)
         name = os.path.splitext(os.path.basename(path))[0]
         dest = os.path.join(DATA_DIR, f"{name}.json")
