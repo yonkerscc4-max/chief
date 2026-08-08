@@ -4,6 +4,7 @@ Reads output/stats.json (written by analyze.py) and produces
 output/Yonkers_Social_Media_Complaint_Report.pdf
 """
 
+import argparse
 import json
 import os
 import textwrap
@@ -19,6 +20,7 @@ from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
+from periods import PERIODS
 from reportlab.platypus import (
     BaseDocTemplate, Frame, Image, KeepTogether, PageBreak, PageTemplate,
     Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle,
@@ -506,31 +508,55 @@ def category_block(row, rank, s, months):
     return KeepTogether(block)
 
 
-def main():
-    with open(os.path.join(OUT_DIR, "stats.json"), encoding="utf-8") as fh:
+def main(stats_name="stats.json", pdf_name=None, meta_name="meta.json"):
+    with open(os.path.join(OUT_DIR, stats_name), encoding="utf-8") as fh:
         stats = json.load(fh)
 
-    meta_path = os.path.join(OUT_DIR, "meta.json")
+    meta_path = os.path.join(OUT_DIR, meta_name)
     meta = {}
     if os.path.exists(meta_path):
         with open(meta_path, encoding="utf-8") as fh:
             meta = json.load(fh)
 
     out_path = os.path.join(
-        OUT_DIR, "Yonkers_Social_Media_Complaint_Report.pdf")
+        OUT_DIR, pdf_name or "Yonkers_Social_Media_Complaint_Report.pdf")
 
+    # Keep each period's charts in their own directory so a run does not
+    # overwrite the previous period's images, and they stay inspectable.
+    global CHART_DIR
+    key = stats.get("period_key")
+    CHART_DIR = os.path.join(OUT_DIR, "charts", key or "all")
+    os.makedirs(CHART_DIR, exist_ok=True)
+
+    label = stats.get("period_label")
+    title = "What Yonkers Residents Complain About"
     doc = SimpleDocTemplate(
         out_path, pagesize=LETTER,
         leftMargin=0.75 * inch, rightMargin=0.75 * inch,
         topMargin=0.85 * inch, bottomMargin=0.75 * inch,
-        title="What Yonkers Residents Complain About",
+        title=f"{title} — {label}" if label else title,
         author="Social Media Listening Analysis",
         subject="Top 10 complaints in comments on City of Yonkers social media")
 
-    decorate = make_page_decorator("What Yonkers Residents Complain About")
+    decorate = make_page_decorator(f"{title} · {label}" if label else title)
     doc.build(build(stats, meta), onFirstPage=decorate, onLaterPages=decorate)
     print(f"Wrote {out_path}")
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--all-periods", action="store_true",
+                    help="render one report per configured reporting period")
+    args = ap.parse_args()
+
+    if args.all_periods:
+        for p in PERIODS:
+            stats_file = os.path.join(OUT_DIR, f"stats_{p['key']}.json")
+            if not os.path.exists(stats_file):
+                print(f"skipping {p['label']}: no stats file")
+                continue
+            main(stats_name=f"stats_{p['key']}.json",
+                 pdf_name=f"Yonkers_Complaints_{p['key']}.pdf",
+                 meta_name=f"meta_{p['key']}.json")
+    else:
+        main()

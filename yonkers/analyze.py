@@ -17,6 +17,7 @@ A normalized comment record looks like:
     }
 """
 
+import argparse
 import json
 import glob
 import os
@@ -25,6 +26,7 @@ from collections import Counter, defaultdict
 from datetime import datetime
 
 from taxonomy import classify, is_complaint
+from periods import PERIODS, in_period
 
 # Emoji, @mentions and one-word reactions dominate a city page's comment feed.
 # They carry no complaint signal either way, so they are reported separately
@@ -115,10 +117,23 @@ def year_of(record):
     return None
 
 
-def analyze():
+def date_of(record):
+    """The date a comment is filed under, preferring its own timestamp."""
+    for field in ("comment_date", "post_date"):
+        val = str(record.get(field) or "")
+        if re.match(r"20\d{2}-\d{2}-\d{2}", val):
+            return val[:10]
+    return ""
+
+
+def analyze(period=None, out_name="stats.json"):
     records = load_records()
     official = [r for r in records if is_official(r)]
     records = [r for r in records if not is_official(r)]
+
+    if period:
+        records = [r for r in records if in_period(date_of(r), period)]
+        print(f"[{period['label']}] {len(records)} comments in window")
     print(f"Loaded {len(records)} unique comments "
           f"({len(official)} official-account posts dropped)")
 
@@ -183,6 +198,8 @@ def analyze():
     years_present = sorted({c["year"] for c in complaints if c.get("year")})
     stats = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
+        "period_label": period["label"] if period else None,
+        "period_key": period["key"] if period else None,
         "total_comments_scraped": len(records),
         "substantive_comments": len(substantive),
         "total_complaints": total,
@@ -199,10 +216,11 @@ def analyze():
     }
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "stats.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(OUT_DIR, out_name), "w", encoding="utf-8") as fh:
         json.dump(stats, fh, indent=2)
 
-    with open(os.path.join(OUT_DIR, "classified.json"), "w", encoding="utf-8") as fh:
+    cls_name = out_name.replace("stats", "classified")
+    with open(os.path.join(OUT_DIR, cls_name), "w", encoding="utf-8") as fh:
         json.dump(complaints, fh, indent=2)
 
     print(f"\nTop categories ({total} complaints):")
@@ -257,4 +275,14 @@ def pick_examples(complaints, category, n=8):
 
 
 if __name__ == "__main__":
-    analyze()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--all-periods", action="store_true",
+                    help="run every configured reporting period in turn")
+    args = ap.parse_args()
+
+    if args.all_periods:
+        for p in PERIODS:
+            print(f"\n=== {p['label']} ===")
+            analyze(period=p, out_name=f"stats_{p['key']}.json")
+    else:
+        analyze()
