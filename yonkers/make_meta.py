@@ -57,6 +57,13 @@ def main():
             f"is paged in date-bounded slices, so this is a sample of the "
             f"period rather than every post the city published in it."
         ]
+        if ig_posts == 0:
+            notes.append(
+                "This period is Facebook-only. The Instagram account's public "
+                "feed could not be paged back past March 2023 - the crawl "
+                "exhausted at 1,680 posts - so no Instagram comments exist for "
+                "this window. Later periods draw on both platforms, which is "
+                "worth remembering when comparing across reports.")
         if period["key"] in ("2021", "2022", "2023", "2024"):
             notes.append(
                 "The city's pages drew far less engagement in this period than "

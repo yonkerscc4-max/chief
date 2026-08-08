@@ -1,0 +1,937 @@
+{
+  "generated_at": "2026-08-08T23:01:42.294755Z",
+  "period_label": "March \u2013 November 2025",
+  "period_key": "2025",
+  "total_comments_scraped": 1456,
+  "substantive_comments": 850,
+  "total_complaints": 92,
+  "complaint_rate": 10.8,
+  "years_covered": [
+    2025
+  ],
+  "platforms": {
+    "facebook": 407,
+    "instagram": 1049
+  },
+  "comments_by_year": {
+    "2025": 1456
+  },
+  "comments_by_month": {
+    "2025-03": 102,
+    "2025-04": 113,
+    "2025-05": 232,
+    "2025-06": 130,
+    "2025-07": 168,
+    "2025-08": 189,
+    "2025-09": 89,
+    "2025-10": 163,
+    "2025-11": 270
+  },
+  "categories": [
+    {
+      "category": "City Responsiveness & Accountability",
+      "count": 14,
+      "share": 15.2,
+      "mentions": 14,
+      "total_likes": 23,
+      "avg_likes": 1.6,
+      "by_platform": {
+        "facebook": 7,
+        "instagram": 7
+      },
+      "by_year": {
+        "2025": 14
+      },
+      "by_month": {
+        "2025-03": 1,
+        "2025-04": 1,
+        "2025-05": 3,
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-08": 1,
+        "2025-11": 6
+      },
+      "examples": [
+        {
+          "text": "There are so Many More Problems then Focusing on This!! Until Mike Spano gets his Corrupt Self out of the Mayors office we are Doomed!!",
+          "author": "michael_tyler775",
+          "date": "2025-07-29T04:35:26.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLlOMOIx0fT/",
+          "post_text": "\ud83d\udccd43rd & Broadway \u2014 Yonkers just landed in Times Square.  Our Hollywood on Hudson campaign is lighting up one of NYC\u2019s biggest billboards. From the Hudson to Broadway\u2014Yonkers is on full display. \ud83c\udfac\u2728 #HollywoodOnHudson"
+        },
+        {
+          "text": "More movie sound stages in quiet residential neighborhoods with zoning changes forced through by a city council that doesn\u2019t care about Yonkers residents\u2026.such blatant corruption\u2026we need DOGE in Yonkers.",
+          "author": "mknyc12",
+          "date": "2025-03-28T08:14:42.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DHtiJbBO_gU/",
+          "post_text": "Mayor Mike Spano delivered his annual State of the City Address, highlighting Yonkers' progress and future. Watch the full speech at the link in our bio."
+        },
+        {
+          "text": "Stillwell Park was \u201ccompleted\u201d last fall and is already falling apart! When is it going to be finished?? The City of Yonkers Mayor Mike Spano John Rubbo",
+          "author": "Maureen Clerkin",
+          "date": "2025-05-17T12:10:15.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02bLc6HqwtotriSpjEFwFvvffEcNYx9nZYUTSG1WPe6gq8dFRk9vbEdBo5ZaVPazYel",
+          "post_text": "Another neighborhood park, restored and reimagined! Mayor Spano joined the Yonkers Parks Department and local families to cut the ribbon on the newly renovated Buena Vista Park, featuring new playground equipment, safety"
+        },
+        {
+          "text": "yall better not have been apart of this. innocent family\u2014 WITH PAPERS\u2014are getting separated because of this horror show. free all the people who were harrassed by ICE and their corrupt system.",
+          "author": "a.hsync",
+          "date": "2025-11-17T03:47:53.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DQmm5LmiWSp/",
+          "post_text": "My statement regarding activity this morning in South Yonkers. #cityofyonkers #mayormikespano #federaltaskforce #ongoinginvestigation"
+        },
+        {
+          "text": "So who's the people that matter most Mr. Spano??",
+          "author": "Michael Duffy",
+          "date": "2025-11-17T15:57:39.000Z",
+          "year": 2025,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1420509999725689/",
+          "post_text": "Yonkers is becoming one of the most strategic places for corporate growth in the NYC region.  Competitive real-estate taxes, streamlined approvals, major development momentum, and direct access to Manhattan \u2014 all in one "
+        },
+        {
+          "text": "@\u2014  is what needs to be close down. My son my bullied spit on and traumatized there (all in Pre K) Pelli\u2019s class by kid name George numerous of complaints to Ciofi and his crew. Till this day not one apology. I got restricted from their IG account but that has not stop me from telling people about our horrible experience.",
+          "author": "you_can_call_me.e",
+          "date": "2025-04-02T13:11:17.000Z",
+          "year": 2025,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DH53Ukyul5e/",
+          "post_text": "Mayor Mike Spano\u2019s 2025 State of the City Recap \ud83c\udf1f  Another New School for Yonkers! \ud83d\udcda\u2728  We\u2019re building a state-of-the-art Pre-K through 8th grade school for up to 800 students at the site of the old Mulford Gardens housin"
+        },
+        {
+          "text": "Can someone please remind the mayor that there is also a north Yonkers. Not every program, funding or effort needs to be for South Yonkers",
+          "author": "Rich Sarno",
+          "date": "2025-05-31T18:06:59.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "But YO can never forget how the \u201cSave Yonkers Federation\u201d and a cowardly City Council supported de jure and de facto segregation in both public housing and schooling.",
+          "author": "doc11172001",
+          "date": "2025-06-19T17:05:01.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLFOU9EOoI2/",
+          "post_text": "On Juneteenth, we remember that the road to freedom looked different in every city\u2014including ours.  In Yonkers, freedom came decades before 1865, through land seizures, state laws, and resistance.  Today, we honor those "
+        }
+      ]
+    },
+    {
+      "category": "Jobs, Hiring & Local Economy",
+      "count": 14,
+      "share": 15.2,
+      "mentions": 18,
+      "total_likes": 28,
+      "avg_likes": 2.0,
+      "by_platform": {
+        "facebook": 8,
+        "instagram": 6
+      },
+      "by_year": {
+        "2025": 14
+      },
+      "by_month": {
+        "2025-05": 3,
+        "2025-06": 3,
+        "2025-07": 2,
+        "2025-10": 2,
+        "2025-11": 4
+      },
+      "examples": [
+        {
+          "text": "Where are the jobs? I\u2019ve been checking since they opened and have never seen them hiring",
+          "author": "billyarrowsmith",
+          "date": "2025-06-01T03:44:50.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DKNmh6DiVan/",
+          "post_text": "So excited to share the latest Hollywood on Hudson update with all of you! Yonkers isn't just making movies; we're making history. This multi-platform campaign showcases our incredible studios and diverse locations, and "
+        },
+        {
+          "text": "Where are the jobs ? Or does your last name have to end with Spano ?",
+          "author": "Marcos Alonzo",
+          "date": "2025-05-29T20:44:55.000Z",
+          "year": 2025,
+          "likes": 9,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0Has8jM6CVC2bu4eS7DxUoTTCzhV5ykCyxQivqMf61UUtioTRRWQ5mQHH8CUmYJqcl",
+          "post_text": "Hollywood on Hudson is here! \ud83c\udfac   Yonkers just launched a multi-platform ad campaign spotlighting our booming film & TV industry \u2014 now the largest production hub in the Northeast. From hit shows to local talent, the futur"
+        },
+        {
+          "text": "Where are the jobs and why do our taxes keep going up",
+          "author": "Helena Ferreira",
+          "date": "2025-05-29T23:58:02.000Z",
+          "year": 2025,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0Has8jM6CVC2bu4eS7DxUoTTCzhV5ykCyxQivqMf61UUtioTRRWQ5mQHH8CUmYJqcl",
+          "post_text": "Hollywood on Hudson is here! \ud83c\udfac   Yonkers just launched a multi-platform ad campaign spotlighting our booming film & TV industry \u2014 now the largest production hub in the Northeast. From hit shows to local talent, the futur"
+        },
+        {
+          "text": "Nobody I know has gotten a job at any of these studios",
+          "author": "Keith Murphy",
+          "date": "2025-11-20T20:13:49.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid048ZNbHWVHXPSF2NpEqsFnADNDqFbXpFYaiveDreEgc2unhc7KU8Cqx8omP4b97TRl",
+          "post_text": "Mayor Mike Spano toured the new Mediapro Studios on North Broadway with Robert Halmi the founder and CEO of Great Point Studios.  More photos of the new studios in the comments \ud83d\udc47"
+        },
+        {
+          "text": "Doing a terrible job! Advertising the service of escorting a citizen home just to look good but then denying it when a citizen truly needs it \ud83d\ude21",
+          "author": "vanessa9128",
+          "date": "2025-07-27T18:24:13.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DDQBmDEJU_P/",
+          "post_text": "Help shape the future of policing in Yonkers! Take the Yonkers Police Survey @ YPDsurvey.com All Yonkers community members who have interacted with the Yonkers Police are encouraged to participate.  We need your input. T"
+        },
+        {
+          "text": "Does SIC students not get to be apart of this !? We took time out of our schedules to participate and learn the industry just the same . WE ARE LOCALS without Job placement in our own neighborhoods!? WHATS REALLY GOOD ,?",
+          "author": "Paris France",
+          "date": "2025-06-02T02:01:39.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0Has8jM6CVC2bu4eS7DxUoTTCzhV5ykCyxQivqMf61UUtioTRRWQ5mQHH8CUmYJqcl",
+          "post_text": "Hollywood on Hudson is here! \ud83c\udfac   Yonkers just launched a multi-platform ad campaign spotlighting our booming film & TV industry \u2014 now the largest production hub in the Northeast. From hit shows to local talent, the futur"
+        },
+        {
+          "text": "Priority hire Yonkers Residents \nApprenticeship \nGive yonkers Residents \nOpportunities",
+          "author": "Gigi Diaz",
+          "date": "2025-11-24T13:47:33.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid048ZNbHWVHXPSF2NpEqsFnADNDqFbXpFYaiveDreEgc2unhc7KU8Cqx8omP4b97TRl",
+          "post_text": "Mayor Mike Spano toured the new Mediapro Studios on North Broadway with Robert Halmi the founder and CEO of Great Point Studios.  More photos of the new studios in the comments \ud83d\udc47"
+        },
+        {
+          "text": "Ugh that nasty security guard from PVB...Mayor u need to hire someone else! That man is super nasty and rude to people!",
+          "author": "jackiecardona__",
+          "date": "2025-10-06T17:44:12.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DPeDHu0DzXF/",
+          "post_text": "Honoring Hispanic Heritage Month!   How do you celebrate your culture here in Yonkers? \ud83c\udf89"
+        }
+      ]
+    },
+    {
+      "category": "Schools & Education",
+      "count": 12,
+      "share": 13.0,
+      "mentions": 14,
+      "total_likes": 10,
+      "avg_likes": 0.8,
+      "by_platform": {
+        "instagram": 12
+      },
+      "by_year": {
+        "2025": 12
+      },
+      "by_month": {
+        "2025-03": 1,
+        "2025-04": 2,
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-08": 1,
+        "2025-09": 5,
+        "2025-10": 1
+      },
+      "examples": [
+        {
+          "text": "Cellphone pouches are only for high school students. My son goes to middle school and they put every student's phone in a big box and give them back at the end of the day. I think all schools should be provided with the phone pouches.",
+          "author": "jessmarie.787",
+          "date": "2025-09-05T23:27:06.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DOPEQKNlST3/",
+          "post_text": "Your Yonkers Now returns with back-to-school information for local families. #cityofyonkers #mayormikespano #yonkerspublicschools #backtoschool #kidsinclass #yonderpouches #phonefreeeducation"
+        },
+        {
+          "text": "How about giving High school students free metrocards so they will not have any attendance issues!",
+          "author": "_maggzzzz",
+          "date": "2025-09-15T18:10:37.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DOoaM8ZCf3G/",
+          "post_text": "It was assembly time at Yonkers Public Schools School 5 today. I asked students to participate in the Pledge 182 campaign, in which students commit to attending school every day and on time. There was a bit of a catch --"
+        },
+        {
+          "text": "Isn\u2019t this 5 years too late?? Every other school in ny has a laptop\u2026mayor is late",
+          "author": "jaso.nrodriguez1853",
+          "date": "2025-09-06T23:52:47.000Z",
+          "year": 2025,
+          "likes": 3,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DOQv-rAkX4E/",
+          "post_text": "Smart devices for every YPS student!  @mayormikespano and the Yonkers Board of Education are making sure all students are connected:  \ud83d\udcf2 K\u20135 \u2192 iPads \ud83d\udcbb 6\u201312 \u2192 Chromebooks  Schools will hand out forms to parents so students"
+        },
+        {
+          "text": "Yall waste money on these pouches instead of making school lunch better\u2026",
+          "author": "lenel.yy",
+          "date": "2025-08-30T02:46:14.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DN3N0QFRHSz/",
+          "post_text": "With school starting next week, we want to remind parents that the statewide bell-to-bell ban on internet-enabled devices will begin for our students on September 3. Our high schools will be equipped with a @over.yondr p"
+        },
+        {
+          "text": "We\u2019ve had the casino there for a little under 20 years where all the money go worst roads worst schools yeah cause it\u2019s turning out to be a dump\u2764\ufe0f",
+          "author": "yoavepiz",
+          "date": "2025-07-08T02:22:44.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLk9jCaOqGo/",
+          "post_text": "Yonkers is Hollywood on Hudson! Hey, Yonkers we are in Times Square!!! #cityofyonkers #mayormikespano #hollywoodonhudson"
+        },
+        {
+          "text": "This is an April fools joke bc no way they'd add a school in YONKERS that outshines the rest of them.",
+          "author": "the_cry1ngchild",
+          "date": "2025-04-02T22:59:41.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DH53Ukyul5e/",
+          "post_text": "Mayor Mike Spano\u2019s 2025 State of the City Recap \ud83c\udf1f  Another New School for Yonkers! \ud83d\udcda\u2728  We\u2019re building a state-of-the-art Pre-K through 8th grade school for up to 800 students at the site of the old Mulford Gardens housin"
+        },
+        {
+          "text": "This is great but let's not forget our older schools. We need renovations, there is a rat and roach infestation. They come out in the middle of classes. We need innovations as well.",
+          "author": "iamdinacampos",
+          "date": "2025-04-02T21:21:53.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DH53Ukyul5e/",
+          "post_text": "Mayor Mike Spano\u2019s 2025 State of the City Recap \ud83c\udf1f  Another New School for Yonkers! \ud83d\udcda\u2728  We\u2019re building a state-of-the-art Pre-K through 8th grade school for up to 800 students at the site of the old Mulford Gardens housin"
+        },
+        {
+          "text": "Way to go. There should be an initiative to have this for every school.",
+          "author": "mrs.alinajj",
+          "date": "2025-03-15T16:48:46.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DHOJ_3BOVEg/",
+          "post_text": "Saint Joseph\u2019s Medical Center, Mayor Mike Spano and Superintendent Soler joined forces to open a new School-Based Health Clinic\u2014bringing FREE, high-quality healthcare right to students and their families at Justice Sonia"
+        }
+      ]
+    },
+    {
+      "category": "Taxes & Cost of Living",
+      "count": 11,
+      "share": 12.0,
+      "mentions": 13,
+      "total_likes": 47,
+      "avg_likes": 4.3,
+      "by_platform": {
+        "facebook": 10,
+        "instagram": 1
+      },
+      "by_year": {
+        "2025": 11
+      },
+      "by_month": {
+        "2025-04": 1,
+        "2025-05": 3,
+        "2025-11": 7
+      },
+      "examples": [
+        {
+          "text": "When will the income tax surcharge be eliminated \nYou are bankrupting the citizens of Yonkers",
+          "author": "James O'Loughlin",
+          "date": "2025-05-31T14:20:51.000Z",
+          "year": 2025,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "All that Hollywood money pouring in and you still charge a residency tax on every paycheck and a leaving tax when you move out of Yonkers... crooked politicians in a crooked city!",
+          "author": "Chris Bleakley",
+          "date": "2025-11-20T00:34:51.000Z",
+          "year": 2025,
+          "likes": 3,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid048ZNbHWVHXPSF2NpEqsFnADNDqFbXpFYaiveDreEgc2unhc7KU8Cqx8omP4b97TRl",
+          "post_text": "Mayor Mike Spano toured the new Mediapro Studios on North Broadway with Robert Halmi the founder and CEO of Great Point Studios.  More photos of the new studios in the comments \ud83d\udc47"
+        },
+        {
+          "text": "Questionable?  Why are they building so much but not lowering the taxes for homeowners?. The traffic just gets worse and the cost of living doesn't decrease.  So who is getting all the kickbacks in revenue.? Its not sustainable",
+          "author": "Jovaninna Dakota",
+          "date": "2025-05-31T23:13:56.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "How about explaining how it will benefit the people! And not just \u201cnew jobs\u201d cause everyone knows these studios bring their own people in! How does this benefit the tax payers?",
+          "author": "Maria Joyce",
+          "date": "2025-11-19T17:45:51.000Z",
+          "year": 2025,
+          "likes": 10,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1329012872338262/",
+          "post_text": "A look inside Media Pro Studios on North Broadway, the latest addition to Yonkers\u2019 growing film production campus. With new stages, local jobs and major productions filming here, Hollywood on Hudson continues to expand."
+        },
+        {
+          "text": "How about paving the roads with our tax money, hammer",
+          "author": "Vinny Loiacono",
+          "date": "2025-11-17T16:51:39.000Z",
+          "year": 2025,
+          "likes": 6,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1420509999725689/",
+          "post_text": "Yonkers is becoming one of the most strategic places for corporate growth in the NYC region.  Competitive real-estate taxes, streamlined approvals, major development momentum, and direct access to Manhattan \u2014 all in one "
+        },
+        {
+          "text": "During my career I always refused work in Yonkers with that tax.\nHard enough to cover the commute as was.",
+          "author": "Bruce Thompson",
+          "date": "2025-11-19T16:24:06.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1329012872338262/",
+          "post_text": "A look inside Media Pro Studios on North Broadway, the latest addition to Yonkers\u2019 growing film production campus. With new stages, local jobs and major productions filming here, Hollywood on Hudson continues to expand."
+        },
+        {
+          "text": "Gotta wonder with all the money they make, what they pay in taxes. \nWe, the people are getting fed up with paying the tax that companies aren't. The country can't sustain this.",
+          "author": "LM Garr",
+          "date": "2025-05-30T11:05:38.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0Has8jM6CVC2bu4eS7DxUoTTCzhV5ykCyxQivqMf61UUtioTRRWQ5mQHH8CUmYJqcl",
+          "post_text": "Hollywood on Hudson is here! \ud83c\udfac   Yonkers just launched a multi-platform ad campaign spotlighting our booming film & TV industry \u2014 now the largest production hub in the Northeast. From hit shows to local talent, the futur"
+        },
+        {
+          "text": "I'll move to Yonkers whey they fiscally divorce themselves from NYC and stop requiring residents to pay more income taxes and commuter taxes than the rest of NY Upstate.",
+          "author": "Anthony B. Martino",
+          "date": "2025-11-19T00:03:50.000Z",
+          "year": 2025,
+          "likes": 17,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02FY3TLPQ99bURzAm6N2LybwUAMxVfvW5kFz39Xa2BVSUwDPhrWn2x4T6HC2hnofvjl",
+          "post_text": "Full details in the comments \ud83d\udc47"
+        }
+      ]
+    },
+    {
+      "category": "Trash, Sanitation & Illegal Dumping",
+      "count": 10,
+      "share": 10.9,
+      "mentions": 12,
+      "total_likes": 28,
+      "avg_likes": 2.8,
+      "by_platform": {
+        "facebook": 5,
+        "instagram": 5
+      },
+      "by_year": {
+        "2025": 10
+      },
+      "by_month": {
+        "2025-04": 1,
+        "2025-05": 2,
+        "2025-06": 1,
+        "2025-08": 2,
+        "2025-10": 1,
+        "2025-11": 3
+      },
+      "examples": [
+        {
+          "text": "Spano should tell the sanitation workers to stop throwing the garbage containers against and over the cars at Prescott Street. You people ain\u2019t getting no Christmas bonus from the citizens of Yonkers acting that way.",
+          "author": "Carlos A MA",
+          "date": "2025-11-20T12:33:05.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid048ZNbHWVHXPSF2NpEqsFnADNDqFbXpFYaiveDreEgc2unhc7KU8Cqx8omP4b97TRl",
+          "post_text": "Mayor Mike Spano toured the new Mediapro Studios on North Broadway with Robert Halmi the founder and CEO of Great Point Studios.  More photos of the new studios in the comments \ud83d\udc47"
+        },
+        {
+          "text": "another fast food joint pls! more garbage tossed in front of houses on nepperhan pls!!",
+          "author": "ef.mf13",
+          "date": "2025-08-18T16:33:51.000Z",
+          "year": 2025,
+          "likes": 9,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DNf84PSR4Wd/",
+          "post_text": "Yonkers continues to grow and improve. Renovations on Nepperhan Ave, including the brand new @chestnutmarket, are just the start of what\u2019s ahead!   Renovations to McDonalds are complete \u2705 Chestnut Market is open \u2705 Taco B"
+        },
+        {
+          "text": "How about fixing the roads and cleaning the garbage from the Yonkers Avenue exit from the Saw Mill Parkway.",
+          "author": "Karen Macknowski Di Salvo",
+          "date": "2025-05-30T22:41:23.000Z",
+          "year": 2025,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "The litter problem in Yonkers is out completely out of hand. We need a public awareness campaign",
+          "author": "mvynkrs",
+          "date": "2025-10-09T20:23:07.000Z",
+          "year": 2025,
+          "likes": 4,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DPmBkbfgoaD/",
+          "post_text": "Illegal dumping will not be tolerated. This video is more than littering; it's disrespectful to our neighbors and our community. Thank you to the Yonkers Police Department and Yonkers Department of Parks, Recreation, and"
+        },
+        {
+          "text": "Another effort initiated by Lucy Casanova and her community helpers! She should be commended for the work that she does in Yonkers in transforming garbage lots into beautiful gardens!",
+          "author": "Gladys Baerga Viruet",
+          "date": "2025-05-17T01:04:01.000Z",
+          "year": 2025,
+          "likes": 3,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02bLc6HqwtotriSpjEFwFvvffEcNYx9nZYUTSG1WPe6gq8dFRk9vbEdBo5ZaVPazYel",
+          "post_text": "Another neighborhood park, restored and reimagined! Mayor Spano joined the Yonkers Parks Department and local families to cut the ribbon on the newly renovated Buena Vista Park, featuring new playground equipment, safety"
+        },
+        {
+          "text": "Can we bring city garbage cans back too?",
+          "author": "ash_kaash",
+          "date": "2025-08-18T15:36:48.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DNf84PSR4Wd/",
+          "post_text": "Yonkers continues to grow and improve. Renovations on Nepperhan Ave, including the brand new @chestnutmarket, are just the start of what\u2019s ahead!   Renovations to McDonalds are complete \u2705 Chestnut Market is open \u2705 Taco B"
+        },
+        {
+          "text": "Clean our streets. Garbage everywhere. Do better for our children.",
+          "author": "Diana Nunes",
+          "date": "2025-11-18T03:04:13.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1420509999725689/",
+          "post_text": "Yonkers is becoming one of the most strategic places for corporate growth in the NYC region.  Competitive real-estate taxes, streamlined approvals, major development momentum, and direct access to Manhattan \u2014 all in one "
+        },
+        {
+          "text": "You want to follow me on Instagram? \ud83d\ude02 OK, but you must provide concrete evidence to support your bullshit instead of posting selected photos of litter and graffiti.",
+          "author": "doc11172001",
+          "date": "2025-06-12T19:27:32.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DKzMn-vRlPM/",
+          "post_text": "\ud83d\udcf8 Getty Square in the 1890s"
+        }
+      ]
+    },
+    {
+      "category": "Parking",
+      "count": 9,
+      "share": 9.8,
+      "mentions": 9,
+      "total_likes": 3,
+      "avg_likes": 0.3,
+      "by_platform": {
+        "facebook": 3,
+        "instagram": 6
+      },
+      "by_year": {
+        "2025": 9
+      },
+      "by_month": {
+        "2025-06": 5,
+        "2025-07": 1,
+        "2025-08": 1,
+        "2025-09": 1,
+        "2025-11": 1
+      },
+      "examples": [
+        {
+          "text": "How about all the post office vehicles taking all the post office parking spots for its customers???",
+          "author": "chris_hackett",
+          "date": "2025-06-27T12:52:52.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLXP4xfpA7M/",
+          "post_text": "Double parking in Yonkers? It\u2019s not worth it. \ud83d\udeab   In May alone, 3,405 tickets were issued for double parking \u2014 including 390 during rush hour.  That \u201cquick stop\u201d could cost you $150! \ud83d\udcb8"
+        },
+        {
+          "text": "Glenwood Ave between Ravine and Glenwood station is a disaster of double parking on both sides of the street in the afternoons. It\u2019s impossible to get through some days. The city would make gobs of $ if the law were only enforced. Never mind cars parked in NO PARKING areas overnight.",
+          "author": "mvynkrs",
+          "date": "2025-06-27T13:19:11.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLXP4xfpA7M/",
+          "post_text": "Double parking in Yonkers? It\u2019s not worth it. \ud83d\udeab   In May alone, 3,405 tickets were issued for double parking \u2014 including 390 during rush hour.  That \u201cquick stop\u201d could cost you $150! \ud83d\udcb8"
+        },
+        {
+          "text": "Yonkers Ave is still horrible.. Meters don\u2019t always work , no more free 10 minutes. Parking Enforcement needs to come around more often. So sad to have to deal with this \ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f",
+          "author": "michellepalombo",
+          "date": "2025-06-26T18:22:15.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLXP4xfpA7M/",
+          "post_text": "Double parking in Yonkers? It\u2019s not worth it. \ud83d\udeab   In May alone, 3,405 tickets were issued for double parking \u2014 including 390 during rush hour.  That \u201cquick stop\u201d could cost you $150! \ud83d\udcb8"
+        },
+        {
+          "text": "Bronx river rd needs repairs,  Yonkers Ave needs repair and the double parking is ridiculous from central Ave bridge too st. John's church were are the YPA  workers should be there everyday n all day",
+          "author": "Steve Caleo",
+          "date": "2025-06-05T10:23:16.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "We need to address the traffic issues and lack of parking. It\u2019s sad because we use to have forest in this area. Not anymore. Now just an empty soccer field and big cement boxes.",
+          "author": "Jennifer Kijff",
+          "date": "2025-11-20T12:05:38.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1329012872338262/",
+          "post_text": "A look inside Media Pro Studios on North Broadway, the latest addition to Yonkers\u2019 growing film production campus. With new stages, local jobs and major productions filming here, Hollywood on Hudson continues to expand."
+        },
+        {
+          "text": "What about inside the city all those new buildings near the water taking away beautiful scenery...and you need more parking.",
+          "author": "lildoug69",
+          "date": "2025-06-03T05:47:13.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DKSw91SOg5s/",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "Some people did but many buses make 2 times stop on the same place that\u2019s a reason many people get tickets , other buses stay long time waiting for kids at the same place",
+          "author": "Claudia San",
+          "date": "2025-08-31T01:48:34.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0mqEbZmd9tKMATgYMh1BPXNSxxxQvV829rtrno7BixjK9XYxaRfigRyFyMBNvJydRl",
+          "post_text": "As Yonkers students return to school, remember: it\u2019s the law to stop for a school bus with its stop-arm extended and red lights flashing. \ud83d\udeb8   The Yonkers Safe Stop Program helps protect children as they get on and off th"
+        },
+        {
+          "text": "Good! It's terrible when people dont listen and speed by! I think giving tickets are a great way to stop this",
+          "author": "gizgotti",
+          "date": "2025-09-03T21:22:21.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DOJkmAaAVP2/",
+          "post_text": "A friendly reminder that our @yonkerspublicschools students are back in the classroom and will be riding the bus. Remember to stop when the stop arm is out. Cameras will catch drivers going by the extended stop arm and a"
+        }
+      ]
+    },
+    {
+      "category": "Housing & Overdevelopment",
+      "count": 6,
+      "share": 6.5,
+      "mentions": 7,
+      "total_likes": 17,
+      "avg_likes": 2.8,
+      "by_platform": {
+        "facebook": 3,
+        "instagram": 3
+      },
+      "by_year": {
+        "2025": 6
+      },
+      "by_month": {
+        "2025-05": 2,
+        "2025-06": 3,
+        "2025-11": 1
+      },
+      "examples": [
+        {
+          "text": "10% affordable housing is laughable. It\u2019s a pittance compared to the increases in rent the last few years. Yonkers politicians continue to be a joke, starting with this 4th term mayor.",
+          "author": "New Horizon Foundation",
+          "date": "2025-05-31T20:19:55.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "As we continue to grow what about new fire houses and police stations, improvements for DPW to do their job more efficiently especially during thr winter and lets not forget about new schools instead of just renaming them. Development is great but with that you need to improve the infrastructure",
+          "author": "Cory Hartman",
+          "date": "2025-05-31T21:14:46.000Z",
+          "year": 2025,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        },
+        {
+          "text": "I wouldn't live there even if you gifted me a Free High Rise Penthouse. Take if from me I grew up there, Lucky to get out alive. As a business owner no one helped me with my business!",
+          "author": "Roger Chino Cordoba",
+          "date": "2025-11-17T20:23:54.000Z",
+          "year": 2025,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1420509999725689/",
+          "post_text": "Yonkers is becoming one of the most strategic places for corporate growth in the NYC region.  Competitive real-estate taxes, streamlined approvals, major development momentum, and direct access to Manhattan \u2014 all in one "
+        },
+        {
+          "text": "No mention of the city or state doing anything to save this historic factory. This is the last of Yonkers great industries. We don\u2019t need more condos. We need good paying factory jobs which the sugar house provided.",
+          "author": "123beech",
+          "date": "2025-06-23T02:27:58.000Z",
+          "year": 2025,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLI-mHlvV9H/",
+          "post_text": "See my statement regarding the closure of the Domino Sugar refinery."
+        }
+      ]
+    },
+    {
+      "category": "Parks & Public Spaces",
+      "count": 5,
+      "share": 5.4,
+      "mentions": 6,
+      "total_likes": 21,
+      "avg_likes": 4.2,
+      "by_platform": {
+        "facebook": 4,
+        "instagram": 1
+      },
+      "by_year": {
+        "2025": 5
+      },
+      "by_month": {
+        "2025-05": 2,
+        "2025-07": 3
+      },
+      "examples": [
+        {
+          "text": "Scottie field needs too be updated like this , the grass is weeds n never cut down , infield dirt is filled with pebbles n rocks no benches for people to sit . No wonder no one plays baseball/softball down there anymore . But at least I have my childhood memories of JFK little league smh",
+          "author": "Steve Caleo",
+          "date": "2025-07-31T12:19:41.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid037C8e6Nuhx5EdEerjSdqgcRYgburqjrgk4Rn9axdcxS5cxm63qvhFV3xMsF9sGrqzl",
+          "post_text": "Big news at Conor Park: Yonkers\u2019 first dog run is officially open!  The renovation also brings a new playground, basketball court, walkways, and landscaping\u2014delivering on our promise to reinvest in neighborhood parks."
+        },
+        {
+          "text": "The park was so much better the way it used to be. The basketball court is nice but other than that, it should\u2019ve stayed.",
+          "author": "Nour Hawatmeh",
+          "date": "2025-07-30T12:05:23.000Z",
+          "year": 2025,
+          "likes": 14,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0ufYp2sKbuHCD4fZsxz5MbPpzSvmvLUaUx1M8n5ufUkb5kkuGY3ArqBbrgTQZc8nql",
+          "post_text": "Welty Park is back and better than ever!  Mayor Mike Spano joined community members to celebrate the reopening of Welty Park, now featuring a new playground, improved accessibility, fresh landscaping, and even a Bank Sho"
+        },
+        {
+          "text": "I hope there\u2019s a water feature because Yonkers parks are dry as HELL!!! No one will play there during the summer season",
+          "author": "Joanna Pagan",
+          "date": "2025-05-27T14:13:15.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02BhFiQwjuGqUo3RGdt1gG1UeJGnAEZ13V8cSf11WjBTQLnrG5Et6okvzXwCCg9FTcl",
+          "post_text": "Ragone-Muscente Park gets a long-awaited upgrade\u2014new play equipment, safety surfacing, fresh landscaping, a resurfaced basketball court, and more. First renovation in over 30 years! \ud83c\udfc0\ud83c\udf33\ud83d\udedd"
+        },
+        {
+          "text": "How about fixing the crap roads in Yonkers? All this money spent on playgrounds just so they can be vandalized and trashed all over again by.",
+          "author": "Jo Gray Rizzuti",
+          "date": "2025-05-17T11:30:04.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02bLc6HqwtotriSpjEFwFvvffEcNYx9nZYUTSG1WPe6gq8dFRk9vbEdBo5ZaVPazYel",
+          "post_text": "Another neighborhood park, restored and reimagined! Mayor Spano joined the Yonkers Parks Department and local families to cut the ribbon on the newly renovated Buena Vista Park, featuring new playground equipment, safety"
+        },
+        {
+          "text": "These renovations should\u2019ve included splash pads. I have to travel out of the city for it. Would\u2019ve been nice to stay in Yonkers for it. Why did they make the play grounds smaller? And where are the benches?",
+          "author": "amany.916",
+          "date": "2025-07-31T12:17:48.000Z",
+          "year": 2025,
+          "likes": 7,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DMxXn1zugBF/",
+          "post_text": "Big news at Conor Park: Yonkers\u2019 first dog run is officially open!  The renovation also brings a new playground, basketball court, walkways, and landscaping\u2014delivering on our promise to reinvest in neighborhood parks."
+        }
+      ]
+    },
+    {
+      "category": "Crime & Public Safety",
+      "count": 5,
+      "share": 5.4,
+      "mentions": 5,
+      "total_likes": 1,
+      "avg_likes": 0.2,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 4
+      },
+      "by_year": {
+        "2025": 5
+      },
+      "by_month": {
+        "2025-07": 2,
+        "2025-09": 1,
+        "2025-10": 1,
+        "2025-11": 1
+      },
+      "examples": [
+        {
+          "text": "She never worked that precinct as a cop , how can she be the commanding officer?",
+          "author": "kavas2010",
+          "date": "2025-10-01T00:09:22.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DPPZ7q-ETvg/",
+          "post_text": "Today, I joined the Yonkers Police Department in celebrating the promotion of 10 of Yonkers\u2019 finest. We have the best department in the country, and thanks to their hard work, violent crime is down 27% from last year.   "
+        },
+        {
+          "text": "I'll bet owners will not pick up after their dogs and have their dogs unleashed too making the park unsafe",
+          "author": "Edwin Rivera",
+          "date": "2025-07-31T17:07:58.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid037C8e6Nuhx5EdEerjSdqgcRYgburqjrgk4Rn9axdcxS5cxm63qvhFV3xMsF9sGrqzl",
+          "post_text": "Big news at Conor Park: Yonkers\u2019 first dog run is officially open!  The renovation also brings a new playground, basketball court, walkways, and landscaping\u2014delivering on our promise to reinvest in neighborhood parks."
+        },
+        {
+          "text": "When I see this and how much money is being allocated to this project and new subway cars , I\u2019m glad to see this as fellow rider myself.  But please don\u2019t forget about the infrastructure in these tunnels and how unsafe it\u2019s been in NYC transit lines.",
+          "author": "pete5225",
+          "date": "2025-11-30T03:41:08.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DQ4p_9Zkwts/",
+          "post_text": "Kawasaki Rail Car, Inc. in Yonkers has been awarded a $1.5 billion contract by the MTA to build 378 new subway cars for New York City\u2019s transit system.  This milestone secures hundreds of good-paying jobs for Yonkers res"
+        },
+        {
+          "text": "Do something about the transit system! I hear you\u2019re going to have cops stopping people for not paying! Make it better first! Your system is outdated!",
+          "author": "sassacyprigo",
+          "date": "2025-07-09T22:34:09.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DL5SoTbsx6Q/",
+          "post_text": "Yonkers Fire Department is out at Unity Park with the popular \u201cturtle\u201d sprinkler cooling down the neighborhood at Post St & Elliott Ave!  Yonkers Police and Parks are joining in, there\u2019s music playing \u2014 and plenty of sum"
+        }
+      ]
+    },
+    {
+      "category": "Snow, Flooding & Storm Response",
+      "count": 4,
+      "share": 4.3,
+      "mentions": 6,
+      "total_likes": 33,
+      "avg_likes": 8.2,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 3
+      },
+      "by_year": {
+        "2025": 4
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-11": 2
+      },
+      "examples": [
+        {
+          "text": "I been here 1 yr and so far I seen one park with a sprinkler and it becomes a nasty mess when kids cover the drain! These parks should have some water play for these kids",
+          "author": "baby_love_8.13.2015",
+          "date": "2025-07-10T00:46:50.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DL5SoTbsx6Q/",
+          "post_text": "Yonkers Fire Department is out at Unity Park with the popular \u201cturtle\u201d sprinkler cooling down the neighborhood at Post St & Elliott Ave!  Yonkers Police and Parks are joining in, there\u2019s music playing \u2014 and plenty of sum"
+        },
+        {
+          "text": "\ud83d\ude22 It's a crying shame that it's closing down. Sad to see another great business go down the drain. We had Otis elevator, the carpet shop, Polychrome",
+          "author": "suga6092024",
+          "date": "2025-06-22T18:11:05.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DLI-mHlvV9H/",
+          "post_text": "See my statement regarding the closure of the Domino Sugar refinery."
+        },
+        {
+          "text": "@\u2014 everyone here illegally should be removed. I support what ice is doing.",
+          "author": "__big.j___",
+          "date": "2025-11-10T02:59:43.000Z",
+          "year": 2025,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DQmm5LmiWSp/",
+          "post_text": "My statement regarding activity this morning in South Yonkers. #cityofyonkers #mayormikespano #federaltaskforce #ongoinginvestigation"
+        }
+      ]
+    },
+    {
+      "category": "Roads & Potholes",
+      "count": 2,
+      "share": 2.2,
+      "mentions": 4,
+      "total_likes": 2,
+      "avg_likes": 1.0,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 1
+      },
+      "by_year": {
+        "2025": 2
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-07": 1
+      },
+      "examples": [
+        {
+          "text": "Fix the roads ffs \ud83e\udd23 i feel like im driving through a war zone with all these potholes and crumbling pavement all over",
+          "author": "Ariana Roleva",
+          "date": "2025-06-01T14:41:16.000Z",
+          "year": 2025,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i8dvMXa1e54hmZYZQ8exRaSBU24qiYDHdrPGQohr2sPWjxva2VsQgnXrfALi9GtJl",
+          "post_text": "Big win for Yonkers! \ud83c\udfd7\ufe0f\ud83d\ude86   We\u2019re receiving $10 million from Governor Hochul\u2019s Mid-Hudson Momentum Fund for two transformational, transit-oriented developments\u2014Bridgewater North at Ludlow Station and The Abbey on Park. Th"
+        }
+      ]
+    }
+  ]
+}

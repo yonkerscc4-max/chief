@@ -267,20 +267,27 @@ def build(stats, meta):
         y, mm = m.split("-")
         return f"{names[int(mm) - 1]} {y}"
 
-    span = f"{pretty(months[0])} – {pretty(months[-1])}" if months else "n/a"
+    data_span = f"{pretty(months[0])} – {pretty(months[-1])}" if months else "n/a"
+    # The requested window is what the report is *about*; the months actually
+    # carrying comments are shown separately so a gap is visible rather than
+    # silently narrowing the stated period.
+    span = stats.get("period_label") or data_span
 
     # ---------------- Cover ----------------
     story.append(Spacer(1, 1.5 * inch))
     story.append(Paragraph("What Yonkers Residents<br/>Complain About", s["title"]))
     story.append(Spacer(1, 0.16 * inch))
     story.append(Paragraph(
-        "The top 10 grievances in public comments on the City of Yonkers' "
-        "official Facebook and Instagram accounts", s["subtitle"]))
+        f"The leading grievances in public comments on the City of Yonkers' "
+        f"official Facebook and Instagram accounts"
+        f"{('<br/>' + span) if stats.get('period_label') else ''}",
+        s["subtitle"]))
     story.append(Spacer(1, 0.5 * inch))
 
     sub = stats.get("substantive_comments", stats["total_comments_scraped"])
     cover_rows = [
         ["Period analysed", span],
+        ["Months carrying comments", data_span],
         ["Comments collected", f"{stats['total_comments_scraped']:,}"],
         ["Of which substantive", f"{sub:,}"
                                  "  (excludes emoji-only and tag-only replies)"],
@@ -353,9 +360,10 @@ def build(stats, meta):
     story.append(PageBreak())
 
     # ---------------- Executive summary ----------------
-    story.append(Paragraph("The top 10 complaints", s["h1"]))
-
     top10 = stats["categories"][:10]
+    # Thin periods can yield fewer than ten distinct categories; say what is
+    # actually shown rather than promising ten.
+    story.append(Paragraph(f"The top {len(top10)} complaints", s["h1"]))
     lead = top10[0] if top10 else None
     if lead:
         top3 = ", ".join(r["category"] for r in top10[:3])
@@ -408,12 +416,11 @@ def build(stats, meta):
             "incident, a budget vote — that pulls a burst of comment traffic "
             "onto the city's posts.", s["body"]))
         story.append(Paragraph(
-            "<b>Read the flat early months with care.</b> They reflect how much "
-            "was sampled, not how much was said: Facebook coverage begins in "
-            "November 2025, so months before that carry only the thinner "
-            "Instagram slice. Compare against the sampling volume on the "
-            "methodology page before reading any month-to-month movement as a "
-            "real change in resident sentiment.", s["body"]))
+            "<b>Read month-to-month movement with care.</b> These lines track "
+            "how much was sampled as much as how much was said — a month with "
+            "few sampled comments cannot produce many complaints. Check the "
+            "sampling volume on the methodology page before reading any swing "
+            "as a real change in resident sentiment.", s["body"]))
         story.append(Image(trend_path, width=6.6 * inch, height=3.12 * inch))
         story.append(Spacer(1, 0.16 * inch))
 

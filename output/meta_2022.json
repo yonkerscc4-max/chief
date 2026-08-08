@@ -1,0 +1,12 @@
+{
+ "limitations": [
+  "Coverage for this window: 165 Facebook posts and 0 Instagram posts were sampled. Facebook's public feed is paged in date-bounded slices, so this is a sample of the period rather than every post the city published in it.",
+  "This period is Facebook-only. The Instagram account's public feed could not be paged back past March 2023 - the crawl exhausted at 1,680 posts - so no Instagram comments exist for this window. Later periods draw on both platforms, which is worth remembering when comparing across reports.",
+  "The city's pages drew far less engagement in this period than they do now - many posts carry no comments at all - so the complaint counts here are much smaller than in recent years. Compare shares between periods rather than raw counts.",
+  "Facebook comments were pulled from the most-commented posts inside the window. Heavily discussed posts are over-represented on purpose - that is where grievances collect - so these shares describe the complaint conversation, not the average post.",
+  "Instagram contributes the comments returned alongside each post, a broader but shallower slice than Facebook.",
+  "Emoji-only, tag-only and one-word reactions are counted in the total collected but excluded from the base used for the complaint rate, since they express no grievance either way.",
+  "Comments posted by official city accounts are excluded, as the scrapers surface them alongside residents' replies.",
+  "A category can rank low simply because the city rarely posted about it in this window. Treat the ranking as a measure of the conversation the city's own posts invited, not a census of civic opinion."
+ ]
+}
