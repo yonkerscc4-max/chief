@@ -135,22 +135,39 @@ def chart_top_categories(stats, path, top_n=10):
     plt.close(fig)
 
 
+def month_axis(stats):
+    """Ordered YYYY-MM buckets present in the sample."""
+    return sorted(stats.get("comments_by_month", {}).keys())
+
+
+def month_labels(months):
+    """Label every other month as 'Mon YY' to keep the axis readable."""
+    names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    out = []
+    for i, m in enumerate(months):
+        y, mm = m.split("-")
+        out.append(f"{names[int(mm) - 1]} {y[2:]}" if i % 2 == 0 else "")
+    return out
+
+
 def chart_trend(stats, path, top_n=5):
     rows = stats["categories"][:top_n]
-    years = sorted(stats.get("comments_by_year", {}).keys())
-    years = [int(y) for y in years]
-    if not years:
+    months = month_axis(stats)
+    if len(months) < 2:
         return False
+    x = range(len(months))
 
     fig, ax = plt.subplots(figsize=(7.4, 3.5), dpi=200)
     for i, r in enumerate(rows):
-        by_year = {int(k): v for k, v in r["by_year"].items()}
-        series = [by_year.get(y, 0) for y in years]
-        ax.plot(years, series, marker="o", markersize=3.5, linewidth=1.9,
+        bm = r.get("by_month", {})
+        series = [bm.get(m, 0) for m in months]
+        ax.plot(list(x), series, marker="o", markersize=3.2, linewidth=1.9,
                 color=BAR_COLORS[i], label=r["category"])
 
     ax.set_ylabel("Complaints", fontsize=9, color="#3E5C76")
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(month_labels(months), fontsize=7.5, rotation=0)
     ax.tick_params(labelsize=8, colors="#8899AA")
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
@@ -166,15 +183,17 @@ def chart_trend(stats, path, top_n=5):
 
 
 def chart_volume(stats, path):
-    data = {int(k): v for k, v in stats.get("comments_by_year", {}).items()}
-    if not data:
+    data = stats.get("comments_by_month", {})
+    months = month_axis(stats)
+    if not months:
         return False
-    years = sorted(data)
-    fig, ax = plt.subplots(figsize=(7.4, 2.5), dpi=200)
-    ax.bar(years, [data[y] for y in years], color="#3E5C76",
-           edgecolor="none", width=0.62)
+    x = range(len(months))
+    fig, ax = plt.subplots(figsize=(7.4, 2.4), dpi=200)
+    ax.bar(list(x), [data[m] for m in months], color="#3E5C76",
+           edgecolor="none", width=0.68)
     ax.set_ylabel("Comments sampled", fontsize=8.5, color="#3E5C76")
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(month_labels(months), fontsize=7.5)
     ax.tick_params(labelsize=8, colors="#8899AA")
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
@@ -188,14 +207,15 @@ def chart_volume(stats, path):
     return True
 
 
-def chart_category_spark(row, path, years):
-    by_year = {int(k): v for k, v in row["by_year"].items()}
-    if not years:
+def chart_category_spark(row, path, months):
+    if len(months) < 2:
         return False
-    series = [by_year.get(y, 0) for y in years]
+    bm = row.get("by_month", {})
+    series = [bm.get(m, 0) for m in months]
+    x = list(range(len(months)))
     fig, ax = plt.subplots(figsize=(3.0, 0.72), dpi=200)
-    ax.plot(years, series, color="#C1443C", linewidth=1.7)
-    ax.fill_between(years, series, color="#C1443C", alpha=0.13)
+    ax.plot(x, series, color="#C1443C", linewidth=1.7)
+    ax.fill_between(x, series, color="#C1443C", alpha=0.13)
     ax.set_xticks([])
     ax.set_yticks([])
     for side in ("top", "right", "bottom", "left"):
@@ -237,8 +257,15 @@ def build(stats, meta):
     os.makedirs(CHART_DIR, exist_ok=True)
     story = []
 
-    years = sorted(int(y) for y in stats.get("comments_by_year", {}))
-    span = f"{years[0]}–{years[-1]}" if years else "n/a"
+    months = month_axis(stats)
+    names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+    def pretty(m):
+        y, mm = m.split("-")
+        return f"{names[int(mm) - 1]} {y}"
+
+    span = f"{pretty(months[0])} – {pretty(months[-1])}" if months else "n/a"
 
     # ---------------- Cover ----------------
     story.append(Spacer(1, 1.5 * inch))
@@ -249,11 +276,14 @@ def build(stats, meta):
         "official Facebook and Instagram accounts", s["subtitle"]))
     story.append(Spacer(1, 0.5 * inch))
 
+    sub = stats.get("substantive_comments", stats["total_comments_scraped"])
     cover_rows = [
         ["Period analysed", span],
-        ["Comments examined", f"{stats['total_comments_scraped']:,}"],
+        ["Comments collected", f"{stats['total_comments_scraped']:,}"],
+        ["Of which substantive", f"{sub:,}"
+                                 "  (excludes emoji-only and tag-only replies)"],
         ["Complaints identified", f"{stats['total_complaints']:,}"
-                                  f"  ({stats['complaint_rate']}% of comments)"],
+                                  f"  ({stats['complaint_rate']}% of substantive)"],
         ["Sources", "facebook.com/cityofyonkers · instagram.com/cityofyonkers"],
         ["Prepared", datetime.utcnow().strftime("%B %d, %Y")],
     ]
@@ -283,7 +313,11 @@ def build(stats, meta):
         f"Comments that were purely congratulatory, informational, or off-topic "
         f"were excluded from the counts.", s["body"]))
     story.append(Paragraph(
-        f"Of {stats['total_comments_scraped']:,} comments examined, "
+        f"{stats['total_comments_scraped']:,} comments were collected. A large "
+        f"share of any city page's replies are emoji, tags and one-word "
+        f"reactions, which express no grievance either way, so the "
+        f"<b>{sub:,}</b> comments carrying actual prose form the base for every "
+        f"rate in this report. Of those, "
         f"<b>{stats['total_complaints']:,} ({stats['complaint_rate']}%)</b> "
         f"registered as complaints and were sorted into civic categories using "
         f"a weighted keyword classifier. A single comment can touch more than "
@@ -308,9 +342,11 @@ def build(stats, meta):
 
     vol_path = os.path.join(CHART_DIR, "volume.png")
     if chart_volume(stats, vol_path):
-        story.append(Spacer(1, 0.12 * inch))
-        story.append(Paragraph("Comments sampled by year", s["h2"]))
-        story.append(Image(vol_path, width=6.6 * inch, height=2.23 * inch))
+        story.append(KeepTogether([
+            Spacer(1, 0.1 * inch),
+            Paragraph("Comments sampled by month", s["h2"]),
+            Image(vol_path, width=6.5 * inch, height=2.11 * inch),
+        ]))
 
     story.append(PageBreak())
 
@@ -333,8 +369,8 @@ def build(stats, meta):
     bar_path = os.path.join(CHART_DIR, "top_categories.png")
     chart_top_categories(stats, bar_path)
     story.append(Spacer(1, 0.06 * inch))
-    story.append(Image(bar_path, width=6.7 * inch, height=4.16 * inch))
-    story.append(Spacer(1, 0.16 * inch))
+    story.append(Image(bar_path, width=6.2 * inch, height=3.85 * inch))
+    story.append(Spacer(1, 0.18 * inch))
 
     tbl = [["#", "Complaint category", "Comments", "Share", "Avg. likes"]]
     for i, r in enumerate(top10, 1):
@@ -357,7 +393,7 @@ def build(stats, meta):
         ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
     ]))
-    story.append(t)
+    story.append(KeepTogether(t))
     story.append(PageBreak())
 
     # ---------------- Trend ----------------
@@ -365,12 +401,19 @@ def build(stats, meta):
     if chart_trend(stats, trend_path):
         story.append(Paragraph("How the top issues moved over time", s["h1"]))
         story.append(Paragraph(
-            "Annual complaint counts for the five largest categories. Peaks "
-            "usually follow a specific triggering event — a violent incident, a "
-            "budget vote, a snowstorm — that pulls a burst of comment traffic "
+            "Monthly complaint counts for the five largest categories. Peaks "
+            "follow a specific triggering event — a snowstorm, a violent "
+            "incident, a budget vote — that pulls a burst of comment traffic "
             "onto the city's posts.", s["body"]))
-        story.append(Image(trend_path, width=6.7 * inch, height=3.17 * inch))
-        story.append(Spacer(1, 0.2 * inch))
+        story.append(Paragraph(
+            "<b>Read the flat early months with care.</b> They reflect how much "
+            "was sampled, not how much was said: Facebook coverage begins in "
+            "November 2025, so months before that carry only the thinner "
+            "Instagram slice. Compare against the sampling volume on the "
+            "methodology page before reading any month-to-month movement as a "
+            "real change in resident sentiment.", s["body"]))
+        story.append(Image(trend_path, width=6.6 * inch, height=3.12 * inch))
+        story.append(Spacer(1, 0.16 * inch))
 
     # ---------------- Category detail ----------------
     story.append(Paragraph("The complaints in residents' own words", s["h1"]))
@@ -381,7 +424,7 @@ def build(stats, meta):
     story.append(Spacer(1, 0.1 * inch))
 
     for i, row in enumerate(top10, 1):
-        story.append(category_block(row, i, s, years))
+        story.append(category_block(row, i, s, months))
 
     # ---------------- Appendix ----------------
     story.append(PageBreak())
@@ -415,10 +458,10 @@ def build(stats, meta):
     return story
 
 
-def category_block(row, rank, s, years):
+def category_block(row, rank, s, months):
     """One category: header band, stats, sparkline, and verbatim quotes."""
     spark_path = os.path.join(CHART_DIR, f"spark_{rank}.png")
-    has_spark = chart_category_spark(row, spark_path, years)
+    has_spark = chart_category_spark(row, spark_path, months)
 
     plat = row.get("by_platform", {})
     plat_str = " · ".join(

@@ -1,36 +1,179 @@
 {
-  "generated_at": "2026-08-08T19:36:57.809529Z",
-  "total_comments_scraped": 2761,
-  "substantive_comments": 1681,
-  "total_complaints": 253,
-  "complaint_rate": 15.1,
+  "generated_at": "2026-08-08T20:10:25.059557Z",
+  "total_comments_scraped": 4944,
+  "substantive_comments": 3394,
+  "total_complaints": 584,
+  "complaint_rate": 17.2,
   "years_covered": [
     2025,
     2026
   ],
   "platforms": {
-    "facebook": 299,
+    "facebook": 2482,
     "instagram": 2462
   },
   "comments_by_year": {
-    "2025": 1031,
-    "2026": 1730
+    "2025": 1180,
+    "2026": 3764
+  },
+  "comments_by_month": {
+    "2025-04": 37,
+    "2025-05": 95,
+    "2025-06": 114,
+    "2025-07": 132,
+    "2025-08": 112,
+    "2025-09": 85,
+    "2025-10": 163,
+    "2025-11": 113,
+    "2025-12": 329,
+    "2026-01": 790,
+    "2026-02": 690,
+    "2026-03": 357,
+    "2026-04": 438,
+    "2026-05": 300,
+    "2026-06": 601,
+    "2026-07": 429,
+    "2026-08": 159
   },
   "categories": [
     {
-      "category": "City Responsiveness & Accountability",
-      "count": 40,
-      "share": 15.8,
-      "mentions": 46,
-      "total_likes": 32,
-      "avg_likes": 0.8,
+      "category": "Snow, Flooding & Storm Response",
+      "count": 149,
+      "share": 25.5,
+      "mentions": 205,
+      "total_likes": 592,
+      "avg_likes": 4.0,
       "by_platform": {
-        "facebook": 2,
+        "facebook": 117,
+        "instagram": 32
+      },
+      "by_year": {
+        "2025": 4,
+        "2026": 145
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-11": 1,
+        "2025-12": 1,
+        "2026-01": 68,
+        "2026-02": 71,
+        "2026-03": 4,
+        "2026-04": 1,
+        "2026-05": 1
+      },
+      "examples": [
+        {
+          "text": "Yonkers is horrible, when it comes to parking and snow plowing. The fact that it has many many hills. Side streets are very dangerous. At least spread some salt on the steep hills, that are frozen solid. It's a gamble driving on side roads even two days after the storm.",
+          "author": "Pedro Rios",
+          "date": "2026-01-27T20:49:16.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0z6C8BuJsjUDtfTqfSUfourgvHM95Tm7KQidYcnAZRA65CH2kir9qycCe4Ek9Hq2ul",
+          "post_text": "DPW crews have been focused primarily on the City\u2019s main roads throughout the day as the snow continues.   This evening, operations will expand further into residential streets so travel is safer and smoother for the mor"
+        },
+        {
+          "text": "DPW PLOWED 2 FEET OF COMPACT SNOW AND ICE ON TO MY CLEARED SIDE WALK YESTERDAY !  TELL YOUR DRIVERS TO SLOW DOWN ! !",
+          "author": "Ron Yaskovic Sr.",
+          "date": "2026-01-27T06:57:43.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02KYYwKsEKeNAzBJAhXFdPwQrz89buxDUbmLEokBUgPEktb1iwvc6sam7s6YM7bhkml",
+          "post_text": "Parks crews are tackling 34 sets of stairs, four miles of sidewalks, parking lots and community centers to keep facilities accessible and safe during the storm."
+        },
+        {
+          "text": "Yonkers suck at plowing  it will look worse then the last snow storm there will be no place to park on the side streets and can barely drive on them",
+          "author": "doug.farrell.14",
+          "date": "2026-02-22T14:55:02.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DVEFAhokfjk/",
+          "post_text": "\ud83d\udea8 ENFORCEMENT IN PROGRESS \ud83d\udea8  The City is now ticketing and towing vehicles still parked on Snow Emergency Routes. If your car is on one, move it immediately.  Already have a ticket? That does NOT prevent another ticket o"
+        },
+        {
+          "text": "Real question is, Can you attach a plow on these bad boys, Other wise the ONLY FOOTPRINT i want to see on the Yonkers streets post snow storm is yours Spano, helping shovel snow.",
+          "author": "alianza_paisajistaswestchester",
+          "date": "2026-03-22T01:47:28.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DVg5N79CbSl/",
+          "post_text": "Meet \u201cThe Battle.\u201d   Our newest all-electric garbage truck is now part of Yonkers\u2019 growing green fleet. As we modernize City equipment and reduce emissions, we continue moving Yonkers toward a cleaner, more sustainable f"
+        },
+        {
+          "text": "Please make sure THE PLOW TRUCKS \ud83d\udefb don\u2019t block our driveways and make it impossible to get out. Do a better job at plowing- if they do take the snow all the way out, people can shovel the snow within the property. REMEMBER this is a lot of snow.",
+          "author": "Ana Perdomo",
+          "date": "2026-02-23T09:56:42.000Z",
+          "year": 2026,
+          "likes": 24,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0eQ5CpQHpquxydY8HRmyCQzgHjZjxTgt7hAH6QEgW6C878318HvfHcM6iGMvQBBE7l",
+          "post_text": "When shoveling throughout this storm, keep snow on your property and off the roadway. \u2744\ufe0f\ud83d\udeab  Shoveling snow into the road makes it harder for crews to keep streets clear and can lead to a fine."
+        },
+        {
+          "text": "Instead of just plowing, send dumpsters to pick up the snow. There\u2019s no where for the snow to go unless you pick it up",
+          "author": "Natasha Manners",
+          "date": "2026-02-24T01:04:20.000Z",
+          "year": 2026,
+          "likes": 19,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02yohdMK5qxLimA5wRbZfhUWY9puurDokigeqwU9DXdmjnNptYnuzXnjxbDGtPBP4Ll",
+          "post_text": "Our crews are working to clear secondary roads across the City, but we continue to see snow being shoveled back into both primary and secondary routes. When snow is pushed into the street, it slows progress and forces pl"
+        },
+        {
+          "text": "What about after people shoveling out their driveways and the plow comes by & plows all the snow across your driveway that was just cleared.",
+          "author": "Carol De",
+          "date": "2026-02-24T01:56:36.000Z",
+          "year": 2026,
+          "likes": 14,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02yohdMK5qxLimA5wRbZfhUWY9puurDokigeqwU9DXdmjnNptYnuzXnjxbDGtPBP4Ll",
+          "post_text": "Our crews are working to clear secondary roads across the City, but we continue to see snow being shoveled back into both primary and secondary routes. When snow is pushed into the street, it slows progress and forces pl"
+        },
+        {
+          "text": "We need a new system:\n- snow plows have only 1 way to plow and that means cars get blocked in......\n......BUT.....\n- people digging out their blocked cars have nowhere to put the snow except back in the street.\n\nSo......what do we do?\nMe, respectfully, im gonna keep putting snow back in the street. If the city doesn't like it, come up with a new system \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+          "author": "Benjamin Suarez II",
+          "date": "2026-02-24T01:36:51.000Z",
+          "year": 2026,
+          "likes": 9,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02yohdMK5qxLimA5wRbZfhUWY9puurDokigeqwU9DXdmjnNptYnuzXnjxbDGtPBP4Ll",
+          "post_text": "Our crews are working to clear secondary roads across the City, but we continue to see snow being shoveled back into both primary and secondary routes. When snow is pushed into the street, it slows progress and forces pl"
+        }
+      ]
+    },
+    {
+      "category": "City Responsiveness & Accountability",
+      "count": 74,
+      "share": 12.7,
+      "mentions": 89,
+      "total_likes": 192,
+      "avg_likes": 2.6,
+      "by_platform": {
+        "facebook": 36,
         "instagram": 38
       },
       "by_year": {
         "2025": 6,
-        "2026": 34
+        "2026": 68
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-08": 1,
+        "2025-11": 2,
+        "2025-12": 1,
+        "2026-01": 18,
+        "2026-02": 11,
+        "2026-03": 10,
+        "2026-04": 7,
+        "2026-05": 8,
+        "2026-06": 5,
+        "2026-07": 2,
+        "2026-08": 7
       },
       "examples": [
         {
@@ -44,7 +187,17 @@
           "post_text": "This week in Yonkers:  Potholes getting filled Cherry blossoms starting to bloom Dispatchers getting the recognition they deserve YMA girls bringing home a State Championship  Watch the latest episode of \u201cYour Yonkers No"
         },
         {
-          "text": "@william.keaney.94 that is correct. The whole council is corrupt too. Sneaky moves are happening behind closed doors - Spano and his council are horrible corrupt individuals.",
+          "text": "I had the chance of meeting him and we discussed Yonkers as a whole, this was in 2012. He and I talk about changing Yonkers and honestly I thought this guy is all talk and he\u2019s just talking bull like most people in office. I feel like he has out did my perception of him, Mayor Spano your doing a fantastic job keep up the good work.",
+          "author": "Cheryl Martin",
+          "date": "2026-05-24T13:09:58.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1490779172421181/",
+          "post_text": "Yonkers is continuing the transformation of the former Mulford Gardens site.  The new Park Square development will bring over 300 homes, street-level retail, and a brand-new grade school serving the entire neighborhood."
+        },
+        {
+          "text": "@\u2014 that is correct. The whole council is corrupt too. Sneaky moves are happening behind closed doors - Spano and his council are horrible corrupt individuals.",
           "author": "grace_naima",
           "date": "2026-04-28T21:37:53.000Z",
           "year": 2026,
@@ -84,6 +237,16 @@
           "post_text": "Mayor Mike Spano is calling for the relocation of NYC\u2019s MTA bus depot from Yonkers following a recent MTA bus crash into a local business.  \u201cNew York City\u2019s bus depot no longer belongs on the Yonkers waterfront. This are"
         },
         {
+          "text": "Yonkers never came through our streets numerous homeowners have issued complaints.. Cresthill Rd",
+          "author": "Paul Fernandes",
+          "date": "2026-01-28T22:31:13.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0v2JHL95gTCNG6DuuyqFXXJkawkqir8cvzNzfJp167jFrn9YpSye5YdhU8FyUzCdtl",
+          "post_text": "DPW Snow Removal Update  While crews continue plowing primary and secondary roads, additional teams are performing curb-to-curb snow removal across the City throughout the week.  Starting today and continuing tomorrow: S"
+        },
+        {
           "text": "There are so Many More Problems then Focusing on This!! Until Mike Spano gets his Corrupt Self out of the Mayors office we are Doomed!!",
           "author": "michael_tyler775",
           "date": "2025-07-29T04:35:26.000Z",
@@ -92,141 +255,254 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/DLlOMOIx0fT/",
           "post_text": "\ud83d\udccd43rd & Broadway \u2014 Yonkers just landed in Times Square.  Our Hollywood on Hudson campaign is lighting up one of NYC\u2019s biggest billboards. From the Hudson to Broadway\u2014Yonkers is on full display. \ud83c\udfac\u2728 #HollywoodOnHudson"
-        },
-        {
-          "text": "we need a Puerto Rican Mayor !!!! i dont care if im dead n gone..itd be a diff atmosphere id like to see !!!! .. i think its the music lol !!!!",
-          "author": "michaelguarniero",
-          "date": "2026-06-18T22:50:11.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DZTJTl_Jwy2/",
-          "post_text": "Had an amazing time participating in the 48th Annual Puerto Rican & Hispanic Day Parade in Yonkers today! The energy was electric! Along the parade route you can feel the music and see everyone dancing to the sea of flag"
-        },
-        {
-          "text": "Spano why don't you start taking care of SOUTH YONKERS WE NEED A REPUBLICAN MAYOR SOON",
-          "author": "__donna57",
-          "date": "2026-01-24T21:44:17.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DT3f_FxgY3B/",
-          "post_text": "I am declaring a State of Emergency in the City of Yonkers effective Saturday at 6 PM due to the approaching Sunday snowstorm. Residents should not park on designated snow emergency routes so crews can clear roads safely"
         }
       ]
     },
     {
-      "category": "Snow, Flooding & Storm Response",
-      "count": 39,
-      "share": 15.4,
-      "mentions": 58,
-      "total_likes": 143,
-      "avg_likes": 3.7,
+      "category": "Parking",
+      "count": 59,
+      "share": 10.1,
+      "mentions": 72,
+      "total_likes": 223,
+      "avg_likes": 3.8,
       "by_platform": {
-        "facebook": 7,
-        "instagram": 32
+        "facebook": 43,
+        "instagram": 16
       },
       "by_year": {
-        "2025": 3,
-        "2026": 36
+        "2025": 6,
+        "2026": 53
+      },
+      "by_month": {
+        "2025-06": 4,
+        "2025-07": 1,
+        "2025-09": 1,
+        "2026-01": 27,
+        "2026-02": 22,
+        "2026-03": 1,
+        "2026-06": 2,
+        "2026-08": 1
       },
       "examples": [
         {
-          "text": "Yonkers suck at plowing  it will look worse then the last snow storm there will be no place to park on the side streets and can barely drive on them",
-          "author": "doug.farrell.14",
-          "date": "2026-02-22T14:55:02.000Z",
+          "text": "How can alternate side be enforced when there is no where to park on many streets?  Some areas, like mine, do not have access to alternate parking places.",
+          "author": "Kimberly Ann Raguso",
+          "date": "2026-01-30T20:17:17.000Z",
           "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVEFAhokfjk/",
-          "post_text": "\ud83d\udea8 ENFORCEMENT IN PROGRESS \ud83d\udea8  The City is now ticketing and towing vehicles still parked on Snow Emergency Routes. If your car is on one, move it immediately.  Already have a ticket? That does NOT prevent another ticket o"
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0dM8jDK9ap3kTpUprVRjB2mBvMSEbfC18hhAvbvnjch1TUarzfNfxLN5HvBUL1eMgl",
+          "post_text": "\ud83d\udea7 WEEKEND SNOW REMOVAL / NO PARKING NOTICE \ud83d\udea7  Friday 1/30 \u2013 Sunday 2/1 \u26a0\ufe0f Alternate side parking is in full effect and will be enforced. Vehicles not moved will be ticketed or towed.  City crews will continue snow remova"
         },
         {
-          "text": "Real question is, Can you attach a plow on these bad boys, Other wise the ONLY FOOTPRINT i want to see on the Yonkers streets post snow storm is yours Spano, helping shovel snow.",
-          "author": "alianza_paisajistaswestchester",
-          "date": "2026-03-22T01:47:28.000Z",
+          "text": "Alternate side of street parking suspended!!\nBut parking meters are in effect ??\nHow about clearing the metered spots !!",
+          "author": "Brian T Barrett",
+          "date": "2026-01-26T11:55:39.000Z",
           "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVg5N79CbSl/",
-          "post_text": "Meet \u201cThe Battle.\u201d   Our newest all-electric garbage truck is now part of Yonkers\u2019 growing green fleet. As we modernize City equipment and reduce emissions, we continue moving Yonkers toward a cleaner, more sustainable f"
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02KYYwKsEKeNAzBJAhXFdPwQrz89buxDUbmLEokBUgPEktb1iwvc6sam7s6YM7bhkml",
+          "post_text": "Parks crews are tackling 34 sets of stairs, four miles of sidewalks, parking lots and community centers to keep facilities accessible and safe during the storm."
         },
         {
-          "text": "Use the spy drones to find the pot holes the snow plows left and fix them",
-          "author": "no_says_no",
-          "date": "2026-03-17T16:38:01.000Z",
+          "text": "Tickets were given today to my entire street prob 20 cars  and you guys did not announce anything in advance\nLast night i checked the website and it said that alternate parking is still suspended with no additional information \nAll these tickets should be dismissed ppl literally have nowhere to park and you guys should communicate better \nRespectfully",
+          "author": "Bobby Malevski",
+          "date": "2026-01-30T19:09:47.000Z",
           "year": 2026,
-          "likes": 8,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DV1tL32kUrT/",
-          "post_text": "Eyes in the sky for faster response. \ud83d\ude81  The Yonkers Police Department has launched a permanent Drone as First Responder program, bringing advanced aerial technology to emergency response across the City.  Operated from t"
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0dM8jDK9ap3kTpUprVRjB2mBvMSEbfC18hhAvbvnjch1TUarzfNfxLN5HvBUL1eMgl",
+          "post_text": "\ud83d\udea7 WEEKEND SNOW REMOVAL / NO PARKING NOTICE \ud83d\udea7  Friday 1/30 \u2013 Sunday 2/1 \u26a0\ufe0f Alternate side parking is in full effect and will be enforced. Vehicles not moved will be ticketed or towed.  City crews will continue snow remova"
         },
         {
-          "text": "This is so disrespectful to the residents and the WORKERS. Why is the city not providing better equipment and trucks to the workers that are cleaning!? The little toy snow plow carts to handle frozen snow is insane",
-          "author": "gsnchzz",
-          "date": "2026-01-30T17:11:36.000Z",
+          "text": "Suspending alternate side parking on Warburton means folks CAN park there.\n\nThat means folks will remain parked on the east side of the street\u2014the snow emergency route\u2014where the snow needs to be removed.\n\nInstructions should say : No parking on the east side of Warburton remains in effect.",
+          "author": "Debra Teresa",
+          "date": "2026-01-28T16:03:31.000Z",
           "year": 2026,
-          "likes": 2,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DUD2pWWkY8I/",
+          "likes": 3,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0v2JHL95gTCNG6DuuyqFXXJkawkqir8cvzNzfJp167jFrn9YpSye5YdhU8FyUzCdtl",
           "post_text": "DPW Snow Removal Update  While crews continue plowing primary and secondary roads, additional teams are performing curb-to-curb snow removal across the City throughout the week.  Starting today and continuing tomorrow: S"
         },
         {
-          "text": "When are the cars going to be towed from the emergency snow routes? cars are still parked on the routes and the streets cannot be plowed properly. It should be done.",
-          "author": "Joe Webster",
-          "date": "2026-01-26T19:14:53.000Z",
+          "text": "Alternate side parking will probably be suspended tomorrow on Bronxville Road but people will park on both sides of the road anyway. The cars that park on the alternate side should all be ticketed during an emergency snowstorm. But guess what? That'll never happen.",
+          "author": "Ann Berger",
+          "date": "2026-01-26T19:20:54.000Z",
           "year": 2026,
           "likes": 1,
           "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0b2NLqDohCmrWsaYnhGMWGKYhSwGWBYdnV42XN3uApupSgnYfpA97gkPmNCMRFw2ml",
-          "post_text": "Citywide closures and service suspensions are in effect Monday, 1/26, as the storm moves through the City. \u2744\ufe0f\ud83d\udea7  For the latest updates on City facilities, services and safety information, visit yonkersny.gov/snow."
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02KYYwKsEKeNAzBJAhXFdPwQrz89buxDUbmLEokBUgPEktb1iwvc6sam7s6YM7bhkml",
+          "post_text": "Parks crews are tackling 34 sets of stairs, four miles of sidewalks, parking lots and community centers to keep facilities accessible and safe during the storm."
         },
         {
-          "text": "Why are none of these streets plowed. The morningside ave neighborhood is full of snow what are people supposed to do when there\u2019s mountains of snow blocking the cross walk not to mention the streets being caked by snow, how are people supposed to drive? The main roads have gotten enough attention maybe give some of that attention to the neglected neighborhoods and side streets for once.",
-          "author": "nenawasheree",
-          "date": "2026-02-24T07:22:05.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVG-Uu9ETmM/",
-          "post_text": "The travel ban in Yonkers has been extended to 6 PM as crews continue working through one of the biggest storms in recent history.  DPW teams have been out around the clock clearing primary roads and pushing snow so emer"
-        },
-        {
-          "text": "@mayormikespano @cityofyonkers how about automated calls ? Even Text alerts would suffice. This is an emergency, correct? I Had to help my 70 year old neighbor download instagram just to follow this page so they're aware of what's happening. he got two tickets the night before the snow even started because the city decided to enact these rules 18 hours before the blizzard even hit.",
-          "author": "lookintomyhighs",
-          "date": "2026-02-23T16:52:59.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVEKAR9Ec8o/",
-          "post_text": "Guys- we\u2019re going to get a lot of snow.  Mayor Spano has declared a State of Emergency.  We told everyone yesterday- if you\u2019re parked on a street with one of these signs, your car will be ticketed and end up like this on"
-        },
-        {
-          "text": "And you still can't plow snow correctly!!!!! Yonkers is stealing residents' money. And we're taxed extra!!! He's the WORST MAYOR!!!",
-          "author": "classic.man.79",
-          "date": "2026-03-10T13:10:00.000Z",
+          "text": "The City of Yonkers you guys plowed mclean but left all the snow along the road where parked cars are supposed to go! Soo where are we to park when we come to work??? Last snow storm it took 5 days to get parking space",
+          "author": "Grace Wysocka",
+          "date": "2026-02-24T19:03:59.000Z",
           "year": 2026,
           "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0eQ5CpQHpquxydY8HRmyCQzgHjZjxTgt7hAH6QEgW6C878318HvfHcM6iGMvQBBE7l",
+          "post_text": "When shoveling throughout this storm, keep snow on your property and off the roadway. \u2744\ufe0f\ud83d\udeab  Shoveling snow into the road makes it harder for crews to keep streets clear and can lead to a fine."
+        },
+        {
+          "text": "So are we getting tickets for parking on Riverdale at the meters ?? I need to know before I wake up at 8 am for nothing!!",
+          "author": "Kevin Lopez",
+          "date": "2026-02-23T04:11:02.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02Wt76dN8TCZFyEyYtgp7GBsn9B14zUewS1gPaGKFkDwKh9nZAHhrRjTY42Kkdi5Zql",
+          "post_text": ""
+        },
+        {
+          "text": "Stop canceling alternate side parking. Have the cars move so you can come up the streets with plows and remove the snow.",
+          "author": "Katherine McLoughlin",
+          "date": "2026-02-03T22:57:28.000Z",
+          "year": 2026,
+          "likes": 18,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0GAjprwXgMSD9huqhyTLr8oGJf3tVqqJv7BEEmcVXVKjyHqYFh78ZgzDpKETagED6l",
+          "post_text": "Our DPW crews have plowed much of the City\u2019s 11 Snow Emergency Routes. As crews continue working, once a section of a Snow Emergency Route has been plowed curb to curb and snow has been removed, parking is permitted in t"
+        }
+      ]
+    },
+    {
+      "category": "Taxes & Cost of Living",
+      "count": 53,
+      "share": 9.1,
+      "mentions": 67,
+      "total_likes": 324,
+      "avg_likes": 6.1,
+      "by_platform": {
+        "facebook": 36,
+        "instagram": 17
+      },
+      "by_year": {
+        "2025": 3,
+        "2026": 50
+      },
+      "by_month": {
+        "2025-12": 3,
+        "2026-01": 9,
+        "2026-02": 5,
+        "2026-03": 11,
+        "2026-04": 6,
+        "2026-05": 4,
+        "2026-06": 9,
+        "2026-07": 4,
+        "2026-08": 2
+      },
+      "examples": [
+        {
+          "text": "We need lower property TAX, and better ROADS.",
+          "author": "Gina Angelina",
+          "date": "2026-07-09T01:15:54.000Z",
+          "year": 2026,
+          "likes": 14,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1182780938256790/",
+          "post_text": "BIG NEWS FOR DOWNTOWN YONKERS! \ud83c\udf89  The City of Yonkers has been awarded $10 million through New York State's Downtown Revitalization Initiative.  This funding will help continue the revitalization of Downtown Yonkers with"
+        },
+        {
+          "text": "Financial accountability. What does the city do with the funds they grab from tax payers? Cost of living is ridiculous in this city run by a someone who seems to have most of his family on the payroll",
+          "author": "prisonchaplain",
+          "date": "2026-05-23T12:40:11.000Z",
+          "year": 2026,
+          "likes": 1,
           "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVjyHDtkaXB/",
-          "post_text": "Yonkers\u2019 film industry continues to drive economic activity across the City. \ud83c\udfac   A new economic impact report by Camoin Associates shows film and television production in Yonkers is generating approximately $46 million i"
+          "post_url": "https://www.instagram.com/p/DYNj70tCQm6/",
+          "post_text": "Yonkers, as we await the passage of New York State\u2019s Budget, this year\u2019s Executive Budget is based on the Governor\u2019s proposed budget and must take into account the current global economic climate, such as cuts in federal"
+        },
+        {
+          "text": "Most new buildings have5% affordable housing and ZERO PURCHASING POSSIBILITIES. There is no strong tax basis.",
+          "author": "Marty Davey",
+          "date": "2026-03-28T02:09:10.000Z",
+          "year": 2026,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "GET Rid of the tax when people sell their home to leave Yonkers. Start taxing landlords those w Illegal two families across the city  that have illgeal basement apartments! I can rattle a few pretty easy . Its across the entire city! Do the right thing you should NOT have to pay to leave its the most ridiculous thing",
+          "author": "Dawn Jennings",
+          "date": "2026-04-04T13:37:05.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02n3uH4pdkJiLTjTqxpjft5dboEeZvRsgZq4msn8AfEZqvQxi9voKGbb9WwqSyH7oml",
+          "post_text": "MOBILE TAX OFFICES RETURN TO YONKERS  Pay your property taxes or water bills and get assistance close to home.  \ud83d\udccd Monday, April 6 Coyne Park / Bernice Spreckman Community Center 9AM to 7PM  \ud83d\udccd Wednesday, April 8 Homefield"
+        },
+        {
+          "text": "Wow. Guess we should thank you for \u201creducing\u201d the tax from 5.25%to 4.75 %. Ridiculous. Tighten the belt already. Where the f is the money  going??  #dogeyonkers",
+          "author": "Jack Blasetti",
+          "date": "2026-05-29T22:11:00.000Z",
+          "year": 2026,
+          "likes": 9,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02ueM3vBUpRNuRiT3pq1QLQohq53XbXcCAnxu4LV9axXHf4Ea38eTfqz3EyVYRrdzXl",
+          "post_text": "The FY 2026-2027 Budget invests in the services residents rely on every day while making a historic investment in Yonkers Public Schools.  The budget includes $56.3 million in support for Yonkers Public Schools, preserve"
+        },
+        {
+          "text": "How about getting rid of the 6% real estate exit tax from Yonkers when someone tries to sell their home!",
+          "author": "Sandra Morelli",
+          "date": "2026-04-02T13:34:28.000Z",
+          "year": 2026,
+          "likes": 8,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1501986221634824/",
+          "post_text": "A major investment in Yonkers\u2019 future.  The City is moving forward with a new library branch, community center and culinary education program for local students. This marks the first expansion of Westchester's library sy"
+        },
+        {
+          "text": "Hard copy should be sent to every taxpayer.\nJust like water and tax bill",
+          "author": "Jimmy Kenny",
+          "date": "2025-12-28T22:40:06.000Z",
+          "year": 2025,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02LwUZz3VKa1yG86V4CDBYfVR5KeSGqo94NuoAJzgDtBLRqJeqPj1qgDukR5mL9K9Kl",
+          "post_text": "The 2026 Recycling & Refuse Guide is now available. Find everything you need to know about recycling, refuse collection, and more in the City."
+        },
+        {
+          "text": "How about you stop stealing our tax money and plow these damn streets!!!!!! 4 days later we are still snowed in! 100% unacceptable",
+          "author": "classic.man.79",
+          "date": "2026-01-29T15:10:32.000Z",
+          "year": 2026,
+          "likes": 3,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DUEioamDDm6/",
+          "post_text": "Yonkers recorded one of the lowest crime totals in City history in 2025, with violent crime down 42% since 2011 and overall crime continuing to decline. Mayor Mike Spano and Police Commissioner Christopher Sapienza share"
         }
       ]
     },
     {
       "category": "Schools & Education",
-      "count": 27,
-      "share": 10.7,
-      "mentions": 30,
-      "total_likes": 30,
-      "avg_likes": 1.1,
+      "count": 51,
+      "share": 8.7,
+      "mentions": 69,
+      "total_likes": 157,
+      "avg_likes": 3.1,
       "by_platform": {
-        "facebook": 2,
+        "facebook": 26,
         "instagram": 25
       },
       "by_year": {
         "2025": 9,
-        "2026": 18
+        "2026": 42
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-07": 1,
+        "2025-08": 1,
+        "2025-09": 5,
+        "2025-10": 1,
+        "2026-01": 10,
+        "2026-02": 8,
+        "2026-03": 4,
+        "2026-04": 5,
+        "2026-06": 3,
+        "2026-07": 6,
+        "2026-08": 6
       },
       "examples": [
         {
@@ -238,6 +514,26 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/DZ8Nm0Glags/",
           "post_text": "Mayor Mike Spano (@mayormikespano) gives me the elevator pitch on the City of Yonkers and I have to say...I'm convinced!"
+        },
+        {
+          "text": "Wait till tomorrow when school busses are getting stuck . My street was plowed once since Sunday cars have a hard time getting in and out. How is a school bus full of children getting through.",
+          "author": "Kathy Mosher",
+          "date": "2026-01-27T23:22:44.000Z",
+          "year": 2026,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0SBxLiJb9J9RrsP12owRB5DeM68mh6i9HTUa7jKyKyDKcWLKxZsFeb4ZyVBVeWCe7l",
+          "post_text": "\ud83d\udea8 Alternate Side Parking Update \ud83d\udea8  \ud83d\udfe2 Wednesday (1/28) and Thursday (1/29) Alternate side street parking is suspended. Parking meters remain in effect.  \ud83d\udd34 Friday (1/30) Alternate side parking will be enforced. Vehicles mu"
+        },
+        {
+          "text": "Please clean roads \nIt took me an hour to drop my son off to school today, which normally take me 5 minutes. I was almost in to accidents 3 times and many school buses were stuck. It was a chaos around Pearls Hawthorne. My street was not even ploughed. It was too dangerous. Please clean roads\u2026\u2026..",
+          "author": "Sara Burhan Khan",
+          "date": "2026-01-28T14:57:09.000Z",
+          "year": 2026,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0SBxLiJb9J9RrsP12owRB5DeM68mh6i9HTUa7jKyKyDKcWLKxZsFeb4ZyVBVeWCe7l",
+          "post_text": "\ud83d\udea8 Alternate Side Parking Update \ud83d\udea8  \ud83d\udfe2 Wednesday (1/28) and Thursday (1/29) Alternate side street parking is suspended. Parking meters remain in effect.  \ud83d\udd34 Friday (1/30) Alternate side parking will be enforced. Vehicles mu"
         },
         {
           "text": "PLEASE CLEAN UP IN HOMEFIELD YONKERS. Every time I see a school bus turning and almost falling in Odel and Beverly is crazy. Not to mentioned they want the old residents to clean. What a shame",
@@ -260,6 +556,26 @@
           "post_text": "Cold Weather Advisory for Yonkers \u2014 Thursday Morning  Very cold wind chills as low as 10 below zero are expected in Yonkers between 1 AM and 10 AM Thursday.  \ud83e\udde5 Dress in warm layers, including a hat and gloves \ud83d\udc36 Keep pets"
         },
         {
+          "text": "What about the schools and they closing programs for the kids curricular activities and skills. The kids need their education and that should be the main priority right now. NOT building more APARTMENTS FOR THE RICH",
+          "author": "Candiicee Loveable",
+          "date": "2026-07-08T23:35:49.000Z",
+          "year": 2026,
+          "likes": 6,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1182780938256790/",
+          "post_text": "BIG NEWS FOR DOWNTOWN YONKERS! \ud83c\udf89  The City of Yonkers has been awarded $10 million through New York State's Downtown Revitalization Initiative.  This funding will help continue the revitalization of Downtown Yonkers with"
+        },
+        {
+          "text": "What about Glen Hill Ave, Lockwood Ave and side streets. School 5 is on Lockwood, Glen Hill and Dartmouth, teachers have no place to park. Mounds of snow everywhere!",
+          "author": "Anna DiBattista Tomanelli",
+          "date": "2026-01-30T19:19:54.000Z",
+          "year": 2026,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0dM8jDK9ap3kTpUprVRjB2mBvMSEbfC18hhAvbvnjch1TUarzfNfxLN5HvBUL1eMgl",
+          "post_text": "\ud83d\udea7 WEEKEND SNOW REMOVAL / NO PARKING NOTICE \ud83d\udea7  Friday 1/30 \u2013 Sunday 2/1 \u26a0\ufe0f Alternate side parking is in full effect and will be enforced. Vehicles not moved will be ticketed or towed.  City crews will continue snow remova"
+        },
+        {
           "text": "Cellphone pouches are only for high school students. My son goes to middle school and they put every student's phone in a big box and give them back at the end of the day. I think all schools should be provided with the phone pouches.",
           "author": "jessmarie.787",
           "date": "2025-09-05T23:27:06.000Z",
@@ -268,63 +584,37 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/DOPEQKNlST3/",
           "post_text": "Your Yonkers Now returns with back-to-school information for local families. #cityofyonkers #mayormikespano #yonkerspublicschools #backtoschool #kidsinclass #yonderpouches #phonefreeeducation"
-        },
-        {
-          "text": "How about giving High school students free metrocards so they will not have any attendance issues!",
-          "author": "_maggzzzz",
-          "date": "2025-09-15T18:10:37.000Z",
-          "year": 2025,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DOoaM8ZCf3G/",
-          "post_text": "It was assembly time at Yonkers Public Schools School 5 today. I asked students to participate in the Pledge 182 campaign, in which students commit to attending school every day and on time. There was a bit of a catch --"
-        },
-        {
-          "text": "How about the schools? Great staff and teachers but dilapidated buildings that are an I sore. #foxtheschools",
-          "author": "theurbanrx",
-          "date": "2026-07-11T14:45:11.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DZ8Nm0Glags/",
-          "post_text": "Mayor Mike Spano (@mayormikespano) gives me the elevator pitch on the City of Yonkers and I have to say...I'm convinced!"
-        },
-        {
-          "text": "That\u2019s been going on for years! And connected to the Board of Education just disgraceful smells of urine people sleeping around",
-          "author": "donna.melillopisano",
-          "date": "2026-04-11T16:40:44.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DWoRxD0kb5C/",
-          "post_text": "A major investment in Yonkers\u2019 future.  The City is moving forward with a new library branch, community center and culinary education program for local students. This marks the first expansion of Westchester's library sy"
-        },
-        {
-          "text": "What happened to all that $ Empire City is supposed to give Yonkers schools?",
-          "author": "karma6.4.20",
-          "date": "2026-03-11T14:45:56.000Z",
-          "year": 2026,
-          "likes": 9,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVv1nopDWgp/",
-          "post_text": "Students, teachers, administrators and families from Yonkers rallied at the State Capitol today calling for the funding Yonkers Public Schools deserve. Yonkers has been underfunded for years and the community is standing"
         }
       ]
     },
     {
       "category": "Trash, Sanitation & Illegal Dumping",
-      "count": 26,
-      "share": 10.3,
-      "mentions": 32,
-      "total_likes": 38,
-      "avg_likes": 1.5,
+      "count": 40,
+      "share": 6.8,
+      "mentions": 50,
+      "total_likes": 62,
+      "avg_likes": 1.6,
       "by_platform": {
-        "facebook": 11,
+        "facebook": 25,
         "instagram": 15
       },
       "by_year": {
         "2025": 5,
-        "2026": 21
+        "2026": 35
+      },
+      "by_month": {
+        "2025-06": 1,
+        "2025-08": 2,
+        "2025-10": 1,
+        "2025-11": 1,
+        "2026-01": 7,
+        "2026-02": 4,
+        "2026-03": 6,
+        "2026-04": 5,
+        "2026-05": 2,
+        "2026-06": 3,
+        "2026-07": 6,
+        "2026-08": 2
       },
       "examples": [
         {
@@ -348,6 +638,16 @@
           "post_text": "Quick reminder!"
         },
         {
+          "text": "When is Yonkers getting their own garbage and recycling cans to distribute to the residents of Yonkers? \ufffc",
+          "author": "Daniel Tolentino",
+          "date": "2026-03-31T02:24:38.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1490779172421181/",
+          "post_text": "Yonkers is continuing the transformation of the former Mulford Gardens site.  The new Park Square development will bring over 300 homes, street-level retail, and a brand-new grade school serving the entire neighborhood."
+        },
+        {
           "text": "Now if we could only get DPW to do there job and pickup all the garbage on the scheduled days instead of only picking up some of it!!",
           "author": "Douglas Coleman",
           "date": "2026-04-17T18:25:32.000Z",
@@ -356,6 +656,16 @@
           "platform": "facebook",
           "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0h6MT3exRBJysRBihptLX9Cx9xQ5X7a2kHip6scaNMkh8BqVvXa69BzRUwQmvYhKhl",
           "post_text": "Mayor\u2019s Clean Up \ud83e\uddf9\ud83c\udf31  Spring is here and it\u2019s time to clean things up. The Mayor\u2019s Clean Up is on Saturday, April 18 with the City of Yonkers Department of Public Works, Yonkers Parks and Teamsters Local 456.  \ud83d\udccc Bulk pick"
+        },
+        {
+          "text": "They\u2019re still dealing with the snow , but we haven\u2019t had garbage pick up since then, so that is piling up as well!",
+          "author": "Debbie Collins",
+          "date": "2026-02-03T23:13:48.000Z",
+          "year": 2026,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0GAjprwXgMSD9huqhyTLr8oGJf3tVqqJv7BEEmcVXVKjyHqYFh78ZgzDpKETagED6l",
+          "post_text": "Our DPW crews have plowed much of the City\u2019s 11 Snow Emergency Routes. As crews continue working, once a section of a Snow Emergency Route has been plowed curb to curb and snow has been removed, parking is permitted in t"
         },
         {
           "text": "Can I put the branches that fell from the tree in my yard on the curb tomorrow for garbage pickup?",
@@ -386,435 +696,33 @@
           "platform": "facebook",
           "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02n47wqE9JAGUAspAJuoW69fkXyfiAE7AfJyGxvJvwYJ7EfoJboHhaSqGYgaD1JQZdl",
           "post_text": "NEW! Parking Update \ud83d\udce2  Alternate side of the street parking will also be suspended tomorrow, Tuesday, January 27th. \ud83d\ude97   However, meters WILL be in effect."
-        },
-        {
-          "text": "Now all they need to do is actually pick up the garbage and make sure all of it goes into the truck,  instead of half in the truck the other in the street \ud83e\udd14",
-          "author": "drroxny",
-          "date": "2026-03-06T22:01:16.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVg5N79CbSl/",
-          "post_text": "Meet \u201cThe Battle.\u201d   Our newest all-electric garbage truck is now part of Yonkers\u2019 growing green fleet. As we modernize City equipment and reduce emissions, we continue moving Yonkers toward a cleaner, more sustainable f"
-        },
-        {
-          "text": "When will the garbage pick up start back up again?",
-          "author": "mipv_",
-          "date": "2026-02-03T16:09:39.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DUHFtetgNK_/",
-          "post_text": "I hear the frustration many residents are feeling, and I understand the concern.  That\u2019s why we are doubling down on snow removal by expanding City operations and adding private contractors to accelerate cleanup.  Overni"
-        }
-      ]
-    },
-    {
-      "category": "Parking",
-      "count": 25,
-      "share": 9.9,
-      "mentions": 26,
-      "total_likes": 83,
-      "avg_likes": 3.3,
-      "by_platform": {
-        "facebook": 8,
-        "instagram": 17
-      },
-      "by_year": {
-        "2025": 6,
-        "2026": 19
-      },
-      "examples": [
-        {
-          "text": "So are we getting tickets for parking on Riverdale at the meters ?? I need to know before I wake up at 8 am for nothing!!",
-          "author": "Kevin Lopez",
-          "date": "2026-02-23T04:11:02.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02Wt76dN8TCZFyEyYtgp7GBsn9B14zUewS1gPaGKFkDwKh9nZAHhrRjTY42Kkdi5Zql",
-          "post_text": ""
-        },
-        {
-          "text": "All school parking lots should be open since there is no school tomorrow. We need more parking options!!!",
-          "author": "Dan Carver",
-          "date": "2026-02-22T18:00:17.000Z",
-          "year": 2026,
-          "likes": 15,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/reel/2125946551554055/",
-          "post_text": "REMINDER!   We are actively ticketing and towing vehicles still parked on Snow Emergency Routes. If your car is on a designated route, move it immediately.  Receiving one ticket does NOT prevent additional tickets or tow"
-        },
-        {
-          "text": "Why is there alternate side of the street parking today 2/10/26? If there\u2019s no snow removal and no street cleaning, there\u2019s no need to further stress people who cannot find parking near their homes or jobs as a result of the icy piles of snow that are everywhere. Please consider suspending alternate side of the street parking until the snow has melted more.  \nMayor Mike Spano",
-          "author": "Jen Lorio Yedowitz",
-          "date": "2026-02-10T17:50:27.000Z",
-          "year": 2026,
-          "likes": 7,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0TKhXAJwUAtpipjZVWnoUJmV2jMRDGdJjhGUy5F9FEKnZAFAFkAbQSsLRCtonh8ifl",
-          "post_text": "During periods of extreme cold, pipes and water meters may freeze, especially when located in garages, basements or near exterior walls without insulation.  Property owners are responsible for protecting and maintaining "
-        },
-        {
-          "text": "Alternate side of the street parking was in effect to remove snow. NO SNOW WAS REMOVED.",
-          "author": "Stefanie Vataj",
-          "date": "2026-01-30T17:42:42.000Z",
-          "year": 2026,
-          "likes": 7,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02hVca7bpFVRbWjBZkKdGfkzWCKCE5tsstkz6t8XNZ17W7aPXVJTqdZsNsH2HoTaKRl",
-          "post_text": ""
-        },
-        {
-          "text": "Get a dump truck pickup the snow and throw it in there then dump the snow somewhere like a big parking lot or in the Hudson. Problem solved!",
-          "author": "Tappie Tapp",
-          "date": "2026-02-25T17:32:20.000Z",
-          "year": 2026,
-          "likes": 3,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0AaVbsz5iBUVaevXzXHDA7u9RNFenSyMLNU5MHy5t3dYhhUrJPwnWgWqc1fxJLDC6l",
-          "post_text": "SNOW OPERATIONS UPDATE | WEDNESDAY 2.25  Crews continue cleanup and widening efforts across Yonkers.  Full Snow Removal Yonkers Ave from Saw Mill River Parkway to S Broadway Elm Street from Nepperhan Ave to Prescott Stre"
-        },
-        {
-          "text": "The way snow removal has been handled is horrendous. Suspending alternate side parking rules is actually making things worse for us taxpayers. The streets were already full of snow from the previous storm, and now even more has accumulated. This situation is especially difficult and unsafe for students and seniors trying to get around.",
-          "author": "judith_406",
-          "date": "2026-02-25T21:10:13.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVL1jM0DZrV/",
-          "post_text": "SNOW OPERATIONS UPDATE | WEDNESDAY 2.25  Crews continue snow operations across Yonkers today with full snow removal, secondary street work and bus stop clearing underway. Please give plows space to work as crews move blo"
-        },
-        {
-          "text": "CARS AT KOHL\u2019s Bronx Bimmers 1st Official Park & Chill\nDate: Saturday July 18th 2026\nLocation: Kohl\u2019s Parking Lot\n2350 Central Park Ave, Yonkers, NY\nStart Time: 2pm\nRespect The Spot\nRevving Burnouts Loud Music and Drugs Cocaine\nShow-off your build with BXB",
-          "author": "blessings__00",
-          "date": "2026-07-13T23:55:44.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/Dai9znNiD_w/",
-          "post_text": "Downtown Yonkers is taking another major step forward.  Thanks to Governor Kathy Hochul and New York State's Downtown Revitalization Initiative, Yonkers has been awarded $10 million to continue transforming Downtown into"
-        },
-        {
-          "text": "How about all the post office vehicles taking all the post office parking spots for its customers???",
-          "author": "chris_hackett",
-          "date": "2025-06-27T12:52:52.000Z",
-          "year": 2025,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DLXP4xfpA7M/",
-          "post_text": "Double parking in Yonkers? It\u2019s not worth it. \ud83d\udeab   In May alone, 3,405 tickets were issued for double parking \u2014 including 390 during rush hour.  That \u201cquick stop\u201d could cost you $150! \ud83d\udcb8"
-        }
-      ]
-    },
-    {
-      "category": "Taxes & Cost of Living",
-      "count": 24,
-      "share": 9.5,
-      "mentions": 32,
-      "total_likes": 130,
-      "avg_likes": 5.4,
-      "by_platform": {
-        "facebook": 7,
-        "instagram": 17
-      },
-      "by_year": {
-        "2025": 3,
-        "2026": 21
-      },
-      "examples": [
-        {
-          "text": "Financial accountability. What does the city do with the funds they grab from tax payers? Cost of living is ridiculous in this city run by a someone who seems to have most of his family on the payroll",
-          "author": "prisonchaplain",
-          "date": "2026-05-23T12:40:11.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DYNj70tCQm6/",
-          "post_text": "Yonkers, as we await the passage of New York State\u2019s Budget, this year\u2019s Executive Budget is based on the Governor\u2019s proposed budget and must take into account the current global economic climate, such as cuts in federal"
-        },
-        {
-          "text": "GET Rid of the tax when people sell their home to leave Yonkers. Start taxing landlords those w Illegal two families across the city  that have illgeal basement apartments! I can rattle a few pretty easy . Its across the entire city! Do the right thing you should NOT have to pay to leave its the most ridiculous thing",
-          "author": "Dawn Jennings",
-          "date": "2026-04-04T13:37:05.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02n3uH4pdkJiLTjTqxpjft5dboEeZvRsgZq4msn8AfEZqvQxi9voKGbb9WwqSyH7oml",
-          "post_text": "MOBILE TAX OFFICES RETURN TO YONKERS  Pay your property taxes or water bills and get assistance close to home.  \ud83d\udccd Monday, April 6 Coyne Park / Bernice Spreckman Community Center 9AM to 7PM  \ud83d\udccd Wednesday, April 8 Homefield"
-        },
-        {
-          "text": "Wow. Guess we should thank you for \u201creducing\u201d the tax from 5.25%to 4.75 %. Ridiculous. Tighten the belt already. Where the f is the money  going??  #dogeyonkers",
-          "author": "Jack Blasetti",
-          "date": "2026-05-29T22:11:00.000Z",
-          "year": 2026,
-          "likes": 9,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02ueM3vBUpRNuRiT3pq1QLQohq53XbXcCAnxu4LV9axXHf4Ea38eTfqz3EyVYRrdzXl",
-          "post_text": "The FY 2026-2027 Budget invests in the services residents rely on every day while making a historic investment in Yonkers Public Schools.  The budget includes $56.3 million in support for Yonkers Public Schools, preserve"
-        },
-        {
-          "text": "Hard copy should be sent to every taxpayer.\nJust like water and tax bill",
-          "author": "Jimmy Kenny",
-          "date": "2025-12-28T22:40:06.000Z",
-          "year": 2025,
-          "likes": 4,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02LwUZz3VKa1yG86V4CDBYfVR5KeSGqo94NuoAJzgDtBLRqJeqPj1qgDukR5mL9K9Kl",
-          "post_text": "The 2026 Recycling & Refuse Guide is now available. Find everything you need to know about recycling, refuse collection, and more in the City."
-        },
-        {
-          "text": "How about you stop stealing our tax money and plow these damn streets!!!!!! 4 days later we are still snowed in! 100% unacceptable",
-          "author": "classic.man.79",
-          "date": "2026-01-29T15:10:32.000Z",
-          "year": 2026,
-          "likes": 3,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DUEioamDDm6/",
-          "post_text": "Yonkers recorded one of the lowest crime totals in City history in 2025, with violent crime down 42% since 2011 and overall crime continuing to decline. Mayor Mike Spano and Police Commissioner Christopher Sapienza share"
-        },
-        {
-          "text": "Movies don\u2019t do anything for the tax paying homeowners.",
-          "author": "sal_e_boi",
-          "date": "2026-01-16T22:20:14.000Z",
-          "year": 2026,
-          "likes": 2,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DTlnvKEkapa/",
-          "post_text": "This week on Your Yonkers Now: a Hulu series films at City Hall, the ribbon cutting for Yonkers\u2019 tallest building, and Mayor Spano responds to the Governor\u2019s State of the State."
-        },
-        {
-          "text": "They should be the one paying $30  yonkers has additional tax and they have more hills.",
-          "author": "alanadeion620",
-          "date": "2026-02-26T22:51:20.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVMfosXkrLe/",
-          "post_text": "Yonkers is now hiring Emergency Snow Shovelers to support ongoing winter cleanup across the City.  Temporary per diem positions are available to help clear bus stops, crosswalks, hydrants and other public areas as crews "
-        },
-        {
-          "text": "Waste of taxpayer money. Most people can\u2019t afford electric cars",
-          "author": "123beech",
-          "date": "2026-06-19T12:56:04.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DZqVn3uCZvh/",
-          "post_text": "Hey, Yonkers! Check out this new public EV charging station at 50 Warburton Avenue! It's the first building-powered charging station of its kind in Yonkers. By drawing power directly from the building, this innovative mo"
-        }
-      ]
-    },
-    {
-      "category": "Jobs, Hiring & Local Economy",
-      "count": 17,
-      "share": 6.7,
-      "mentions": 29,
-      "total_likes": 19,
-      "avg_likes": 1.1,
-      "by_platform": {
-        "facebook": 1,
-        "instagram": 16
-      },
-      "by_year": {
-        "2025": 6,
-        "2026": 11
-      },
-      "examples": [
-        {
-          "text": "Where are the jobs? I\u2019ve been checking since they opened and have never seen them hiring",
-          "author": "billyarrowsmith",
-          "date": "2025-06-01T03:44:50.000Z",
-          "year": 2025,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DKNmh6DiVan/",
-          "post_text": "So excited to share the latest Hollywood on Hudson update with all of you! Yonkers isn't just making movies; we're making history. This multi-platform campaign showcases our incredible studios and diverse locations, and "
-        },
-        {
-          "text": "I specifically searched for you because this is an absolute sham of job on these streets. No excuse for the to still be a mess with snow. Broadway is a major street and looked like Armageddon came thru. SHAME!!!",
-          "author": "bougiemoodyfoodie",
-          "date": "2026-01-27T21:57:25.000Z",
-          "year": 2026,
-          "likes": 5,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DT3yjILFJDR/",
-          "post_text": "Stopped by the DPW Service Center with Commissioner Meier to review preparations for Sunday\u2019s storm. Crews have been preparing the fleet all week and will be working in rotating shifts through the storm.   Staying off th"
-        },
-        {
-          "text": "I came back to tell ya are doing a shitty job managing the clean up. Some streets haven\u2019t even been plowed since Sunday",
-          "author": "holy_avocado__",
-          "date": "2026-01-29T00:38:07.000Z",
-          "year": 2026,
-          "likes": 3,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DT3yjILFJDR/",
-          "post_text": "Stopped by the DPW Service Center with Commissioner Meier to review preparations for Sunday\u2019s storm. Crews have been preparing the fleet all week and will be working in rotating shifts through the storm.   Staying off th"
-        },
-        {
-          "text": "Yonkers is still a mess I hope they do a better job this time around especially around Mile Square road and Page Avenue we still have snow mountains all over the place it really hasn't melted....",
-          "author": "David Torres",
-          "date": "2026-02-22T13:05:51.000Z",
-          "year": 2026,
-          "likes": 2,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid024oSHQDJ6MSyVkuqWRjy1KWTu31uZTCfR3THdmquWUP9mDsTuEh1Lrht8FPdy8K1Vl",
-          "post_text": ""
-        },
-        {
-          "text": "It a shame so many people loss there jobs at the Sugar  house. . It was there for many years... Yonkers didn't even help them get new jobs .. HORRIABLE !",
-          "author": "jeanfreemanareizaga",
-          "date": "2026-04-02T03:47:56.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DWfpCKzChpd/",
-          "post_text": "Yonkers is continuing the transformation of the former Mulford Gardens site.  The new Park Square development will bring over 300 homes, street-level retail, and a brand-new grade school serving the entire neighborhood."
-        },
-        {
-          "text": "Shut the fuck up you drunk imbecile and let someone else become mayor of Yonkers haven\u2019t you pocketed and stolen enough crying about a casino people are about to be out of a job at the end December and all you care about is fattening your pockets",
-          "author": "fly.firstloveyourself77",
-          "date": "2025-12-03T01:55:23.000Z",
-          "year": 2025,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DRuzOJODwtH/",
-          "post_text": "My statement on New York\u2019s casino license announcement, its impact on Yonkers, and the critical steps we\u2019re urging the State to take to support MGM Empire City."
-        },
-        {
-          "text": "I completely agree. I believe the city's departments and agencies should be evaluated. We have a mayor who truly cares about small businesses and wants them to succeed. His vision is for people who choose to invest in Yonkers to have a positive experience and to see that opening a business here is a smooth and welcoming process.",
-          "author": "susana_osorio",
-          "date": "2026-08-05T14:07:31.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DbqJJaZDJ3Q/",
-          "post_text": "ACROSS THE TABLE W/ MAYOR MIKE SPANO  Are small businesses making a comeback?   \ud83c\udfa5 EPISODE 1 OUT NOW ON YOUTUBE @mayormikespano"
-        },
-        {
-          "text": "FACT #1 Spano bought a property under an LLC on Fernbrook and kicked out a bus depot that had 500 employees that transports special needs kids FACT # 2 he didn\u2019t go far from that the same street and kicked out Domino Sugar factory - People are losing their jobs because of Spano\u2019s greed.",
-          "author": "grace_naima",
-          "date": "2026-04-28T21:47:50.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DW7TlhTkRfN/",
-          "post_text": "Yonkers Fact Check with @mayormikespano!  Did you know these Yonkers facts?"
-        }
-      ]
-    },
-    {
-      "category": "Housing & Overdevelopment",
-      "count": 14,
-      "share": 5.5,
-      "mentions": 16,
-      "total_likes": 42,
-      "avg_likes": 3.0,
-      "by_platform": {
-        "facebook": 1,
-        "instagram": 13
-      },
-      "by_year": {
-        "2025": 3,
-        "2026": 11
-      },
-      "examples": [
-        {
-          "text": "Hey so will we ever get true affordable housing? We gon make Yonkers more walkable? Why can\u2019t ya rezone central ave to allow housing. Maybe make those buses faster considering thousands of mostly working class ppl use them daily. This should not be a priority",
-          "author": "jotaaa_e",
-          "date": "2026-06-16T23:12:17.000Z",
-          "year": 2026,
-          "likes": 16,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DZqVn3uCZvh/",
-          "post_text": "Hey, Yonkers! Check out this new public EV charging station at 50 Warburton Avenue! It's the first building-powered charging station of its kind in Yonkers. By drawing power directly from the building, this innovative mo"
-        },
-        {
-          "text": "Used to be an apartment building now it's a housing unit",
-          "author": "Raymond Cronin",
-          "date": "2026-03-27T18:50:08.000Z",
-          "year": 2026,
-          "likes": 7,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/reel/976063544997060/",
-          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
-        },
-        {
-          "text": "VOTE SPANO OUTTTTT. Focus on long-time Yonkers residents not gentrifying Yonkers",
-          "author": "kim.berrlyyy",
-          "date": "2026-01-14T23:39:57.000Z",
-          "year": 2026,
-          "likes": 4,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DTQm1mPCZAR/",
-          "post_text": "Education. Parks. Housing. Business. And more!  Nominate Mayor Mike Spano \u2b50 Best of Westchester. Link in bio."
-        },
-        {
-          "text": "It should be condos so people can buy not only rent! All the apartments in waterfront are rental only this is insane",
-          "author": "moonrisejt",
-          "date": "2026-07-25T01:42:32.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DbHD14AjK54/",
-          "post_text": "Yonkers Broke Ground on Park Square. \ud83d\udccd 1 Loehr Place  City officials joined Titan Real Estate Development to celebrate the start of construction on the $185 million Park Square development at Grant Park.  The project wil"
-        },
-        {
-          "text": "@the_jess_life everyone on that waterfront is on section 8. New buildings look like trash now. Very ghetto. Would not recommend.",
-          "author": "miami_special",
-          "date": "2026-06-07T12:57:07.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DY8BeGBDh0o/",
-          "post_text": "How is Yonkers investing in 2026-2027?  The FY 2026-2027 Budget includes a historic $56.3 million in additional support for Yonkers Public Schools, preserves all active municipal services and the municipal workforce, and"
-        },
-        {
-          "text": "No mention of the city or state doing anything to save this historic factory. This is the last of Yonkers great industries. We don\u2019t need more condos. We need good paying factory jobs which the sugar house provided.",
-          "author": "123beech",
-          "date": "2025-06-23T02:27:58.000Z",
-          "year": 2025,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DLI-mHlvV9H/",
-          "post_text": "See my statement regarding the closure of the Domino Sugar refinery."
-        },
-        {
-          "text": "Cool do something about these greedy fucking landlords \ud83d\ude4c",
-          "author": "vividmind97",
-          "date": "2026-04-01T17:07:17.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DWlrQVoCJgx/",
-          "post_text": "Yonkers is launching the Yonkers Energy Savings Program (YES).  Over the next two years, upgrades across 37 City facilities will reduce energy costs by $31 million over 20 years.  The program also delivers more than $6 m"
-        },
-        {
-          "text": "Why dont we talk about these landlords up charging the poor",
-          "author": "laputicrv",
-          "date": "2026-05-13T14:25:28.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DYNj70tCQm6/",
-          "post_text": "Yonkers, as we await the passage of New York State\u2019s Budget, this year\u2019s Executive Budget is based on the Governor\u2019s proposed budget and must take into account the current global economic climate, such as cuts in federal"
         }
       ]
     },
     {
       "category": "Roads & Potholes",
-      "count": 14,
-      "share": 5.5,
-      "mentions": 18,
-      "total_likes": 17,
-      "avg_likes": 1.2,
+      "count": 36,
+      "share": 6.2,
+      "mentions": 42,
+      "total_likes": 138,
+      "avg_likes": 3.8,
       "by_platform": {
-        "facebook": 1,
+        "facebook": 23,
         "instagram": 13
       },
       "by_year": {
         "2025": 1,
-        "2026": 13
+        "2026": 35
+      },
+      "by_month": {
+        "2025-07": 1,
+        "2026-01": 6,
+        "2026-02": 8,
+        "2026-03": 11,
+        "2026-04": 6,
+        "2026-06": 1,
+        "2026-07": 2,
+        "2026-08": 1
       },
       "examples": [
         {
@@ -828,6 +736,26 @@
           "post_text": "Yonkers, I\u2019ve heard your concerns.  After a tough winter, our crews have already filled over 3,200 potholes across the City and we\u2019re not slowing down.  If you see one, report it and we\u2019ll get to work. (914) 377-HELP"
         },
         {
+          "text": "Maybe try fixing the potholes, the roads are dangerous.",
+          "author": "Karen Macknowski Di Salvo",
+          "date": "2026-03-28T00:54:46.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "The roads are horrible side streets even worse for such a big warning for this snow storm you\u2019d think they\u2019d be head of it\u2026it\u2019s 5:06am Monday morning and the streets and side streets are just as they were when I went to sleep \ud83e\udd26\u200d\u2640\ufe0f\ud83e\udd26\u200d\u2640\ufe0f\ud83e\udd26\u200d\u2640\ufe0f",
+          "author": "Sarah Ullery",
+          "date": "2026-01-26T10:08:02.000Z",
+          "year": 2026,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0z6C8BuJsjUDtfTqfSUfourgvHM95Tm7KQidYcnAZRA65CH2kir9qycCe4Ek9Hq2ul",
+          "post_text": "DPW crews have been focused primarily on the City\u2019s main roads throughout the day as the snow continues.   This evening, operations will expand further into residential streets so travel is safer and smoother for the mor"
+        },
+        {
           "text": "FIX THE DAMNED POTHOLES..ALL OVER THE CITY, BEEN THERE SINCE LAST FALL......WHY ARE YOU PAVING HUGE SWATHS OF ROADS THAT DON'T NEED PAVING... THEY COULD BE USED TO FILL MOST OF THE POTHOLES UP....",
           "author": "macsarah821",
           "date": "2026-08-08T05:30:17.000Z",
@@ -836,6 +764,16 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/Dai9znNiD_w/",
           "post_text": "Downtown Yonkers is taking another major step forward.  Thanks to Governor Kathy Hochul and New York State's Downtown Revitalization Initiative, Yonkers has been awarded $10 million to continue transforming Downtown into"
+        },
+        {
+          "text": "How about funding the schools fixing the potholes programs throughout the city for our youths",
+          "author": "Lakesha Daniels",
+          "date": "2026-03-06T22:35:20.000Z",
+          "year": 2026,
+          "likes": 21,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1448817350105071/",
+          "post_text": "Yonkers\u2019 film industry continues to drive economic activity across the City. \ud83c\udfac   A new economic impact report by Camoin Associates shows film and television production in Yonkers is generating approximately $46 million i"
         },
         {
           "text": "Can you fix the large pot hole on the Bronx river rd please off mclean Avenue ty",
@@ -848,73 +786,225 @@
           "post_text": "Happy Arbor Day, Yonkers! \ud83c\udf33  For the 39th straight year, Yonkers has been recognized as a Tree City USA community, a reflection of the work happening across the City every day.  Today, we continued that effort by plantin"
         },
         {
-          "text": "FIX YONKERS STREETS ! When you hit the Potholes the windshield wipers go off !",
-          "author": "lapizrr",
-          "date": "2026-03-12T01:56:29.000Z",
+          "text": "We need programs for our children in Yonkers to keep them off the streets.How about putting some of that money towards that and all the tickets everybody got for their cars that money should be going towards the potholes in yonkers",
+          "author": "Jennifer Zilempe",
+          "date": "2026-03-06T22:27:55.000Z",
+          "year": 2026,
+          "likes": 6,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1448817350105071/",
+          "post_text": "Yonkers\u2019 film industry continues to drive economic activity across the City. \ud83c\udfac   A new economic impact report by Camoin Associates shows film and television production in Yonkers is generating approximately $46 million i"
+        },
+        {
+          "text": "Mayor please first fix yonkers roads , roads conditions very bad path holes \ud83d\udd73\ufe0f everywhere, specially midland road and Palmer road \ud83d\ude4f",
+          "author": "Mian Asif",
+          "date": "2026-03-29T22:51:35.000Z",
           "year": 2026,
           "likes": 3,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVY_JweEvWt/",
-          "post_text": "Construction has officially begun on a major expansion at Cross County Center.  The project will add two new retail buildings totaling 58,000 square feet, underground parking and a four acre public park with space for ev"
-        },
-        {
-          "text": "Can we use them to find all the potholes and fix them \ud83e\udd23",
-          "author": "Johnathon B\u00f8r\u00f8",
-          "date": "2026-03-14T17:35:15.000Z",
-          "year": 2026,
-          "likes": 1,
           "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02NWmx1USuggVxr9JxgTpRSW46YbL2sD8FCVqtZRM3tXDcWQGz3YHaAwCntD5zxneHl",
-          "post_text": ""
-        },
+          "post_url": "https://www.facebook.com/reel/1156983143124990/",
+          "post_text": "Yonkers is transforming the former Domino Sugar site into a major waterfront destination.  A 33-acre redevelopment with new retail, dining, and deep-water docking \u2014 all steps from a Metro-North stop, just 17 minutes from"
+        }
+      ]
+    },
+    {
+      "category": "Jobs, Hiring & Local Economy",
+      "count": 32,
+      "share": 5.5,
+      "mentions": 53,
+      "total_likes": 93,
+      "avg_likes": 2.9,
+      "by_platform": {
+        "facebook": 17,
+        "instagram": 15
+      },
+      "by_year": {
+        "2025": 5,
+        "2026": 27
+      },
+      "by_month": {
+        "2025-06": 2,
+        "2025-07": 1,
+        "2025-10": 2,
+        "2026-01": 8,
+        "2026-02": 7,
+        "2026-03": 4,
+        "2026-04": 3,
+        "2026-07": 1,
+        "2026-08": 4
+      },
+      "examples": [
         {
-          "text": "You fix one pothole next to the the courthouse and that was it there\u2019s still potholes everywhere where is our money going?",
-          "author": "bigfoo609",
-          "date": "2026-04-25T17:06:34.000Z",
+          "text": "Mike Spano  you really are a POS! stop loathing the camera thinking your a star and do your job you mutt! Hire competent workers instead of DEI overpaid theft of services employees.",
+          "author": "Chris Bleakley",
+          "date": "2026-02-25T23:42:07.000Z",
           "year": 2026,
           "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DXHTrC6DeOL/",
-          "post_text": "Yonkers, I\u2019ve heard your concerns.  After a tough winter, our crews have already filled over 3,200 potholes across the City and we\u2019re not slowing down.  If you see one, report it and we\u2019ll get to work. (914) 377-HELP"
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0WaQzeX82PxzZadCFJ9qHvMEedeMAT31dhob6z8XT9CSeqQ4CiFYQ4DHt1fif9Grfl",
+          "post_text": "Yonkers is now hiring Emergency Snow Shovelers to support ongoing winter cleanup across the City.  Temporary per diem positions are available to help clear bus stops, crosswalks, hydrants and other public areas as crews "
         },
         {
-          "text": "Please fix the potholes on midland between slocum and noble before there\u2019s a major accident!",
-          "author": "jbvitality1",
-          "date": "2026-03-29T12:36:10.000Z",
-          "year": 2026,
+          "text": "Where are the jobs? I\u2019ve been checking since they opened and have never seen them hiring",
+          "author": "billyarrowsmith",
+          "date": "2025-06-01T03:44:50.000Z",
+          "year": 2025,
           "likes": 0,
           "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DWZpGl9kT4v/",
-          "post_text": "Mayor Mike Spano discusses what he loves about Yonkers on the red carpet at the State of the City 2026"
+          "post_url": "https://www.instagram.com/p/DKNmh6DiVan/",
+          "post_text": "So excited to share the latest Hollywood on Hudson update with all of you! Yonkers isn't just making movies; we're making history. This multi-platform campaign showcases our incredible studios and diverse locations, and "
         },
         {
-          "text": "What about Palmer Road area east of central Avenue to the BRP? We flood all the time.  It\u2019s horrible.  I watched the Sprain Brook Parkway disappear numerous times.",
-          "author": "misselaineous28",
-          "date": "2026-01-21T01:55:23.000Z",
+          "text": "An you Mr mayor have did a horrible job of giving these kids outlets but you built by the water pretty nice tho \ud83d\udde3\ufe0f\ud83d\udcaf",
+          "author": "Mollygot Bank",
+          "date": "2026-08-03T22:49:02.000Z",
           "year": 2026,
-          "likes": 0,
+          "likes": 16,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
+        {
+          "text": "Let's help kid our kids off the streets.We need summer programs jobs for teenagers.\\nWhat's the money in that",
+          "author": "Jennifer Zilempe",
+          "date": "2026-03-27T21:27:30.000Z",
+          "year": 2026,
+          "likes": 11,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "We are overpopulated already.  Some of us can't even get out of our driveways in the monning and afternoon because of the mobs of crazy selfish dangerous drivers Imany of whom are stoned).   We need more JOBs not more people.",
+          "author": "Judith Ne",
+          "date": "2026-03-28T14:17:43.000Z",
+          "year": 2026,
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "I specifically searched for you because this is an absolute sham of job on these streets. No excuse for the to still be a mess with snow. Broadway is a major street and looked like Armageddon came thru. SHAME!!!",
+          "author": "bougiemoodyfoodie",
+          "date": "2026-01-27T21:57:25.000Z",
+          "year": 2026,
+          "likes": 5,
           "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DTnUfBJjWKN/",
-          "post_text": "Troublesome Brook along Scarsdale Road and Manhattan Avenue has caused repeated flooding during major storms. With more than $6.6 million in State funding, the City will move forward with culvert replacements and streamb"
+          "post_url": "https://www.instagram.com/p/DT3yjILFJDR/",
+          "post_text": "Stopped by the DPW Service Center with Commissioner Meier to review preparations for Sunday\u2019s storm. Crews have been preparing the fleet all week and will be working in rotating shifts through the storm.   Staying off th"
+        },
+        {
+          "text": "Stop voting for this lemon u know how many of our kids needs jobs name me 20 people from our community that\u2019s working down there straight lollipop",
+          "author": "Tremmel Jones",
+          "date": "2026-03-06T22:54:13.000Z",
+          "year": 2026,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1448817350105071/",
+          "post_text": "Yonkers\u2019 film industry continues to drive economic activity across the City. \ud83c\udfac   A new economic impact report by Camoin Associates shows film and television production in Yonkers is generating approximately $46 million i"
+        },
+        {
+          "text": "I see everyone complaining about union but the union workers be the first one half assign the job to milk more time and hours ..",
+          "author": "Ay Aj",
+          "date": "2026-02-25T23:43:10.000Z",
+          "year": 2026,
+          "likes": 3,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0WaQzeX82PxzZadCFJ9qHvMEedeMAT31dhob6z8XT9CSeqQ4CiFYQ4DHt1fif9Grfl",
+          "post_text": "Yonkers is now hiring Emergency Snow Shovelers to support ongoing winter cleanup across the City.  Temporary per diem positions are available to help clear bus stops, crosswalks, hydrants and other public areas as crews "
         }
       ]
     },
     {
       "category": "Crime & Public Safety",
-      "count": 13,
-      "share": 5.1,
-      "mentions": 15,
-      "total_likes": 50,
-      "avg_likes": 3.8,
+      "count": 29,
+      "share": 5.0,
+      "mentions": 32,
+      "total_likes": 355,
+      "avg_likes": 12.2,
       "by_platform": {
-        "facebook": 1,
-        "instagram": 12
+        "facebook": 16,
+        "instagram": 13
       },
       "by_year": {
         "2025": 5,
-        "2026": 8
+        "2026": 24
+      },
+      "by_month": {
+        "2025-07": 1,
+        "2025-09": 1,
+        "2025-10": 1,
+        "2025-11": 1,
+        "2025-12": 1,
+        "2026-01": 2,
+        "2026-02": 3,
+        "2026-03": 2,
+        "2026-05": 1,
+        "2026-07": 3,
+        "2026-08": 13
       },
       "examples": [
+        {
+          "text": "Stolen guns are null and void when it comes to law making at the federal level.  Maybe the cash bail or halt policies made by the government in albany should be repealed to deter this type of violent crimes.  Criminals aren't stupid. Just get a minor to do the violent crime and they're out on the street the next day.",
+          "author": "Mike Kerr",
+          "date": "2026-08-03T20:01:24.000Z",
+          "year": 2026,
+          "likes": 26,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
+        {
+          "text": "first it is not the gun like it is not the car who speeds and kills .. it is how these kids are being raised as well as how the parenting is .. the liberal light on crime policies.. the anti police attitude .. kids have no consequences to anything they do wrong .. the dumbing down of education they keep lowering the bar instead of raising the bar so kids have goals to achieve to better themselves",
+          "author": "Angela Mazzella Gentile",
+          "date": "2026-08-03T18:50:57.000Z",
+          "year": 2026,
+          "likes": 149,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
+        {
+          "text": "Ughhhh maybe if you stop letting  criminals back out in the street after 5 mins of being arrested, it would make people think before committing crimes. There are. NO CONSEQUENCES so people just dont care. If it wasn't a gun, it'd be a knife, bat, car etc. The problem isn't guns, its the fact people can commit crimes and go on about their day like nothing happened",
+          "author": "Jen Alvarez",
+          "date": "2026-08-03T20:18:15.000Z",
+          "year": 2026,
+          "likes": 20,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
+        {
+          "text": "Stop blaming and let\u2019s work together for a solution. You know nothing about these kids.  How do you know they come from broken homes? You blame the parents but how do you know thats the problem.  There is a gang problem in Yonkers that is ignore.  I have no solutions to why young kids are shooting each other on the streets.  I just pray that it can be addressed and not forgotten.",
+          "author": "Kelley McInerney",
+          "date": "2026-08-04T02:02:12.000Z",
+          "year": 2026,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
+        {
+          "text": "drugs & violence 2 blocks up in several directions lmaoo.  what a joke.",
+          "author": "MaXx Padilla",
+          "date": "2026-07-24T01:36:26.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1182780938256790/",
+          "post_text": "BIG NEWS FOR DOWNTOWN YONKERS! \ud83c\udf89  The City of Yonkers has been awarded $10 million through New York State's Downtown Revitalization Initiative.  This funding will help continue the revitalization of Downtown Yonkers with"
+        },
+        {
+          "text": "Hire more cops. Bring back stop and frisk. Lower the age for family court when it involves a violent intentional act. Hold the parents responsible. Just like if a dog bit someone.",
+          "author": "Mike Kavon",
+          "date": "2026-08-03T21:41:47.000Z",
+          "year": 2026,
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1060373083164870/",
+          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
+        },
         {
           "text": "Your own police vehicles are all parked on Yonkers ave a snow emergency road and take up Normal spots all day and night alternative street rules dont apply to broken down cop cars ???",
           "author": "mcs2378",
@@ -934,141 +1024,181 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/DPPZ7q-ETvg/",
           "post_text": "Today, I joined the Yonkers Police Department in celebrating the promotion of 10 of Yonkers\u2019 finest. We have the best department in the country, and thanks to their hard work, violent crime is down 27% from last year.   "
-        },
-        {
-          "text": "How can lawmakers in Washington help illegal guns in Yonkers ?",
-          "author": "Maria Forchetti Paska",
-          "date": "2026-08-04T00:27:59.000Z",
-          "year": 2026,
-          "likes": 47,
-          "platform": "facebook",
-          "post_url": "https://www.facebook.com/reel/1060373083164870/",
-          "post_text": "Mayor Spano calls on lawmakers to address the root causes of gun violence following the fatal shooting on Elm Street.  This is Yonkers\u2019 first homicide in about a year, but one is too many. Every victim, every family and "
-        },
-        {
-          "text": "Where is the firehouse in the Fire truck that Ridge Hill promised Yonkers? Well that\u2019s right. I\u2019m sorry they did spano All the same way the casinos did him. Paid him in the back pocket where to go Mike u criminal",
-          "author": "timothydunlap0225",
-          "date": "2026-07-18T01:22:28.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/Da0LUnIAp7C/",
-          "post_text": "This Sunday, let\u2019s pack Ridge Hill!  Join us for Yonkers\u2019 Official Soccer Finals Watch Party from 2PM-6PM as we come together to cheer on the world\u2019s biggest match.   This free, family friendly event features a live DJ, "
-        },
-        {
-          "text": "Don\u2019t mess with Yonkers police \ud83d\udc6e You will be arrested \ud83d\udc4d",
-          "author": "0923csg",
-          "date": "2026-05-02T22:20:20.000Z",
-          "year": 2026,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DXh_4ZxCRjj/",
-          "post_text": "Reckless behavior like this won\u2019t be tolerated in Yonkers.  If you come here to damage property and put people at risk, there will be consequences. These individuals were identified, arrested, and their vehicles impounde"
-        },
-        {
-          "text": "He rather have a park and let drug dealers and prevents hangout and parents and their children can\u2019t enjoy it because we don\u2019t have enough police presence sadly",
-          "author": "justin_rg_1",
-          "date": "2025-12-02T16:11:36.000Z",
-          "year": 2025,
-          "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DRuzOJODwtH/",
-          "post_text": "My statement on New York\u2019s casino license announcement, its impact on Yonkers, and the critical steps we\u2019re urging the State to take to support MGM Empire City."
-        },
-        {
-          "text": "Only families, generations, getting themselves promoted within the ranks of the Yonkers Police Department. You can hear them say my FATHER. But when someone who applies for the first time to be a Yonkers Police officer who never had a relative in the Yonkers Police Department his chances to become police officer are very small.",
-          "author": "chessknight245",
-          "date": "2026-02-11T00:41:22.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DUVqteCjRTY/",
-          "post_text": "\"Yonkers is a beautiful mosaic, and our department should reflect that.\" -Mayor Mike Spano  This Black History Month, we proudly celebrate the Black police officers who serve and protect our city every day. While duties "
-        },
-        {
-          "text": "When I see this and how much money is being allocated to this project and new subway cars , I\u2019m glad to see this as fellow rider myself.  But please don\u2019t forget about the infrastructure in these tunnels and how unsafe it\u2019s been in NYC transit lines.",
-          "author": "pete5225",
-          "date": "2025-11-30T03:41:08.000Z",
-          "year": 2025,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DQ4p_9Zkwts/",
-          "post_text": "Kawasaki Rail Car, Inc. in Yonkers has been awarded a $1.5 billion contract by the MTA to build 378 new subway cars for New York City\u2019s transit system.  This milestone secures hundreds of good-paying jobs for Yonkers res"
         }
       ]
     },
     {
-      "category": "Street Lighting & Infrastructure",
-      "count": 5,
-      "share": 2.0,
-      "mentions": 5,
-      "total_likes": 4,
-      "avg_likes": 0.8,
+      "category": "Housing & Overdevelopment",
+      "count": 29,
+      "share": 5.0,
+      "mentions": 37,
+      "total_likes": 86,
+      "avg_likes": 3.0,
       "by_platform": {
-        "facebook": 1,
-        "instagram": 4
+        "facebook": 16,
+        "instagram": 13
       },
       "by_year": {
-        "2026": 5
+        "2025": 3,
+        "2026": 26
+      },
+      "by_month": {
+        "2025-06": 3,
+        "2026-01": 5,
+        "2026-02": 1,
+        "2026-03": 5,
+        "2026-04": 4,
+        "2026-05": 6,
+        "2026-06": 2,
+        "2026-07": 2,
+        "2026-08": 1
       },
       "examples": [
         {
-          "text": "SO many dangerous/stupid drivers on north broadway! Where are the police near St Johns Hospital? Right now there is someone in a company truck blocking a lane, AND a fire hydrant on a two way str across from the hospital. I rately ever see s police officer in my neighborhood! WHY is that? Also why no cameras near broadway and odell??",
-          "author": "Dano Suits",
-          "date": "2026-07-27T17:56:56.000Z",
+          "text": "Hudson piers requires tenants to make 66 times the income for affordable housing. What a joke",
+          "author": "Barbara Jeanette",
+          "date": "2026-03-28T02:01:54.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "Is this the building that has been without heat for a year now- tenants are forced to cook with electric hobs. When Con Ed wanted the gas system replaced or would not pass the existing gas lines, without major modifications. \nWestchester Power should be able to give great rates, even though the landlord let the utilities fall into disrepair it seems",
+          "author": "Dorrian Deccy",
+          "date": "2026-04-16T14:39:58.000Z",
+          "year": 2026,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1305664408335951/",
+          "post_text": "A major investment in Yonkers housing is underway. A $35 million project at Palisade Towers will convert 415 affordable units from gas to electric, bringing modern systems, improved reliability, and long-term sustainabil"
+        },
+        {
+          "text": "Mayor stop lying when you have landlords of building raising rent and throwing out tenant because they refuse to pay a 42 % increase",
+          "author": "Myrts Alexander",
+          "date": "2026-03-29T22:14:41.000Z",
           "year": 2026,
           "likes": 0,
           "platform": "facebook",
-          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0DmH3au6Nz73vZKPCz7YWMX51SxWbrP8TZNGf9cXXEFRYFzfrbP9bjVs9gyz79WTUl",
-          "post_text": "The Yonkers Office for the Aging and Afya Foundation are helping older adults stay safe at home with a FREE Mobility Equipment & Home Safety Clinic.  Meet one on one with an occupational therapist for a personalized asse"
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
         },
         {
-          "text": "How about yall tell ppl in person we work not everybody is on social media 24/7. Put signs up and stop assuming!!!",
-          "author": "_______tearra_",
-          "date": "2026-02-23T00:50:07.000Z",
+          "text": "Hey so will we ever get true affordable housing? We gon make Yonkers more walkable? Why can\u2019t ya rezone central ave to allow housing. Maybe make those buses faster considering thousands of mostly working class ppl use them daily. This should not be a priority",
+          "author": "jotaaa_e",
+          "date": "2026-06-16T23:12:17.000Z",
+          "year": 2026,
+          "likes": 16,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DZqVn3uCZvh/",
+          "post_text": "Hey, Yonkers! Check out this new public EV charging station at 50 Warburton Avenue! It's the first building-powered charging station of its kind in Yonkers. By drawing power directly from the building, this innovative mo"
+        },
+        {
+          "text": "This is Spanos and his pals buying lots and putting these buildings and using their catch affordable housing. Yeah right these buildings are for the wealthy",
+          "author": "Edwin Rivera",
+          "date": "2026-01-14T20:04:10.000Z",
+          "year": 2026,
+          "likes": 12,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02BG2Wz8PxpdTxQrmUXtayLegvTK6FEiTNQnRC7zmdezQ5bNK4i5sVY2QZBFzZpgVhl",
+          "post_text": "A new 27 story residential tower just opened in Downtown Yonkers, located minutes from NYC and steps from Metro North. Hudson 44 adds 250 residential units with 10% designated as affordable along with ground floor retail"
+        },
+        {
+          "text": "Used to be an apartment building now it's a housing unit",
+          "author": "Raymond Cronin",
+          "date": "2026-03-27T18:50:08.000Z",
+          "year": 2026,
+          "likes": 7,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
+        {
+          "text": "He is lying. He is creating more apartments for upper middle class. This is not for low-income housing low. Income housing, you don't get a one bedroom for $2000. No, sorry. Try again. This is despicable, I live in Yonkers. He is not trying to help the poor people. PS where are all the money is going for all these high-rises. I don't see the schools doing any better.",
+          "author": "Pedro Adams",
+          "date": "2026-03-28T10:54:57.000Z",
           "year": 2026,
           "likes": 3,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DVEKAR9Ec8o/",
-          "post_text": "Guys- we\u2019re going to get a lot of snow.  Mayor Spano has declared a State of Emergency.  We told everyone yesterday- if you\u2019re parked on a street with one of these signs, your car will be ticketed and end up like this on"
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
         },
         {
-          "text": "So We ARE REMOVING The GREEN SIGN Tho Right?",
-          "author": "undesirablenumbrone",
-          "date": "2026-06-13T19:10:37.000Z",
-          "year": 2026,
-          "likes": 0,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DZgHkqkH_LF/",
-          "post_text": "Today, Mayor Mike Spano and the City of Yonkers proudly honored one of the City's own by ceremonially renaming the corner of School Street and Brook Street as **Earl \u201cDMX\u201d Simmons Way**.  Raised on School Street, DMX ros"
-        },
-        {
-          "text": "@mikey_e46  they entrap you...then when u catch on they make u sick mikey.. fuckn racket if u ask me... kept me in the dark n when dudes told me..they made them sick too ! fn joke",
-          "author": "michaelguarniero",
-          "date": "2026-05-13T11:02:58.000Z",
+          "text": "Is it serving the entire community or is it driving away low and medium income communities? I like growth, but AFFORDABLE HOUSING for the homeless, low and medium income community should be provided. I was hoping to hear him address that with this announcement. Sadly, not mentioned.",
+          "author": "Nancy Sanchez",
+          "date": "2026-04-24T20:15:41.000Z",
           "year": 2026,
           "likes": 1,
-          "platform": "instagram",
-          "post_url": "https://www.instagram.com/p/DT8T-uaCZgx/",
-          "post_text": "I stopped by the DPW shift change this morning to thank our crews and bring them lunch as they continue working through today\u2019s storm.   DPW is leading the response on our roads, but every City department has a role, inc"
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1490779172421181/",
+          "post_text": "Yonkers is continuing the transformation of the former Mulford Gardens site.  The new Park Square development will bring over 300 homes, street-level retail, and a brand-new grade school serving the entire neighborhood."
         }
       ]
     },
     {
       "category": "Homelessness & Quality of Life",
-      "count": 4,
-      "share": 1.6,
-      "mentions": 6,
-      "total_likes": 14,
-      "avg_likes": 3.5,
+      "count": 12,
+      "share": 2.1,
+      "mentions": 16,
+      "total_likes": 29,
+      "avg_likes": 2.4,
       "by_platform": {
-        "facebook": 1,
+        "facebook": 9,
         "instagram": 3
       },
       "by_year": {
-        "2026": 4
+        "2026": 12
+      },
+      "by_month": {
+        "2026-01": 4,
+        "2026-03": 2,
+        "2026-04": 2,
+        "2026-05": 1,
+        "2026-06": 1,
+        "2026-07": 2
       },
       "examples": [
+        {
+          "text": "My husband is originally from Yonkas (that's what he calls it anyway).  We now live in VA close enough to OCEANA NAS, a Master Jet Fighter Base and can basically see and hear them daily.  That noise you hear is the sound of freedom!  HAPPY 4th of July 250!",
+          "author": "Edda Laino",
+          "date": "2026-07-05T01:35:55.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1735290894257662/",
+          "post_text": "A sight you don\u2019t see every day. \ud83c\uddfa\ud83c\uddf8\u2708\ufe0f  More than 150 military and international aircraft flew over the Hudson River this morning as part of the International Aerial Review celebrating America\u2019s 250th anniversary. The for"
+        },
+        {
+          "text": "Well with 10m , hope it's enough to clean the whole yonkers, it seems to be only certain areas that gets the best of the money ,,with the priorities of housing and homelessness...",
+          "author": "Alicia Suarez",
+          "date": "2026-07-09T17:34:41.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1182780938256790/",
+          "post_text": "BIG NEWS FOR DOWNTOWN YONKERS! \ud83c\udf89  The City of Yonkers has been awarded $10 million through New York State's Downtown Revitalization Initiative.  This funding will help continue the revitalization of Downtown Yonkers with"
+        },
+        {
+          "text": "It's still a s***** neighborhood no matter how you look at it you think by putting new buildings up for the homeless and welfare you think that's going to help no matter of fact you guys probably made it even worse and now they got a school there too now or going to have a school there wow man I'm retired and I don't even get that kind of luxury something wrong with this picture",
+          "author": "Charles Palmieri",
+          "date": "2026-04-06T17:46:28.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1490779172421181/",
+          "post_text": "Yonkers is continuing the transformation of the former Mulford Gardens site.  The new Park Square development will bring over 300 homes, street-level retail, and a brand-new grade school serving the entire neighborhood."
+        },
+        {
+          "text": "What about the homeless that are in yonkers already? Forget New Yorkers and worry about our people that are on the streets. Get on the ball already and do what's right! We voted for you and all is going downhill.",
+          "author": "Rita Collazo",
+          "date": "2026-03-28T12:04:09.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/976063544997060/",
+          "post_text": "Yonkers is leading the pack in creating more homes for New Yorkers.  3,000 new housing units approved or in progress this year. Affordable housing increased to 12%. New opportunities for homeownership to help residents p"
+        },
         {
           "text": "GET RID OF TASHA DIAZ SHE HAS TURNED YONKERS INTO A HELL OF NOISE \u201cSPANISH NOISE POLLUTION\u201d W T F WECR LEAVING THIS SHTHOLE",
           "author": "maxispix",
@@ -1088,22 +1218,155 @@
           "platform": "facebook",
           "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i4NtRd8oRyAYLJBmCXSa5GCAERkp4UXfT2DrnxkhtwcfNhFP7sfAwK6iUFN9LyXKl",
           "post_text": "Shoutout to the overnight crew at the Yonkers Animal Shelter making sure animals are fed, cared for and kept safe through the storm. \ud83d\udc3e\u2744\ufe0f"
+        },
+        {
+          "text": "I AM AN ANIMAL LOVER , IF I CAN CARE FOR EVERY ANIMAL THAT WAS ABANDONED,   I WOULD,  IF I EVER WERE TO HIT LOTTO I WOULD BUILD A HUGH SHELTER  JUST FOR  ANIMALS,  MOSTLY CATS AND DOGS ,    IVE ALWAYS WANTED TO DO THAT!",
+          "author": "Louann Moynihan",
+          "date": "2026-01-26T20:30:20.000Z",
+          "year": 2026,
+          "likes": 6,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0i4NtRd8oRyAYLJBmCXSa5GCAERkp4UXfT2DrnxkhtwcfNhFP7sfAwK6iUFN9LyXKl",
+          "post_text": "Shoutout to the overnight crew at the Yonkers Animal Shelter making sure animals are fed, cared for and kept safe through the storm. \ud83d\udc3e\u2744\ufe0f"
+        },
+        {
+          "text": "Someone needs to open up a Mental Health Center and help the people who are struggling everyday",
+          "author": "Shirley Esposito",
+          "date": "2026-03-07T01:49:07.000Z",
+          "year": 2026,
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1448817350105071/",
+          "post_text": "Yonkers\u2019 film industry continues to drive economic activity across the City. \ud83c\udfac   A new economic impact report by Camoin Associates shows film and television production in Yonkers is generating approximately $46 million i"
+        }
+      ]
+    },
+    {
+      "category": "Street Lighting & Infrastructure",
+      "count": 10,
+      "share": 1.7,
+      "mentions": 13,
+      "total_likes": 30,
+      "avg_likes": 3.0,
+      "by_platform": {
+        "facebook": 6,
+        "instagram": 4
+      },
+      "by_year": {
+        "2026": 10
+      },
+      "by_month": {
+        "2026-01": 2,
+        "2026-02": 2,
+        "2026-04": 2,
+        "2026-05": 1,
+        "2026-06": 1,
+        "2026-07": 1,
+        "2026-08": 1
+      },
+      "examples": [
+        {
+          "text": "SO many dangerous/stupid drivers on north broadway! Where are the police near St Johns Hospital? Right now there is someone in a company truck blocking a lane, AND a fire hydrant on a two way str across from the hospital. I rately ever see s police officer in my neighborhood! WHY is that? Also why no cameras near broadway and odell??",
+          "author": "Dano Suits",
+          "date": "2026-07-27T17:56:56.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0DmH3au6Nz73vZKPCz7YWMX51SxWbrP8TZNGf9cXXEFRYFzfrbP9bjVs9gyz79WTUl",
+          "post_text": "The Yonkers Office for the Aging and Afya Foundation are helping older adults stay safe at home with a FREE Mobility Equipment & Home Safety Clinic.  Meet one on one with an occupational therapist for a personalized asse"
+        },
+        {
+          "text": "Never heard of that bridge unless you  meant the tappan zee bridge",
+          "author": "Paul Lombardi",
+          "date": "2026-01-15T18:31:32.000Z",
+          "year": 2026,
+          "likes": 11,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02BG2Wz8PxpdTxQrmUXtayLegvTK6FEiTNQnRC7zmdezQ5bNK4i5sVY2QZBFzZpgVhl",
+          "post_text": "A new 27 story residential tower just opened in Downtown Yonkers, located minutes from NYC and steps from Metro North. Hudson 44 adds 250 residential units with 10% designated as affordable along with ground floor retail"
+        },
+        {
+          "text": "How about yall tell ppl in person we work not everybody is on social media 24/7. Put signs up and stop assuming!!!",
+          "author": "_______tearra_",
+          "date": "2026-02-23T00:50:07.000Z",
+          "year": 2026,
+          "likes": 3,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DVEKAR9Ec8o/",
+          "post_text": "Guys- we\u2019re going to get a lot of snow.  Mayor Spano has declared a State of Emergency.  We told everyone yesterday- if you\u2019re parked on a street with one of these signs, your car will be ticketed and end up like this on"
+        },
+        {
+          "text": "Please fix the Water fountain for the pups \ud83e\udd7a\ud83e\udd79 I went yesterday & it was a sign \ud83e\udea7 that showed temporarily out of service I brought a couple of bottle waters for my backup in case & my babies drank it all that they would\u2019ve loved to be able to have more water but the fountain was out of service would be nice to fix the fountain for our babies please",
+          "author": "Zairy Vazquez",
+          "date": "2026-08-03T12:29:50.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0W3WRKAXofk1ZYTXJQQCtqPBf5shXw82xTyJ1o3rkj8uUjXFURZKeKxV12pMY2bh8l",
+          "post_text": "A new place for Yonkers dogs to run, play and explore. \ud83d\udc36   The City officially celebrated the opening of the new Trevor Park Dog Park, now the largest dedicated dog park in Yonkers.  The new space features separate play "
+        },
+        {
+          "text": "What about Palmer Road and it is a city bridge or Sommerville",
+          "author": "Patricia Grant",
+          "date": "2026-02-04T17:31:52.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0GAjprwXgMSD9huqhyTLr8oGJf3tVqqJv7BEEmcVXVKjyHqYFh78ZgzDpKETagED6l",
+          "post_text": "Our DPW crews have plowed much of the City\u2019s 11 Snow Emergency Routes. As crews continue working, once a section of a Snow Emergency Route has been plowed curb to curb and snow has been removed, parking is permitted in t"
+        },
+        {
+          "text": "The green grifters are at it again. \n\nHow much will this raise utility bills? \n\nCan the grid support all the \u201cmandated\u201d (forced down our throats by Albany) electrification in new builds?? \n\nI LIKE my gas stove.  Governor Kathy Hochul has a gas stove. \n\nAnother case of \u201cdo as I say, not as I do.\u201d",
+          "author": "MaryAnn McCarra",
+          "date": "2026-04-18T21:32:35.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1305664408335951/",
+          "post_text": "A major investment in Yonkers housing is underway. A $35 million project at Palisade Towers will convert 415 affordable units from gas to electric, bringing modern systems, improved reliability, and long-term sustainabil"
+        },
+        {
+          "text": "So We ARE REMOVING The GREEN SIGN Tho Right?",
+          "author": "undesirablenumbrone",
+          "date": "2026-06-13T19:10:37.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DZgHkqkH_LF/",
+          "post_text": "Today, Mayor Mike Spano and the City of Yonkers proudly honored one of the City's own by ceremonially renaming the corner of School Street and Brook Street as **Earl \u201cDMX\u201d Simmons Way**.  Raised on School Street, DMX ros"
+        },
+        {
+          "text": "@\u2014  they entrap you...then when u catch on they make u sick mikey.. fuckn racket if u ask me... kept me in the dark n when dudes told me..they made them sick too ! fn joke",
+          "author": "michaelguarniero",
+          "date": "2026-05-13T11:02:58.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DT8T-uaCZgx/",
+          "post_text": "I stopped by the DPW shift change this morning to thank our crews and bring them lunch as they continue working through today\u2019s storm.   DPW is leading the response on our roads, but every City department has a role, inc"
         }
       ]
     },
     {
       "category": "Parks & Public Spaces",
-      "count": 3,
+      "count": 7,
       "share": 1.2,
-      "mentions": 4,
-      "total_likes": 9,
-      "avg_likes": 3.0,
+      "mentions": 8,
+      "total_likes": 15,
+      "avg_likes": 2.1,
       "by_platform": {
+        "facebook": 4,
         "instagram": 3
       },
       "by_year": {
         "2025": 1,
-        "2026": 2
+        "2026": 6
+      },
+      "by_month": {
+        "2025-07": 1,
+        "2026-05": 1,
+        "2026-06": 4,
+        "2026-08": 1
       },
       "examples": [
         {
@@ -1117,6 +1380,26 @@
           "post_text": "Big news at Conor Park: Yonkers\u2019 first dog run is officially open!  The renovation also brings a new playground, basketball court, walkways, and landscaping\u2014delivering on our promise to reinvest in neighborhood parks."
         },
         {
+          "text": "We need more of these around so the people stop taking their dogs to actual park where humans enjoy and leisure in. If they had their walks in the doggy park there's no need for them to go to an actual part to defecate all over the grass like most dog owners do and never pick it up.",
+          "author": "Christo Consciousness",
+          "date": "2026-06-26T21:40:11.000Z",
+          "year": 2026,
+          "likes": 5,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0W3WRKAXofk1ZYTXJQQCtqPBf5shXw82xTyJ1o3rkj8uUjXFURZKeKxV12pMY2bh8l",
+          "post_text": "A new place for Yonkers dogs to run, play and explore. \ud83d\udc36   The City officially celebrated the opening of the new Trevor Park Dog Park, now the largest dedicated dog park in Yonkers.  The new space features separate play "
+        },
+        {
+          "text": "How about fix the aquaduct trail leaking water on our property for the last year at the Yonkers/Hasting On Hudson Boarder?",
+          "author": "Dante Paige",
+          "date": "2026-05-04T15:21:22.000Z",
+          "year": 2026,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1156983143124990/",
+          "post_text": "Yonkers is transforming the former Domino Sugar site into a major waterfront destination.  A 33-acre redevelopment with new retail, dining, and deep-water docking \u2014 all steps from a Metro-North stop, just 17 minutes from"
+        },
+        {
           "text": "Can we install water dispensers along the Putnam Trail please??",
           "author": "king_mel",
           "date": "2026-08-01T20:06:27.000Z",
@@ -1125,23 +1408,58 @@
           "platform": "instagram",
           "post_url": "https://www.instagram.com/p/Dbd9hYPJsxI/",
           "post_text": ""
+        },
+        {
+          "text": "Confucius say Wise man never walk on  grass. In Dark",
+          "author": "Tyson Phillips",
+          "date": "2026-06-27T22:31:23.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/996651096096048/",
+          "post_text": "PICK IT UP\u2026 OR PAY UP. \ud83d\udca9  Yonkers Police are enforcing dog waste violations across the City, with fines reaching up to $5,000. Clean sidewalks start with responsible pet owners. \ud83d\udc3e"
+        },
+        {
+          "text": "Someone already left dog feces on the mount grass at the brand new park and mind you there is f-ing dog bags there and didn't even bother to pick it up disgusting",
+          "author": "Jefry Ortiz Zapata",
+          "date": "2026-06-26T23:51:31.000Z",
+          "year": 2026,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0W3WRKAXofk1ZYTXJQQCtqPBf5shXw82xTyJ1o3rkj8uUjXFURZKeKxV12pMY2bh8l",
+          "post_text": "A new place for Yonkers dogs to run, play and explore. \ud83d\udc36   The City officially celebrated the opening of the new Trevor Park Dog Park, now the largest dedicated dog park in Yonkers.  The new space features separate play "
         }
       ]
     },
     {
       "category": "Traffic, Speeding & Reckless Driving",
-      "count": 2,
-      "share": 0.8,
-      "mentions": 3,
-      "total_likes": 1,
-      "avg_likes": 0.5,
+      "count": 3,
+      "share": 0.5,
+      "mentions": 7,
+      "total_likes": 9,
+      "avg_likes": 3.0,
       "by_platform": {
+        "facebook": 1,
         "instagram": 2
       },
       "by_year": {
-        "2026": 2
+        "2026": 3
+      },
+      "by_month": {
+        "2026-05": 2,
+        "2026-07": 1
       },
       "examples": [
+        {
+          "text": "How about fixing Metro North service? Since congestion pricing and the shift to public transport, cars are more crowded than before, and the non-rush hour schedule is sparse. Rush hour isn't great either). Fares have increased. \nWe in Westchester couldn't care less that the 14th St. bus \"glides\" across town.",
+          "author": "Mary Gagliotti",
+          "date": "2026-07-08T23:31:22.000Z",
+          "year": 2026,
+          "likes": 8,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/reel/1182780938256790/",
+          "post_text": "BIG NEWS FOR DOWNTOWN YONKERS! \ud83c\udf89  The City of Yonkers has been awarded $10 million through New York State's Downtown Revitalization Initiative.  This funding will help continue the revitalization of Downtown Yonkers with"
+        },
         {
           "text": "Please help with traffic on North Broadway\u2026.",
           "author": "just_simply_k_2022",

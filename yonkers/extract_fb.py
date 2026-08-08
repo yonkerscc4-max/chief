@@ -99,7 +99,11 @@ def main():
                     "l": int(c.get("likesCount") or 0),
                     "a": (c.get("profileName") or ""),
                 })
-                posts.setdefault(pid, {"u": purl, "d": c.get("date") or "", "x": ""})
+                posts.setdefault(pid, {
+                    "u": purl,
+                    "d": c.get("date") or "",
+                    "x": (c.get("postTitle") or "").replace("\n", " ")[:300],
+                })
 
     bundle = {"platform": "facebook", "posts": posts, "comments": comments}
     with open(os.path.join(RAW_DIR, "facebook.json"), "w", encoding="utf-8") as fh:

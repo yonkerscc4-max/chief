@@ -1,0 +1,11 @@
+{
+  "limitations": [
+    "Coverage is the trailing period the scrapers could reach, not ten years: Facebook posts from November 2025 to August 2026 (566 posts) and Instagram posts from April 2025 to August 2026 (400 posts). Facebook paginates backwards from the newest post, so reaching earlier years costs progressively more scraping credit; the budget was spent on comment depth instead of post history.",
+    "Facebook comments were pulled from the 40 most-commented posts in the window, up to 60 comments each. Heavily discussed posts are therefore over-represented on purpose - that is where grievances collect - so these shares describe the complaint conversation, not the average post.",
+    "Instagram comments are those returned alongside each post, roughly nine per post across all 400 posts, so Instagram contributes a broader but shallower slice than Facebook.",
+    "The window contains two winters and a heavy snow-response period. Seasonal issues are correspondingly prominent; a summer-weighted window would rank them lower.",
+    "Emoji-only, tag-only and one-word reactions are counted in the total collected but excluded from the base used for the complaint rate, since they express no grievance either way.",
+    "Comments posted by official city accounts are excluded, as the scrapers surface them alongside residents' replies.",
+    "A category can rank low simply because the city rarely posted about it. Traffic and reckless driving finish near the bottom here, which is out of step with how residents usually rank that issue; it reflects the absence of traffic-themed posts in this window rather than an absence of concern. Treat the ranking as a measure of the conversation the city's own posts invited."
+  ]
+}

@@ -90,6 +90,16 @@ def load_records():
     return unique
 
 
+def month_of(record):
+    """Best-effort YYYY-MM for a record, preferring the comment's own date."""
+    for field in ("comment_date", "post_date"):
+        val = str(record.get(field) or "")
+        m = re.match(r"(20\d{2})-(\d{2})", val)
+        if m:
+            return f"{m.group(1)}-{m.group(2)}"
+    return None
+
+
 def year_of(record):
     """Best-effort year for a record, preferring the comment's own date."""
     for field in ("comment_date", "post_date"):
@@ -128,6 +138,7 @@ def analyze():
         r["secondary"] = secondary
         r["score"] = scores.get(primary, 0)
         r["year"] = year_of(r)
+        r["month"] = month_of(r)
         complaints.append(r)
 
     print(f"Identified {len(complaints)} classified complaints")
@@ -135,12 +146,15 @@ def analyze():
     counts = Counter(c["category"] for c in complaints)
     by_platform = defaultdict(Counter)
     by_year = defaultdict(Counter)
+    by_month = defaultdict(Counter)
     likes_by_cat = defaultdict(int)
 
     for c in complaints:
         by_platform[c["category"]][c.get("platform", "unknown")] += 1
         if c.get("year"):
             by_year[c["category"]][c["year"]] += 1
+        if c.get("month"):
+            by_month[c["category"]][c["month"]] += 1
         likes_by_cat[c["category"]] += int(c.get("likes") or 0)
 
     # Mentions counts every category a comment touches, not just the primary.
@@ -162,6 +176,7 @@ def analyze():
             "avg_likes": round(likes_by_cat[cat] / n, 1) if n else 0.0,
             "by_platform": dict(by_platform[cat]),
             "by_year": dict(sorted(by_year[cat].items())),
+            "by_month": dict(sorted(by_month[cat].items())),
             "examples": pick_examples(complaints, cat),
         })
 
@@ -176,6 +191,9 @@ def analyze():
         "platforms": dict(Counter(r.get("platform", "unknown") for r in records)),
         "comments_by_year": dict(sorted(Counter(
             y for y in (year_of(r) for r in records) if y
+        ).items())),
+        "comments_by_month": dict(sorted(Counter(
+            m for m in (month_of(r) for r in records) if m
         ).items())),
         "categories": ranked,
     }
@@ -222,7 +240,9 @@ def pick_examples(complaints, category, n=8):
         seen_text.add(fingerprint)
         seen_authors.add(a)
         picked.append({
-            "text": c["comment_text"].strip(),
+            # Other residents get named inside comment text; strip those
+            # handles so no individual is identified in the report.
+            "text": MENTION_RE.sub("@—", c["comment_text"].strip()),
             "author": a,
             "date": c.get("comment_date") or c.get("post_date"),
             "year": c.get("year"),

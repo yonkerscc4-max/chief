@@ -87,6 +87,18 @@ PRAISE_MARKERS = [
 ]
 PRAISE_RE = [re.compile(p, re.I) for p in PRAISE_MARKERS]
 
+# Comments that mock other commenters for complaining. They are full of
+# grievance vocabulary but are not themselves grievances against the city,
+# so they count as evidence against treating the comment as a complaint.
+DISMISSIVE_MARKERS = [
+    r"\bget over it\b", r"\bstop complaining\b", r"\bquit complaining\b",
+    r"\balways complain(?:ing)?\b", r"\bcomplain about everything\b",
+    r"\bsame complaints?\b", r"\bblah blah\b", r"\bcry ?babies\b",
+    r"\bcrying about\b", r"\bnothing is ever good enough\b",
+    r"\bpeople (?:will )?complain\b", r"\bmove (?:then|somewhere else)\b",
+]
+DISMISSIVE_RE = [re.compile(p, re.I) for p in DISMISSIVE_MARKERS]
+
 
 # --------------------------------------------------------------------------
 # Categories
@@ -174,7 +186,9 @@ CATEGORIES = {
         (r"\bpermit(?:s)? park", 3),
         (r"\balternate side\b", 3),
         (r"\bno ?where to park\b", 3),
-        (r"\bparking (?:spot|space|garage|lot)", 3),
+        # "lot" is deliberately absent: "a standstill parking lot" is a figure
+        # of speech about traffic or snow, not a complaint about parking.
+        (r"\bparking (?:spot|space|garage|permit)", 3),
         (r"\bmunimeter\b", 3),
         (r"\bboot(?:ed|ing)\b", 2),
     ],
@@ -382,6 +396,10 @@ def is_complaint(text: str) -> bool:
     if len(shouted) >= 2:
         hits += 1
     if hits == 0:
+        return False
+    # A comment mocking complainers is disqualified outright: it borrows the
+    # whole grievance vocabulary while aiming at other residents, not the city.
+    if any(r.search(text) for r in DISMISSIVE_RE):
         return False
     praise = sum(1 for r in PRAISE_RE if r.search(text))
     return hits > praise
