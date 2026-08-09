@@ -1,0 +1,13 @@
+{
+ "limitations": [
+  "This document pools every comment collected across the whole 2021-2026 effort into a single analysis: 9,697 unique comments (4,541 Facebook, 5,156 Instagram) spanning 54 months from May 2021 to August 2026.",
+  "It is not the sum of the six March-November reports. Those windows exclude December, January and February; this pool includes them. 392 of the 895 complaints here - 44 percent - fall outside the six windows. That single difference is why snow and storm response leads this ranking but barely registers in the seasonal reports.",
+  "Coverage is uneven across the span. Instagram's public feed could not be paged back past March 2023, so 2021 and 2022 are Facebook-only. Facebook history was gathered as date-bounded slices rather than an exhaustive crawl, so each year is a sample of that year rather than every post published in it.",
+  "Volume rises steeply toward the present: 28 complaints are dated 2021 against 541 dated 2026. Recent years therefore dominate this pooled ranking. For a like-for-like read across years, use the six period reports, where each period is normalised to its own share.",
+  "Facebook comments were pulled from the most-commented posts in each window. Heavily discussed posts are over-represented on purpose - that is where grievances collect - so these shares describe the complaint conversation, not the average post.",
+  "Instagram contributes the comments returned alongside each post, a broader but shallower slice than Facebook.",
+  "Emoji-only, tag-only and one-word reactions are counted in the total collected but excluded from the base used for the complaint rate, since they express no grievance either way.",
+  "Comments posted by official city accounts are excluded, as the scrapers surface them alongside residents' replies.",
+  "A category can rank low simply because the city rarely posted about it. Treat the ranking as a measure of the conversation the city's own posts invited, not a census of civic opinion."
+ ]
+}

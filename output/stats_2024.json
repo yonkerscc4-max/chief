@@ -1,0 +1,853 @@
+{
+  "generated_at": "2026-08-08T23:01:42.019521Z",
+  "period_label": "March \u2013 November 2024",
+  "period_key": "2024",
+  "total_comments_scraped": 1236,
+  "substantive_comments": 692,
+  "total_complaints": 70,
+  "complaint_rate": 10.1,
+  "years_covered": [
+    2024
+  ],
+  "platforms": {
+    "facebook": 315,
+    "instagram": 921
+  },
+  "comments_by_year": {
+    "2024": 1236
+  },
+  "comments_by_month": {
+    "2024-03": 78,
+    "2024-04": 126,
+    "2024-05": 177,
+    "2024-06": 98,
+    "2024-07": 136,
+    "2024-08": 264,
+    "2024-09": 122,
+    "2024-10": 106,
+    "2024-11": 129
+  },
+  "categories": [
+    {
+      "category": "Schools & Education",
+      "count": 14,
+      "share": 20.0,
+      "mentions": 18,
+      "total_likes": 29,
+      "avg_likes": 2.1,
+      "by_platform": {
+        "facebook": 3,
+        "instagram": 11
+      },
+      "by_year": {
+        "2024": 14
+      },
+      "by_month": {
+        "2024-03": 3,
+        "2024-06": 2,
+        "2024-08": 5,
+        "2024-09": 2,
+        "2024-10": 1,
+        "2024-11": 1
+      },
+      "examples": [
+        {
+          "text": "Oh man what would our children\u2019s education do without a bunch of pedophiles guiding them while in school.\nHow about paying teachers better and upping security. \nYou people in office are not only a joke but you play dangerous games",
+          "author": "barbell_butcher",
+          "date": "2024-03-22T02:50:18.000Z",
+          "year": 2024,
+          "likes": 4,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4ye8i-p-pl/",
+          "post_text": "This week, @mayormikespano swore in the incredible members of the Mayor's LGBTQ+ Advisory Board! \ud83c\udff3\ufe0f\u200d\ud83c\udf08   Together, we celebrate diversity and work towards an inclusive future for all in Yonkers!"
+        },
+        {
+          "text": "Meanwhile the education and safety of student\u2019s etc in all of the Yonkers school system SUCKS \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f!!",
+          "author": "nilsa_puradiamante",
+          "date": "2024-08-29T19:37:07.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C_Qiy0Pu2q_/",
+          "post_text": "Big news! \ud83d\udc4f  A cool investment in our children's future: The City of Yonkers and Yonkers Public Schools announce a 3-year, $5.8 million plan for air conditioning in all public schools. Nothing but comfortable classrooms "
+        },
+        {
+          "text": "Now put that money back in to the awful school system!!! Pay the teachers and give CSEA fair pay!!!!!! N by CSEA I mean the aids n the people WHO WORK IN THE SCHOOLS NOT central office",
+          "author": "the_jess_life",
+          "date": "2024-06-27T17:30:09.000Z",
+          "year": 2024,
+          "likes": 14,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C8uhTUsOlMw/",
+          "post_text": "With a total of 18,132 violations recorded since the Yonkers Safe Stop program's launch, we're raising the bar of safety and reminding motorists to respect the school bus stop-arm laws. Here's to making Yonkers schools s"
+        },
+        {
+          "text": "Improve the kids quality of EDUCATION AND SCHOOL LUNCHES @\u2014",
+          "author": "s0ffia_",
+          "date": "2024-03-19T13:21:04.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4q38-tt6TQ/",
+          "post_text": "@mayormikespano\u2019s 2024 State of the City: Public Safety  \ud83d\ude94\ud83d\udee1\ufe0f Ensuring Safety, Building Trust  In the heart of Yonkers, our dedication to public safety resonates stronger than ever. Here's a glimpse into our past accompli"
+        },
+        {
+          "text": "Shit just paid off my student loans for APEX, wish my high school had this I would\u2019ve never skipped school\ud83d\ude02",
+          "author": "abjstackz",
+          "date": "2024-08-10T21:22:56.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C6yYUJ6O6jx/",
+          "post_text": "Crafting futures, one plank at a time! \ud83d\udee0\ufe0f   Watch how Mr. Mendez\u2019s senior and junior carpentry classes collaborate to construct a house from scratch. Even Superintendent Mr. Soler couldn\u2019t resist a peek! #EducationInActi"
+        },
+        {
+          "text": "we need School crossing guards and signage at every school!!!! @\u2014 @\u2014 @\u2014 @\u2014 @\u2014",
+          "author": "vgas.parro",
+          "date": "2024-06-27T20:43:03.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C8uhTUsOlMw/",
+          "post_text": "With a total of 18,132 violations recorded since the Yonkers Safe Stop program's launch, we're raising the bar of safety and reminding motorists to respect the school bus stop-arm laws. Here's to making Yonkers schools s"
+        },
+        {
+          "text": "They need to update all schools, they are failing apart need fresh pain BETTER CAMERAS SYSTEM update laptops.",
+          "author": "mandy24808",
+          "date": "2024-09-23T14:38:54.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DADp2F_uKKM/",
+          "post_text": "Stepping into a new era of education at the Justice Sonia Sotomayor Community School in Yonkers. Showcasing features which redefine the schooling experience.   Full interview in bio \ud83d\udc49"
+        },
+        {
+          "text": "The way it should be I don\u2019t understand why these schools don\u2019t have AC. They can use portable ACs or windows ACs or honestly why isn\u2019t there central AC in the schools? I hope the new school that was built on McLean has central AC. I don\u2019t see why it shouldn\u2019t especially with it being a new building. \ufffc",
+          "author": "Sharon S Rabadi",
+          "date": "2024-08-29T17:15:18.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02dwCwBKj72unbLxydVXESEhR1rDrewDhCqDXuvykpG2wRiwpwieGxNdNz98NNNicvl",
+          "post_text": "Big news! \ud83d\udc4f  A cool investment in our children's future: The City of Yonkers and Yonkers Public Schools announce a 3-year, $5.8 million plan for air conditioning in all public schools. Nothing but comfortable classrooms "
+        }
+      ]
+    },
+    {
+      "category": "City Responsiveness & Accountability",
+      "count": 11,
+      "share": 15.7,
+      "mentions": 11,
+      "total_likes": 5,
+      "avg_likes": 0.5,
+      "by_platform": {
+        "facebook": 3,
+        "instagram": 8
+      },
+      "by_year": {
+        "2024": 11
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-04": 1,
+        "2024-05": 1,
+        "2024-07": 4,
+        "2024-08": 2,
+        "2024-09": 1,
+        "2024-10": 1
+      },
+      "examples": [
+        {
+          "text": "Is @\u2014 aware the kind of corrupt waterhead you are @\u2014?",
+          "author": "curbyourjingoism",
+          "date": "2024-10-19T12:51:49.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C6mXJCXuXxf/",
+          "post_text": "Thank you @guyfieri for visiting @cityofyonkers and shouting out our first responders who work hard day in and day out not only in service to our great community but to protect and serve. #mayormikespano #cityofyonkers #"
+        },
+        {
+          "text": "It was or still is called the CITY OF THE PRECIOUS LIVING or something like that. It has changed a lot, I miss the old way of life in those days.",
+          "author": "Maria G. Izquierdo",
+          "date": "2024-09-10T10:39:11.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/videos/490059410470895/",
+          "post_text": "Taking you back to the early 1930s in Downtown Yonkers! \ud83d\udd70\ufe0f"
+        },
+        {
+          "text": "@\u2014 every city, town govt is like this. They\u2019re all corrupt",
+          "author": "robe.rt",
+          "date": "2024-03-24T15:31:10.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C42_3e5tWOu/",
+          "post_text": "Hey Yonkers! Did you know...in August 2021, Fatima Taylor became the first African American woman to serve as a Yonkers firefighter? The second woman in the department's history, she works out of Engine Company 310 and F"
+        },
+        {
+          "text": "All this is a photo prop. Mayor need to fix the housing crisis in Yonkers as well as the terrible special education department!",
+          "author": "Hope Pe\u00f1a",
+          "date": "2024-08-14T17:12:25.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0UwcvNc1ea63j9ogcC8i5ZS6cQbq2L6KMKM2ry4Dm3zLjd1k8BuGP8PpE6gaXH217l",
+          "post_text": "Catch a glimpse of Mayor Spano sharing the wonder of books with young Ryan from Yonkers Public Schools. Encouraging the love of reading at FSSY's Summer Reading Buddies program at our very own Yonkers Riverfront Library."
+        },
+        {
+          "text": "It's disgusting how Spano is profiting from that area when it should have been free for the residents to enjoy, what's next they're going to start charging to walk on the boardwalk at the waterfront next?",
+          "author": "Christo Consciousness",
+          "date": "2024-08-30T19:00:17.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid08FqaKL8hLnsnwab4AJfwqbmsXmVGx6gqhgoX1M6hJkTpXEdeL5R6VniSf2YfLpC7l",
+          "post_text": "Good times and great vibes at the annual Yonkers Office for the Aging Summer BBQ at JFK Marina!\ud83d\udd25"
+        },
+        {
+          "text": "Is there a bigger pandering fool than Mayor Flintstone??",
+          "author": "kavas2010",
+          "date": "2024-07-17T12:49:52.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9hautMOF3b/",
+          "post_text": "The National Dominican Day Parade celebrated Yonkers at City Hall! This year, two of our residents, Wilson Terrero and Winston Brewster, will be honorees during the national parade in NYC on August 11. Congratulations an"
+        },
+        {
+          "text": "Can Mike help us at APEX HUDSON WATERFRONT? We want to the mayor to come like he was supposed to in 2021.",
+          "author": "apexhudsonriverfront",
+          "date": "2024-07-15T17:06:20.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9bQBz7sI2c/",
+          "post_text": "It's a winning moment!   @mayormikespano, the well-deserved recipient of 2024's Best of Westchester \"Best Mayor\". \ud83c\udfc6"
+        },
+        {
+          "text": "Typical democrat spend money on shit that doesn\u2019t need to be fixed ignore the rest of Yonkers. Thats one of the many reasons i took my family and both businesses out of Westchester!!!",
+          "author": "positiveenergywraps",
+          "date": "2024-07-14T22:41:43.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9XEPjJsU8Y/",
+          "post_text": "Yonkers, get ready for a smooth ride! \ud83d\ude97  Exciting news as Governor Kathy Hochul announced the commencement of a $17 million infrastructure project on Central Avenue! Improvements start on State Route 100, the powerhouse "
+        }
+      ]
+    },
+    {
+      "category": "Parks & Public Spaces",
+      "count": 8,
+      "share": 11.4,
+      "mentions": 8,
+      "total_likes": 8,
+      "avg_likes": 1.0,
+      "by_platform": {
+        "facebook": 2,
+        "instagram": 6
+      },
+      "by_year": {
+        "2024": 8
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-05": 2,
+        "2024-07": 2,
+        "2024-09": 2,
+        "2024-10": 1
+      },
+      "examples": [
+        {
+          "text": "Looks really nice! May I please implore for upgrades to the WELTY PARK Playground? I think it\u2019s been about 20 years.",
+          "author": "Jenny Paltan",
+          "date": "2024-05-14T12:43:01.000Z",
+          "year": 2024,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02h8Y3oFWeUWCCf6TUzRhFZ6bQa593Nk4KsaQ6pSgXrCLE2cRaLq8sPvM5exEvk9GHl",
+          "post_text": "We're thrilled to unveil the new Clemens Park on Leighton Ave!  \ud83d\udedd  The Yonkers Parks Department added a state-of-the-art playground, safe rubber matting, and much more."
+        },
+        {
+          "text": "Can we please fix Pelton Park on McLean it\u2019s crazy how they can do the soccer field and all that other stuff but can\u2019t fix the basketball court",
+          "author": "kev_slsh",
+          "date": "2024-07-21T17:02:24.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9r_SFwAGbL/",
+          "post_text": "Celebrating #NationalParksandRecreationMonth with a look at our beloved H. Boo Wilson Park! \ud83c\udfde\ufe0f   Located at Runyon Ave., and Tuckahoe Rd., you'll find recently renovated basketball courts, playground equipment, sprinkler"
+        },
+        {
+          "text": "Sadly nothing kids friendly or playground for kids. America is all about business they don't care about kids. Mean while all most every where in Europe the dining location has a playground for kids!!!",
+          "author": "valentina.l.h",
+          "date": "2024-09-20T03:17:52.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DAGpOdkxzsk/",
+          "post_text": "Cantina, a Westchester favorite, has popped open its second location in Ridge Hill. On the lookout for some Mexican cuisine and a full bar? Look no further, it's right next to the Legoland Discovery Center and even bigge"
+        },
+        {
+          "text": "We need more basketball courts with glass backboards",
+          "author": "silentlea5",
+          "date": "2024-07-21T15:18:59.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9r_SFwAGbL/",
+          "post_text": "Celebrating #NationalParksandRecreationMonth with a look at our beloved H. Boo Wilson Park! \ud83c\udfde\ufe0f   Located at Runyon Ave., and Tuckahoe Rd., you'll find recently renovated basketball courts, playground equipment, sprinkler"
+        },
+        {
+          "text": "Rory O'Moore Memorial Park desperately needs to be reimagined with a playground and gathering area for the community. The neighborhood surrounding school 29 does not have any family friendly parks or playgrounds.",
+          "author": "Cindy Guerrero",
+          "date": "2024-05-15T05:13:25.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02h8Y3oFWeUWCCf6TUzRhFZ6bQa593Nk4KsaQ6pSgXrCLE2cRaLq8sPvM5exEvk9GHl",
+          "post_text": "We're thrilled to unveil the new Clemens Park on Leighton Ave!  \ud83d\udedd  The Yonkers Parks Department added a state-of-the-art playground, safe rubber matting, and much more."
+        },
+        {
+          "text": "That park was already in very good condition compared to all the other ones in poorer neighborhoods. So many playgrounds falling apart in unsafe conditions and this one gets a makeover? Lol",
+          "author": "allyshabello",
+          "date": "2024-10-29T11:54:57.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DBraolwvyd_/",
+          "post_text": "Schultze Park is officially open and ready for play!   Enjoy a brand-new playground, upgraded basketball court, walking pathways, and so much more! This marks our 10th park renovation this year\u2014thanks to Mayor Mike Spano"
+        },
+        {
+          "text": "Alot of yonkers parks need to be redone..Grant Park near my house really really needs to be done over",
+          "author": "thatgirltizzy",
+          "date": "2024-09-01T13:53:57.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C-JIZGBSP2J/",
+          "post_text": "\ud83c\udf89 Exciting News! \ud83c\udf89  We had the honor of cutting the ribbon at the newly renovated Kinsley Park (located on Park and Chase Avenue) in Yonkers, New York! \ud83c\udf33\u2728   This beautiful space is now open for everyone to enjoy.  A huge"
+        },
+        {
+          "text": "@\u2014 How about a public track to jog around? Vancortlandt Park is too far and unsafe",
+          "author": "still_queenin_",
+          "date": "2024-03-21T08:43:50.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4vDuVpsXEh/",
+          "post_text": "@mayormikespano\u2019s 2024 State of the City: Parks  \ud83c\udf33\ud83c\udf3f Nurturing Nature, Enhancing Parks  In Yonkers, our parks are more than just green spaces\u2014they're vibrant hubs of community life, continually evolving to meet the needs "
+        }
+      ]
+    },
+    {
+      "category": "Taxes & Cost of Living",
+      "count": 7,
+      "share": 10.0,
+      "mentions": 9,
+      "total_likes": 9,
+      "avg_likes": 1.3,
+      "by_platform": {
+        "instagram": 7
+      },
+      "by_year": {
+        "2024": 7
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-04": 1,
+        "2024-07": 1,
+        "2024-08": 1,
+        "2024-11": 3
+      },
+      "examples": [
+        {
+          "text": "Get ready for a smooth ride? Lmao there\u2019s not a smooth road in Yonkers and hasn\u2019t been for years. I wonder where our tax money is really going",
+          "author": "jhetch81876",
+          "date": "2024-07-15T03:29:46.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C9XEPjJsU8Y/",
+          "post_text": "Yonkers, get ready for a smooth ride! \ud83d\ude97  Exciting news as Governor Kathy Hochul announced the commencement of a $17 million infrastructure project on Central Avenue! Improvements start on State Route 100, the powerhouse "
+        },
+        {
+          "text": "Yonkers public maintenance is a total joke. You need to do better we the taxes we pay here.",
+          "author": "gustavourenaportrait",
+          "date": "2024-11-02T16:14:36.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DB3gusPSej2/",
+          "post_text": "Welcome to the new and improved Stilwell Park! \ud83d\udedd  Head over to McLean Ave. and experience fun like never before - with brand new playground, secure rubber surfacing, up-to-date site furniture, and enhanced landscaping. \ud83d\udc4f"
+        },
+        {
+          "text": "Ummm this is why there is taxes.  How about use city funds to feed the families ?",
+          "author": "linebkr9999",
+          "date": "2024-08-31T06:00:31.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C_RIschSlHO/",
+          "post_text": "Due to gas leaks, the gas at Palisade Towers has unfortunately been shut down until further notice. As we figure out solutions, I\u2019m asking all business owners to donate meals to constituents who live there. Call (914) 79"
+        },
+        {
+          "text": "The renovation is a joke, it took way to long for it to be completed and yet somehow it\u2019s still incomplete. The volume of kids and families that come here to have waited as long as we did for this \u201dupgrade \u201c is a slap in  our faces. Especially now that we know that you all cheapened out and didn\u2019t use the allotted budget given.  DO BETTER",
+          "author": "adrianaiguana",
+          "date": "2024-11-02T14:30:00.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DB3gusPSej2/",
+          "post_text": "Welcome to the new and improved Stilwell Park! \ud83d\udedd  Head over to McLean Ave. and experience fun like never before - with brand new playground, secure rubber surfacing, up-to-date site furniture, and enhanced landscaping. \ud83d\udc4f"
+        },
+        {
+          "text": "Waste of taxpayer dollars. You need a car in Yonkers to get anywhere.",
+          "author": "kitty.la.femme.nikita",
+          "date": "2024-11-13T22:09:20.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DCR4qZOMFii/",
+          "post_text": "Yonkers leads the way as the first city in Westchester to install LaneLight In-Road Warning System crosswalks! Mayor Mike Spano has announced six new solar powered LED crosswalks that light up as pedestrians cross.  The "
+        },
+        {
+          "text": "Maybe Empire City needs to kick in more? Maybe we need to reevaluate distribution from Lotto? These asks always end up on wanting more from taxpayers but never from those that benefit from taxpayers such as casinos and lotto\u2026",
+          "author": "skyedogbbq",
+          "date": "2024-04-14T23:25:10.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C5jaKNYCO0I/",
+          "post_text": "I am delaying my proposed Executive Budget one week pending New York State\u2019s adoption of its budget, which was due April 1. I am calling on New York State representatives to inject additional funding to the Yonkers Publi"
+        }
+      ]
+    },
+    {
+      "category": "Roads & Potholes",
+      "count": 6,
+      "share": 8.6,
+      "mentions": 6,
+      "total_likes": 14,
+      "avg_likes": 2.3,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 5
+      },
+      "by_year": {
+        "2024": 6
+      },
+      "by_month": {
+        "2024-03": 2,
+        "2024-06": 2,
+        "2024-08": 1,
+        "2024-11": 1
+      },
+      "examples": [
+        {
+          "text": "Hope there is an update when some of these roads are getting paved???",
+          "author": "spice914",
+          "date": "2024-03-20T20:31:08.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4v6q_RJo27/",
+          "post_text": "Introducing Yonkers-Tron \u2013 our sleek new LED display sign on the Government Center Garage on New Main Street near Nepperhan Avenue. \ud83d\udd25   Keep your eyes peeled for the latest updates, events, and happenings in our city! \ud83d\udc40"
+        },
+        {
+          "text": "Show us the data for potholes in Yonkers. Feels like that was overlooked for years.",
+          "author": "icarlosxo",
+          "date": "2024-03-18T21:13:56.000Z",
+          "year": 2024,
+          "likes": 7,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4q38-tt6TQ/",
+          "post_text": "@mayormikespano\u2019s 2024 State of the City: Public Safety  \ud83d\ude94\ud83d\udee1\ufe0f Ensuring Safety, Building Trust  In the heart of Yonkers, our dedication to public safety resonates stronger than ever. Here's a glimpse into our past accompli"
+        },
+        {
+          "text": "That's great, now can you please fix the big pothole that is called Saw Mill River Rd? By Oakland Cemetery. Feel like my engine is going to fall out every time I drive on that road. For this you get a big fat ZERO",
+          "author": "Kay Pat De",
+          "date": "2024-11-26T17:09:22.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid0eot4GaphEBDjeX6718zpfffgiGucoJGw6kypXW9mS4v5T2XCiyS3EDjkZMfuzmiil",
+          "post_text": "For the 10th consecutive year, Yonkers has scored a perfect 100 on the Municipal Equality Index! This shows our unwavering commitment to inclusivity and equality for everyone. \ud83c\udff3\ufe0f\u200d\ud83c\udf08   Let's keep making Yonkers a city ever"
+        },
+        {
+          "text": "Fix the nasty potholes we have all over the city",
+          "author": "stevenedrums",
+          "date": "2024-08-10T03:44:17.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C-d1g0Ou6vo/",
+          "post_text": "Over on Oak Street, checking on our first responders. Thank you for your service and answering calls to keep our City safe and our streets clear! #cityofyonkers #mayormikespano #tropicalstormdebby #treesdown #firstrespon"
+        },
+        {
+          "text": "Here\u2019s number 5, hundreds of rims and tires were ruined by the millions of potholes all throughout Yonkers, that the city just can\u2019t seem to fix",
+          "author": "jhetch81876",
+          "date": "2024-06-09T22:17:08.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C76etkMOj1O/",
+          "post_text": "Here are 4 things that happened in Yonkers this week! #YourYonkersNow"
+        }
+      ]
+    },
+    {
+      "category": "Trash, Sanitation & Illegal Dumping",
+      "count": 6,
+      "share": 8.6,
+      "mentions": 6,
+      "total_likes": 20,
+      "avg_likes": 3.3,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 5
+      },
+      "by_year": {
+        "2024": 6
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-05": 1,
+        "2024-06": 1,
+        "2024-08": 2,
+        "2024-11": 1
+      },
+      "examples": [
+        {
+          "text": "All great accomplishments and I would love to be proud of my city. Please do something about the litter. The streets are a garbage dump. Please find a way to enforce litter laws. It\u2019s embarrassing to all of us who live here.",
+          "author": "cnmiller80",
+          "date": "2024-03-19T01:17:39.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4q38-tt6TQ/",
+          "post_text": "@mayormikespano\u2019s 2024 State of the City: Public Safety  \ud83d\ude94\ud83d\udee1\ufe0f Ensuring Safety, Building Trust  In the heart of Yonkers, our dedication to public safety resonates stronger than ever. Here's a glimpse into our past accompli"
+        },
+        {
+          "text": "Would never rat on a hard working landscaper. Go after the loud cars and illegal mopeds.",
+          "author": "Kara Murray-Volpi",
+          "date": "2024-08-19T18:23:17.000Z",
+          "year": 2024,
+          "likes": 13,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid024vyLpCNYQosbZYGxmffkRFgVs7HiY1iTms6XQC9XtoVeS3HTiACp6n1GEeKexXGDl",
+          "post_text": "Yonkers Gas-Powered Leaf Blower Ban is in full effect from June 1 to Sept 30 annually. Save the air, save the noise, save the peace. \ud83c\udf0d   To report noncompliance, reach out to the Yonkers Code Enforcement or the Police De"
+        },
+        {
+          "text": "Child predator flag right there. No other flag should be flying there only the American flag \ud83c\uddfa\ud83c\uddf8. No one cares what you\u2019re doing in your rooms take that garbage down.",
+          "author": "j_bones88",
+          "date": "2024-06-08T04:11:07.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C77gZoeshXD/",
+          "post_text": "Raising the LGBTQIA+ flag high at Yonkers City Hall! \ud83c\udff3\ufe0f\u200d\ud83c\udf08  Tomorrow, our streets flood with pride. Don't miss the Yonkers Pride Festival on Main Street in Downtown Yonkers starting at 1PM."
+        },
+        {
+          "text": "Mayor Flintstone and the ghetto trash Tasha Diaz. \ud83e\udd2e",
+          "author": "kavas2010",
+          "date": "2024-11-22T00:23:25.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DCpRXyCps6E/",
+          "post_text": "It's an annual tradition at Stew Leonard's (Yonkers) teaming up with our Yonkers Police Department and Yonkers Fire Department to hand out turkeys just in time for Thanksgiving. Yonkers City Council also joined in on the"
+        },
+        {
+          "text": "pls don\u2019t forget an educational program to help stop the littering. The sewers are clogged and the fish is half paper and half plastic.",
+          "author": "westchesterairductcleaning",
+          "date": "2024-08-30T02:38:55.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C_Qiy0Pu2q_/",
+          "post_text": "Big news! \ud83d\udc4f  A cool investment in our children's future: The City of Yonkers and Yonkers Public Schools announce a 3-year, $5.8 million plan for air conditioning in all public schools. Nothing but comfortable classrooms "
+        }
+      ]
+    },
+    {
+      "category": "Housing & Overdevelopment",
+      "count": 4,
+      "share": 5.7,
+      "mentions": 4,
+      "total_likes": 19,
+      "avg_likes": 4.8,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 3
+      },
+      "by_year": {
+        "2024": 4
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-08": 1,
+        "2024-09": 1,
+        "2024-10": 1
+      },
+      "examples": [
+        {
+          "text": "Why does he have to ask for school funding with all these building projects going up??? Cause our tax dollars are going into their pockets that\u2019s why!! Ridiculous to ask for funds should be getting funds from these billionaires putting up these high rises from the developers not tax payers!!! More buildings more traffic more crime more traffic!! But more money in their pockets \ud83d\udcaf",
+          "author": "spice914",
+          "date": "2024-03-09T07:52:57.000Z",
+          "year": 2024,
+          "likes": 4,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4Q1xrWhIh5/",
+          "post_text": "This week's Your Yonkers Now highlights the diversity of Yonkers plus more on the Mayor's trip to Albany. #cityofyonkers #mayormikespano #youryonkersnow #yyn #weekinreview #westchestercounty #westchesterslargestcity"
+        },
+        {
+          "text": "Who can afford that? Luxury in the ghetto is crazy.",
+          "author": "icarlosxo",
+          "date": "2024-10-02T01:55:07.000Z",
+          "year": 2024,
+          "likes": 14,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DAmPMogPjLS/",
+          "post_text": "Discover your next home at 70 Pier Street! \ud83d\udd11  Immerse yourself in luxury with upscale, transit-oriented rental apartments, crowned with amenities like a Club Lounge, Fitness Center, Business Center, and a stunning Roof D"
+        },
+        {
+          "text": "Isn't that a city owned  municipal housing  building ? If the gas is off then the city if yonkers should have stepped up a d provided whatever was needed . Why did they go out begging businesses to provide and then filming it so they can look good. These political stunts are getting ridiculous",
+          "author": "trainwr3k",
+          "date": "2024-08-30T23:24:21.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C_TWUy_iY4I/",
+          "post_text": "Look what our community can do! Yesterday, I issued a call to action -- asking local businesses to help the families at Palisade Towers dealing with an emergency gas shutdown. Our Yonkers Police Department, Yonkers PBA, "
+        }
+      ]
+    },
+    {
+      "category": "Jobs, Hiring & Local Economy",
+      "count": 4,
+      "share": 5.7,
+      "mentions": 4,
+      "total_likes": 2,
+      "avg_likes": 0.5,
+      "by_platform": {
+        "instagram": 4
+      },
+      "by_year": {
+        "2024": 4
+      },
+      "by_month": {
+        "2024-04": 1,
+        "2024-09": 1,
+        "2024-10": 1,
+        "2024-11": 1
+      },
+      "examples": [
+        {
+          "text": "This renovation is a complete joke!  The equipment is small and not accessible for kids with disabilities. There are fences missing, holes in the ground, uneven pavement, the new padding is missing in a few areas making it dangerous for anyone who is running/walking around. Should\u2019ve just left the park alone if you were going to do a half-assed job.",
+          "author": "amy_marie80",
+          "date": "2024-11-02T20:32:33.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DB3gusPSej2/",
+          "post_text": "Welcome to the new and improved Stilwell Park! \ud83d\udedd  Head over to McLean Ave. and experience fun like never before - with brand new playground, secure rubber surfacing, up-to-date site furniture, and enhanced landscaping. \ud83d\udc4f"
+        },
+        {
+          "text": "Great job! When will Schultz park open?? Closed for a very long time!!!!",
+          "author": "ginababe53",
+          "date": "2024-10-12T14:19:58.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DA_zzH_SRpt/",
+          "post_text": "Stefanik Park just got a major upgrade! Check out the brand new basketball court, enhanced landscaping, improved accessibility and more. \ud83c\udfc0\ud83c\udf33  This is the 8th park renovation this year, and we\u2019re not done yet\u2014more to come "
+        }
+      ]
+    },
+    {
+      "category": "Street Lighting & Infrastructure",
+      "count": 3,
+      "share": 4.3,
+      "mentions": 3,
+      "total_likes": 4,
+      "avg_likes": 1.3,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 2
+      },
+      "by_year": {
+        "2024": 3
+      },
+      "by_month": {
+        "2024-08": 1,
+        "2024-11": 2
+      },
+      "examples": [
+        {
+          "text": "kudos for the safety enhancement  ... but maybe, as a kind suggestion, signs should be added to the poles saying that all vehicles must stop when lights are flashing ?",
+          "author": "Len Holsborg",
+          "date": "2024-11-12T20:33:23.000Z",
+          "year": 2024,
+          "likes": 4,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/videos/2058259781271477/",
+          "post_text": "Yonkers leads the way as the first city in Westchester to install LaneLight In-Road Warning System crosswalks! Mayor Mike Spano has announced six new solar powered LED crosswalks that light up as pedestrians cross.  The "
+        },
+        {
+          "text": "Such a loss. \ud83d\ude22. I think of him and that terrible day every time I cross that bridge.",
+          "author": "pmdjasper",
+          "date": "2024-11-03T03:58:06.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/DBw0PHwxARx/",
+          "post_text": "A heartfelt salute to the legacy of Yonkers Police Detective Sergeant Frank Gualdino \ud83d\ude94  Today, we renamed the Sprain Brook Parkway overpass on Tuckahoe Road in his honor, commemorating his brave service and love for the "
+        },
+        {
+          "text": "I remember staying at 2 Schroeder on the 5th floor with shopping bags walking up the stairs because elevators always out of service and pissy\u2026\u2026. Fix them elevators too!!!",
+          "author": "domingolocks",
+          "date": "2024-08-31T01:18:58.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C_TWUy_iY4I/",
+          "post_text": "Look what our community can do! Yesterday, I issued a call to action -- asking local businesses to help the families at Palisade Towers dealing with an emergency gas shutdown. Our Yonkers Police Department, Yonkers PBA, "
+        }
+      ]
+    },
+    {
+      "category": "Crime & Public Safety",
+      "count": 3,
+      "share": 4.3,
+      "mentions": 4,
+      "total_likes": 5,
+      "avg_likes": 1.7,
+      "by_platform": {
+        "facebook": 1,
+        "instagram": 2
+      },
+      "by_year": {
+        "2024": 3
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-10": 1,
+        "2024-11": 1
+      },
+      "examples": [
+        {
+          "text": "Crime rate down but there were more stabbings and shoot outs in my old neighborhood to the point where the mayor had to doa conference on my old block. And that in the LAST TWO YEARS",
+          "author": "mylittleyandere",
+          "date": "2024-03-18T22:06:48.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4q38-tt6TQ/",
+          "post_text": "@mayormikespano\u2019s 2024 State of the City: Public Safety  \ud83d\ude94\ud83d\udee1\ufe0f Ensuring Safety, Building Trust  In the heart of Yonkers, our dedication to public safety resonates stronger than ever. Here's a glimpse into our past accompli"
+        },
+        {
+          "text": "Good afternoon I have lived in Yonkers for the past 37 years and it has changed a lot get  rid of all the crime and we should be fine I used to work down near the Yonkers museum, Thomas McVicar roofing.",
+          "author": "Fletcher Andrews",
+          "date": "2024-11-11T22:50:06.000Z",
+          "year": 2024,
+          "likes": 0,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/videos/490059410470895/",
+          "post_text": "Taking you back to the early 1930s in Downtown Yonkers! \ud83d\udd70\ufe0f"
+        }
+      ]
+    },
+    {
+      "category": "Snow, Flooding & Storm Response",
+      "count": 2,
+      "share": 2.9,
+      "mentions": 2,
+      "total_likes": 5,
+      "avg_likes": 2.5,
+      "by_platform": {
+        "instagram": 2
+      },
+      "by_year": {
+        "2024": 2
+      },
+      "by_month": {
+        "2024-03": 1,
+        "2024-09": 1
+      },
+      "examples": [
+        {
+          "text": "When is the sewage system going to be fixed to prevent flooding?",
+          "author": "angelica227",
+          "date": "2024-03-20T23:58:45.000Z",
+          "year": 2024,
+          "likes": 5,
+          "platform": "instagram",
+          "post_url": "https://www.instagram.com/p/C4v6q_RJo27/",
+          "post_text": "Introducing Yonkers-Tron \u2013 our sleek new LED display sign on the Government Center Garage on New Main Street near Nepperhan Avenue. \ud83d\udd25   Keep your eyes peeled for the latest updates, events, and happenings in our city! \ud83d\udc40"
+        }
+      ]
+    },
+    {
+      "category": "Traffic, Speeding & Reckless Driving",
+      "count": 1,
+      "share": 1.4,
+      "mentions": 1,
+      "total_likes": 1,
+      "avg_likes": 1.0,
+      "by_platform": {
+        "facebook": 1
+      },
+      "by_year": {
+        "2024": 1
+      },
+      "by_month": {
+        "2024-06": 1
+      },
+      "examples": [
+        {
+          "text": "How about confiscating the mopeds and giving them to businesses that use it for delivery?",
+          "author": "Gladys Baerga Viruet",
+          "date": "2024-06-07T02:33:04.000Z",
+          "year": 2024,
+          "likes": 1,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/videos/1018024139727650/",
+          "post_text": "Check out this week's Your Yonkers Now"
+        }
+      ]
+    },
+    {
+      "category": "Parking",
+      "count": 1,
+      "share": 1.4,
+      "mentions": 1,
+      "total_likes": 2,
+      "avg_likes": 2.0,
+      "by_platform": {
+        "facebook": 1
+      },
+      "by_year": {
+        "2024": 1
+      },
+      "by_month": {
+        "2024-08": 1
+      },
+      "examples": [
+        {
+          "text": "Yeah, like we need more traffic and the sad part is the parking authority never enforces and people double park triple Park on South Broadway, all the way to Lawrence and wherever else and McLean Avenue\nWhat a shame",
+          "author": "Hani Jereis",
+          "date": "2024-08-14T01:30:53.000Z",
+          "year": 2024,
+          "likes": 2,
+          "platform": "facebook",
+          "post_url": "https://www.facebook.com/cityofyonkers/posts/pfbid02cE9rQjpcqjdnFkzCwZNm44GXcZYgt6T3CXvdUoFfSejCiryUWFiptmDZ3GhbRNNVl",
+          "post_text": "Preparing Yonkers for the exciting addition of the new Justice Sonia Sotomayor Community School! \ud83d\ude8c\ud83d\udca8   The City will be converting Lawrence St into a one-way westbound street to ensure smoother traffic. Note the changes -"
+        }
+      ]
+    }
+  ]
+}
