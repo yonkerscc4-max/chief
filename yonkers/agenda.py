@@ -374,6 +374,11 @@ def build_story(stats):
     volumes = {r["category"]: r for r in stats["categories"]}
     story = []
 
+    # Order the agenda by the ranking of whichever dataset was passed in, so
+    # the numbering always matches the findings it sits beside.
+    rank = {r["category"]: i for i, r in enumerate(stats["categories"])}
+    items = sorted(AGENDA, key=lambda it: rank.get(it["issue"], 99))
+
     tag = R.ParagraphStyle(
         "tag", parent=s["cat_title"], fontSize=17, leading=20,
         textColor=R.ACCENT)
@@ -408,7 +413,7 @@ def build_story(stats):
     # ---------------- Tagline index ----------------
     story.append(Paragraph("The taglines at a glance", s["h1"]))
     rows = [["#", "Issue", "Tagline", "Share"]]
-    for i, item in enumerate(AGENDA, 1):
+    for i, item in enumerate(items, 1):
         v = volumes.get(item["issue"])
         rows.append([str(i), item["issue"], item["tagline"],
                      f"{v['share']}%" if v else "—"])
@@ -433,7 +438,7 @@ def build_story(stats):
     story.append(PageBreak())
 
     # ---------------- One block per issue ----------------
-    for i, item in enumerate(AGENDA, 1):
+    for i, item in enumerate(items, 1):
         v = volumes.get(item["issue"])
         head = Table([[
             Paragraph(f"{i}", s["rank_num"]),
