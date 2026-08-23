@@ -1,7 +1,20 @@
 # chief
 
-Two independent single-file web apps. No build step, no server — open the HTML
-file (or host it anywhere static) and go.
+Two independent builds for John Rubbo: **C.H.I.E.F.** (personal command
+system) and the **YBC CFO agent** (Yonkers Brewing Co finances). They are
+separate — different domains, different tools.
+
+## YBC CFO agent — `cfo/`
+
+The AI CFO for Yonkers Brewing Company. Works from live QuickBooks and Toast
+data via Claude skills (`.claude/skills/cfo-*`), with its knowledge base in
+`cfo/data/` (machine-readable) and `cfo/os/` (shareable markdown for the
+leadership team). See `cfo/README.md`.
+
+## Web apps
+
+Single-file, no build step, no server — open the HTML file (or host it
+anywhere static) and go.
 
 ## C.H.I.E.F. — `index.html`
 

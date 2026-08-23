@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Yonkers Brewing — Toast → QuickBooks Category Map",
+    "version": "1",
+    "date": "2026-07-26",
+    "status": "First pass built from live QuickBooks GL and the Per Guest Spend Brief v2. Validate against a Toast item-level export, then lock.",
+    "purpose": "One taxonomy tying every Toast sales item to the right QuickBooks account, channel, and revenue center. This is the rulebook the classification skill runs on."
+  },
+  "revenue_map": [
+    { "toast_category": "Small Plates / Appetizers", "gl_account": "4211 Small Plates", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "Largest food line; 38% of food revenue per per-guest brief." },
+    { "toast_category": "Wings (Wing Night)", "gl_account": "4211 Small Plates (or new 4215 Wings)", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "Brief flags Wing Night items as UNCATEGORIZED in Toast — must map." },
+    { "toast_category": "Big Plates / Entrees", "gl_account": "4223 Big Plates", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "" },
+    { "toast_category": "Sandwiches / Burgers", "gl_account": "4218 Sandwiches", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "Burger decoy reprice lives here." },
+    { "toast_category": "Tacos", "gl_account": "4196 Tacos", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "" },
+    { "toast_category": "Soups", "gl_account": "4197 Soups", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "" },
+    { "toast_category": "Salads", "gl_account": "4198 Salads", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "" },
+    { "toast_category": "Brunch", "gl_account": "4199 Brunch", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "Sunday brunch package upside." },
+    { "toast_category": "Kids Meals", "gl_account": "4222 Kids Meals", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "" },
+    { "toast_category": "Desserts", "gl_account": "4224 Desserts", "channel": "Retail – Food", "revenue_center": "Dining Room", "notes": "Currently under-sold; move onto food menu." },
+    { "toast_category": "Catering", "gl_account": "4250 Retail Catering", "channel": "Retail – Food", "revenue_center": "Off-Premise", "notes": "" },
+    { "toast_category": "Beer – House / Draft / Flights", "gl_account": "4212 Beer", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "House beers listed first; flights working." },
+    { "toast_category": "Beer – External (Corona, Coors, etc.)", "gl_account": "4212 Beer", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "Same revenue acct; DIFFERENT COGS acct (5220). See cogs_map." },
+    { "toast_category": "Beer – Six-packs / Cans to go", "gl_account": "New 4215 Beer To-Go (recommend)", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "Currently blurred; brief shows $7.2K to-go working." },
+    { "toast_category": "Liquor / Cocktails", "gl_account": "4213 Liquor", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "The $4,222 uncategorized Margarita belongs HERE." },
+    { "toast_category": "Wine", "gl_account": "4214 Wine", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "" },
+    { "toast_category": "Non-Alcoholic Beverages", "gl_account": "4221 Non Alcoholic Beverages", "channel": "Retail – Beverage", "revenue_center": "Bar", "notes": "NA beer / mocktails opportunity." },
+    { "toast_category": "Merchandise", "gl_account": "4219 Merchandise", "channel": "Retail – Other", "revenue_center": "Bar", "notes": "Needs a matching COGS account." },
+    { "toast_category": "Live Music / Cover / Events", "gl_account": "9101 Live Music and Event Sales", "channel": "Venue – Events", "revenue_center": "Stage / Venue", "notes": "Keep separate; pair with 7245/7246 event costs." },
+    { "toast_category": "Wholesale – Packaged Beer 4/6/12", "gl_account": "4110 Packaged Beer - 4/6/12", "channel": "Wholesale", "revenue_center": "Wholesale", "notes": "" },
+    { "toast_category": "Wholesale – Keg 1/6 bbl", "gl_account": "4120 Kegged Beer -1/6 bbl", "channel": "Wholesale", "revenue_center": "Wholesale", "notes": "" },
+    { "toast_category": "Wholesale – Keg 1/2 bbl", "gl_account": "4130 Kegged Beer - 1/2 bbl", "channel": "Wholesale", "revenue_center": "Wholesale", "notes": "" }
+  ],
+  "cogs_map": [
+    { "category": "All Food categories", "cogs_account": "5210 Food Cogs", "target_cogs_pct": 0.30, "notes": "Restaurant food target ~28–32%. Confirm against recipes." },
+    { "category": "Beer – House / Draft", "cogs_account": "5215 Beer Cogs - Internal", "target_cogs_pct": 0.20, "notes": "House beer transfer cost; ~18–22%." },
+    { "category": "Beer – External (Corona/Coors/etc.)", "cogs_account": "5220 Beer Cogs - External", "target_cogs_pct": 0.32, "notes": "Brief: bought at 25–30 pts worse margin — watch mix." },
+    { "category": "Liquor / Cocktails", "cogs_account": "5230 Wine/Liquor Cogs", "target_cogs_pct": 0.20, "notes": "Spirits pour cost target ~18–22%." },
+    { "category": "Wine", "cogs_account": "5230 Wine/Liquor Cogs (consider split)", "target_cogs_pct": 0.33, "notes": "Wine runs higher; consider a separate 5231 Wine Cogs." },
+    { "category": "Non-Alcoholic", "cogs_account": "5240 Supplies (or new NA Cogs)", "target_cogs_pct": 0.18, "notes": "No clean COGS today; recommend a dedicated account." },
+    { "category": "Merchandise", "cogs_account": "New 5250 Merch Cogs (recommend)", "target_cogs_pct": 0.50, "notes": "No COGS account exists for merch today." },
+    { "category": "Paper / Supplies", "cogs_account": "5240 Supplies", "target_cogs_pct": null, "notes": "Non-product retail supplies." },
+    { "category": "Wholesale beer", "cogs_account": "5100 Wholesale Cogs", "target_cogs_pct": null, "notes": "Keep wholesale COGS separate from retail." }
+  ],
+  "accounts_to_fix": [
+    { "account": "4150 Sales", "problem": "Vague catch-all revenue bucket.", "action": "Retire; reclassify activity to a real category." },
+    { "account": "4140 Other Sales (Wholesale)", "problem": "Catch-all inside wholesale.", "action": "Retire or define narrowly; move to 4110–4130." },
+    { "account": "4220 Other Sales (Retail)", "problem": "Catch-all inside retail.", "action": "Retire; map items to real categories." },
+    { "account": "4225 Promos / 6210 Promos", "problem": "Promo shown as sales; 6210 mis-nested under Gross Retail with negative value.", "action": "Move to a contra-revenue / discount account, not sales." },
+    { "account": "Sales of Product Income", "problem": "QuickBooks default account leaking $86.67.", "action": "Close into the correct category and stop using." },
+    { "account": "Uncategorized Toast items", "problem": "e.g. the $4,222 Margarita with no sales category.", "action": "Map every Toast item to a GL category (see revenue_map)." },
+    { "account": "Duplicate beer buttons", "problem": "Same beer split across multiple Toast buttons.", "action": "Merge to one item; single mapping to 4212 Beer." },
+    { "account": "Petty Cash ($42,702)", "problem": "Implausibly large for a till float.", "action": "Investigate underlying entries; reclassify." },
+    { "account": "Accounts Payable (−$60,891)", "problem": "Negative/debit AP balance.", "action": "Reclassify vendor prepayments to an asset; clean up." }
+  ],
+  "revenue_centers": [
+    { "class": "Bar", "routes": "All beverage; bar-area food.", "why": "Isolates the engine of the business (54% of sales are alcohol)." },
+    { "class": "Dining Room", "routes": "Table food service.", "why": "Restaurant-day economics, Tue–Thu & Sun." },
+    { "class": "Patio", "routes": "Seasonal outdoor seating.", "why": "Separates weather-driven capacity." },
+    { "class": "Stage / Venue", "routes": "Live music, cover, events (9101).", "why": "The Fri/Sat venue business — the 'second company'." },
+    { "class": "Online / QR", "routes": "QR-at-table and online orders (~16% of sales).", "why": "The channel the brief says is unnamed today." },
+    { "class": "Off-Premise", "routes": "Delivery (DoorDash/UberEats/GrubHub) & takeout.", "why": "Aggregator fees & receivables live here." },
+    { "class": "Wholesale", "routes": "Distributor sales of your beer.", "why": "Three-tier channel; distinct margins." },
+    { "class": "Brewery / Production", "routes": "Production inputs, kegs, WIP.", "why": "Brewery costing & TTB/excise base." }
+  ]
+}

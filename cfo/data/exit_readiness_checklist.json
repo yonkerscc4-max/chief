@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Exit-Readiness Checklist — Yonkers Brewing Company LLC",
+    "source": "Chart of Accounts Review, July 26, 2026 (live QuickBooks Online data)",
+    "lens": "Every finding scored the way a PE buyer's quality-of-earnings team would see it. Goal: books that survive diligence and support the highest defensible multiple.",
+    "status_values": ["open", "in_progress", "fixed", "verified"]
+  },
+  "findings": [
+    {
+      "id": 1, "area": "Member equity is a thicket", "status": "open",
+      "finding": "Total equity negative (−$12,929); ~24 individual member accounts, several large negatives (John Rubbo Equity −$476,754); paired 'Name'/'Name Equity' accounts double the clutter; misspellings ('Equiry', 'Felecia', 'Laura Tenebaum' under 'David Tenebaum').",
+      "fix": "Reconcile member equity to a clean cap table and the operating agreement; consolidate paired accounts; fix names."
+    },
+    {
+      "id": 2, "area": "Petty cash is implausibly large", "status": "open",
+      "finding": "Petty Cash carries $42,702 — far beyond any real till float. Almost always uncleared cash or misclassification.",
+      "fix": "Investigate underlying entries and reclassify; get petty cash to a true small float."
+    },
+    {
+      "id": 3, "area": "Accounts Payable is negative", "status": "open",
+      "finding": "AP shows a debit balance of −$60,891 — vendor prepayments, credits, or misapplied payments in the wrong direction.",
+      "fix": "Clean up and reclassify prepayments to an asset."
+    },
+    {
+      "id": 4, "area": "Related-party balances", "status": "open",
+      "finding": "Loan – John $62,053; Intercompany 'Chicken Island' account; large owner equity swings.",
+      "fix": "Document terms for every related-party balance; settle or formalize before sale. Feed into the normalized-EBITDA add-back log."
+    },
+    {
+      "id": 5, "area": "Catch-all revenue buckets", "status": "open",
+      "finding": "'4150 Sales', '4140 Other Sales', '4220 Other Sales' coexist; 'Sales of Product Income' leaks $87. Same problem on Toast side ($4,222 uncategorized Margarita, duplicate beer buttons).",
+      "fix": "Retire catch-alls; map every Toast item to a real GL category. One taxonomy, Toast-to-GL, enforced (see toast_qbo_map.json)."
+    },
+    {
+      "id": 6, "area": "No revenue-center dimension", "status": "open",
+      "finding": "GL cannot tell bar from dining from patio from stage; live-music revenue (9101) has no matching departmental cost grouping.",
+      "fix": "Add QuickBooks classes/locations for revenue centers and tag transactions (see revenue_centers in toast_qbo_map.json)."
+    },
+    {
+      "id": 7, "area": "Tip & payroll clearing balances", "status": "open",
+      "finding": "Tips Payable $17,450 against Payroll Clearing −$15,403.",
+      "fix": "Reconcile tips and payroll clearing each pay cycle; labor skill enforces cash-tip capture upstream."
+    },
+    {
+      "id": 8, "area": "Excise tax barely accrued", "status": "open",
+      "finding": "NY Excise Tax balance $0.01 — effectively unused — despite active wholesale and internal beer movement.",
+      "fix": "Stand up a real excise accrual (federal TTB and NY) so the liability books as it accrues."
+    },
+    {
+      "id": 9, "area": "Report integrity", "status": "open",
+      "finding": "P&L summary returned net income $0 / expenses $0 while detail shows ~$123K operating income and $737K expenses.",
+      "fix": "Resolve the account-type/mapping issue so headline statements foot to the detail every time."
+    },
+    {
+      "id": 10, "area": "Delivery & sign conventions", "status": "open",
+      "finding": "Aggregator receivables (GrubHub $12,762, UberEats, DoorDash) inside 'Credit Card Cash Receivables'; '6210 Promos' expense nested under Gross Retail Sales with a negative value.",
+      "fix": "Separate aggregator receivables and age them; move mis-nested contra accounts to their correct groups."
+    }
+  ],
+  "structural_moves": [
+    { "id": "S1", "move": "Add a revenue-center dimension (classes/locations: bar, dining, patio, stage, brewery/wholesale) so every report slices the way diligence expects.", "status": "open" },
+    { "id": "S2", "move": "Build a normalized-EBITDA schedule capturing add-backs as they occur — owner comp, related-party interest/rent, one-time costs.", "status": "open" },
+    { "id": "S3", "move": "Reconcile the cap table and simplify the equity section to match the operating agreement.", "status": "open" },
+    { "id": "S4", "move": "Enforce one menu taxonomy from Toast through to the GL, killing catch-all sales accounts.", "status": "open" },
+    { "id": "S5", "move": "Clean the suspense items — petty cash, negative AP, payroll clearing — so no unexplained balances remain.", "status": "open" }
+  ],
+  "baseline_ytd_2026_07_26": {
+    "total_income": 1108478,
+    "retail_sales_net": 968259,
+    "wholesale_sales": 77253,
+    "live_music_events": 62880,
+    "cogs": 248576,
+    "cogs_pct": 0.224,
+    "gross_profit": 859902,
+    "operating_expenses": 737124,
+    "retail_compensation": 346960,
+    "implied_operating_income": 122778
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Per-Guest Spend Plan — the 10 moves",
+    "source": "YBC Per Guest Spend Brief v2 (Toast data through July 22, 2026)",
+    "headline": "Net sales nearly doubled Feb→Jun ($99.5K→$194.6K) while spend per guest fell 22% ($30.34→$23.56), six straight months down. Volume is not the problem, structure is.",
+    "target": "$150K–$250K added annual revenue and protected margin at current traffic. Food from $9.50 to $12 per guest ≈ $210K/yr alone.",
+    "status_values": ["proposed", "approved", "in_progress", "live", "dropped"]
+  },
+  "monthly_trend": [
+    { "month": "2026-02", "net_sales": 99518, "per_guest": 30.34, "read": "Winter dining mix" },
+    { "month": "2026-03", "net_sales": 138692, "per_guest": 27.56, "read": "" },
+    { "month": "2026-04", "net_sales": 148381, "per_guest": 26.40, "read": "" },
+    { "month": "2026-05", "net_sales": 167166, "per_guest": 25.85, "read": "" },
+    { "month": "2026-06", "net_sales": 194644, "per_guest": 23.67, "read": "Peak volume, lowest spend" },
+    { "month": "2026-07-mtd", "net_sales": 121012, "per_guest": 23.56, "read": "Six straight months down" }
+  ],
+  "day_profile_last_90d": [
+    { "day": "Mon", "guests": 2728, "per_guest": 23.77, "alcohol_pg": 14.49, "food_pg": 7.80, "labor_pct": 0.263, "read": "Wing night" },
+    { "day": "Tue", "guests": 1645, "per_guest": 22.46, "alcohol_pg": 10.59, "food_pg": 11.11, "labor_pct": 0.341, "read": "Losing money" },
+    { "day": "Wed", "guests": 2389, "per_guest": 25.55, "alcohol_pg": 14.36, "food_pg": 9.34, "labor_pct": 0.193, "read": "Trivia, strong" },
+    { "day": "Thu", "guests": 2075, "per_guest": 25.71, "alcohol_pg": 14.77, "food_pg": 10.22, "labor_pct": 0.209, "read": "Karaoke, strong" },
+    { "day": "Fri", "guests": 4505, "per_guest": 23.78, "alcohol_pg": 13.39, "food_pg": 7.99, "labor_pct": 0.165, "read": "Venue night" },
+    { "day": "Sat", "guests": 4100, "per_guest": 26.25, "alcohol_pg": 14.36, "food_pg": 10.08, "labor_pct": 0.192, "read": "Venue night" },
+    { "day": "Sun", "guests": 3598, "per_guest": 24.07, "alcohol_pg": 11.06, "food_pg": 10.96, "labor_pct": 0.233, "read": "Brunch upside" }
+  ],
+  "moves": [
+    { "id": 1, "move": "Sunday brunch package", "what": "Printed bottomless mimosa or beermosa add-on, roughly $25, on the brunch menu", "owner": "AJ + Paul", "value": "$35K–$50K", "status": "proposed" },
+    { "id": 2, "move": "Tuesday restructure", "what": "Staff Tuesday to demand (Wednesday levels), retest or replace salsa night", "owner": "John", "value": "$20K–$30K", "status": "proposed" },
+    { "id": 3, "move": "Void controls", "what": "Reason codes required, manager PIN over $15, weekly report by employee", "owner": "Maria", "value": "protects $25K+", "status": "proposed" },
+    { "id": 4, "move": "Beer on the food menu", "what": "Top taps printed with prices, house beers listed first, pairing lines", "owner": "Ian + Maria", "value": "$25K–$40K", "status": "proposed" },
+    { "id": 5, "move": "Printed bundles", "what": "Pint and a Smash $19, Wings and a Pint $20, on Wed/Thu/Sun menus", "owner": "Maria", "value": "$20K–$35K", "status": "proposed" },
+    { "id": 6, "move": "QR and POS prompts", "what": "Upsell prompts on handhelds and the QR ordering flow (16% of sales)", "owner": "Maria", "value": "$20K–$35K", "status": "proposed" },
+    { "id": 7, "move": "Burger decoy reprice", "what": "Double from $18 to $16, single stays $13, moves volume up $3", "owner": "Maria", "value": "$10K–$20K", "status": "proposed" },
+    { "id": 8, "move": "Dessert on food menu", "what": "One line at the bottom of Headliners, plus a table tent", "owner": "Paul", "value": "$8K–$15K", "status": "proposed" },
+    { "id": 9, "move": "Merch and six-pack case", "what": "Display by the door, QR on show cards, staff in the gear, beer to go", "owner": "AJ", "value": "$15K–$25K", "status": "proposed" },
+    { "id": 10, "move": "Data hygiene", "what": "Assign categories, merge duplicate beer buttons, build revenue centers", "owner": "Maria", "value": "clear reporting", "status": "proposed" }
+  ],
+  "watch_items": [
+    "Server gap: $22.01–$29.94 per guest among 20+ shift servers (36% spread). Debrief Joe Rubbo and Chrissy Heffelfinger; print what they say into menus/bundles/prompts.",
+    "Voids: $12.6K/quarter (~$50K/yr) with no reason codes. Reads as error and workflow, not theft.",
+    "Online Ordering revenue center: $32.7K in June, ~16% of sales, unconfirmed routing (likely QR at table). Best place to install structural upsell.",
+    "External beer (Corona/Coors): 1,600+ pours at 25–30 pts worse margin. House beers listed first everywhere.",
+    "Dead categories: desserts $2,492/90d; NA $0.32/guest; merch $1,115/quarter; off-premise 4.6% of sales.",
+    "Discounts/comps are CLEAN: 2.4% of sales, normal band — marketing, not leakage."
+  ],
+  "data_still_coming": [
+    "Year-over-year comparison (splits seasonal mix from real erosion)",
+    "Server split by venue vs restaurant nights",
+    "Appetizer rankings",
+    "Modifier performance",
+    "Rewards repeat rates",
+    "Gift card float"
+  ]
+}
